@@ -1,0 +1,138 @@
+CLASS 01: Introductory class | roadmap details | TUE
+HTML canvas = is se bht kch kr skte hain ham bht se drawing projects, aur 300 images se eik video bhi banaaskte hain using canvas
+Matter JS = is se apni website main ham kisi bhi chz pr physics apply kr skte hain saari cheezen physics se related kaam karengi apni website ke kisi bhi element pr animations wagera, flappy bird ya angry bird ham banaaskte hain
+P5 JS = creativity ke liye use krte hain
+React JS = facebook ne banaaya tha apni msg functionality ke liye taakay poora page baar baar load hone ki waja se zaada sever bill naa aaye aur react eik time main eik hi chz ko relaod krke update karay using state
+- design, basic color aur font size wagera same hona chahiye website ka baaqi bht saari different cheezen aur ui libraries bhi use kr skte hain
+re
+Caching - Redis = first time facebook kholo to data dair se aata hai aur second time jaldi aajata hai kiun ke phr wo cache krleta hai jiske liye redis uss krte hain ham
+Web sockets = real time koi bhi kaam krwaane ke liye connection build ke liye use krte hain
+Web RTCP = video calling ke liye zaadatar use krte hain
+Microservices = jb nodejs aur java aesi differet cheezen use krni hon tb  hamare paas microservices ata hai seekhna parta hai
+Learning resources = mdn web docs, w3school
+Freelancing = video proposal aur cold email se client attract hota hai, agr skill hai to bs sale krna hai ab sbse bari chz skill hai skill aaagaya phr dukaandaari hai sirf bechna aana chahiye
+
+Book: computer and networks
+
+CLASS 02: Introduction to web development | Computer networking basics | WED
+Web = kisi bhi audio, video, file pdf ki interconnetivity ke liye use hota hai
+Development  = building
+Website = static in nature
+Web app = dynamic in nature
+Front end = 
+Backend = 
+Database = 
+Fullstack = jo ye saari cheezen dekhta ho frontend, backend aur database
+How can you take best out of this course = notes banaanay hain hr class ke khud se aur hr module ke end main test hoga
+Network = jis se bht saari cheezen connected hoti hain aapas main eik hota hai wired aur eik wireless hota hai
+LAN local area network = apka apna wifi jis se bht saare products connect hote hain ya office ka wifi jis se pc connect hote hain
+MAN metropolitan area network = ye city to city network hota hai jese islamabad se peshawar etc
+WAN wide area network = overall country wise hota hai jese pakistan islamabad america etc
+Internet = global system 
+Big entity = LAN WAN MAN internet
+WWW = world wide web
+Web = photos, videos, audio
+IP address 
+Browser = tool - file, website, webapp
+Browser engine = google, opera, edge
+Client server model = www.fb.com
+Domain = DNS
+
+Homework:
+IPv6 =
+IPv4 = 
+
+CLASS 03: How Internet Works | Protocol | Protocol Stack | THU
+inter = inter connected
+net = network
+Router = wifi ka dabba jo hota hai
+Network = ab agr wifi aur mob pc wagera sbko connect krlen aapas main to network banta hai
+Internet = global system hai jahan saare devices connect hojaate hain eik jaga
+History of internet = 1960 main eik bnday ne project banaaya ARPANET ke naam se, jahan source se destination pr data bheja jaata tha chote chote chunks main jisko packet bhi kehte hain taake data loss naa hojaye
+Internet revolution = 1970 main phr kch bari companies ne internet ko adopt krlia, 1980 main DNS/DRD aur www bht aane laga, 1990 main email, messaging, shopping waali cheezen aagai thi, 2000 main facebook aaya mobile phones ka rise hua, 2024 main ab chatgpt, AI, ML, robots jese cheezen aagai
+IP address = hr device ka apna eik unique ip address hota hai jis se us tk data pohanchta hai aur bhi kaam hote hain
+Client server modals = client request krta hai server pr jese www.youtube.com is tarh krne se request jaati hai youtube ke server pr aur wo client ko homepage response main de deta hai , client kch bhi hoskta hai
+- request direct server pr nhi jaati pehle hamare router ke paas jaati hai uska apna router table hota hai jahan ip address save rehte hain agr hai to wo local isp ke paas bhejdeta hai phr local ISP dekhta hai ke mere paas is server ka ip address hai ya nhi hai agr nhi hai to client ko 404 dikhaadeta hai wrna regional isp ke paas req jaati hai wo check krta hai is tarh phr national isp ke paas bhi jaati hai jiske paas hr eik chz ka access hota hai aur eik do aur router se hote hue server tk pohachti hai
+- jitna ye circle chota hoga utni cheezen aasaani se aayengi hamare paas
+ISP (internet service provider) = jese ptcl hai ya jazz ka data use kr rahe ho to wo hai ISP, jo bhi pakistan main twitter wagera block hote hain wo bhi isp krta hai
+Router and router table = hr router ka apne eik router table hota hai jo ip addresses wagera save krke rkhta hai apne paas
+Protocol = set of rules that we define to send data like HTTP (hyper text transfer protocol), SMTP, FTP etc
+SMTP (simple mailing transfer protocol) = ye gmail aur messaging app use krte hain zaadaa tar apne msgs ko ek jaga se doosri jaga
+FTP = file transfer protocol
+Protocol stack = is main layers hoti hain like application layer jo bataati hai kis app main request jaarahi hai aur TCP layer hoti hai jo PORT bataati hai isi tarh IP layer ip address batati hai req ka ye teeno cheezen req ke sth add hojaati hain aur server ke paas pohach jaati hain aur ye sb internet ke through hota hai do apps ke beech main gmail ka poora architecture isi tarh banaana hai
+
+Extra baaten:
+- basics pr focus rkho hamesha to kch bhi kr skte ho
+- core subjects sahi tarh acha prhne se tumhari base mazboot hojaayegi                                                        
+
+Homework:
+google.com ki ip address ham kese find kr skte hain using command
+HUB
+switch
+Router
+Modem
+7 layers osi model
+TCP / IP
+
+CLASS 04: VS Code Setup For Course | Understanding HTML Basics | FRI
+IDE = integrated development environment i.e. atom, sublime3, vscode, vim but vscode acha hai microsoft ka hai beginner friendly hai
+DOCTYPE = doc ka mtlb hota hai document aur type ka mtlb qisam, ye likhte hain ham bataane ke liye ke ye jo document ya file hai iski type html hai
+HTML (hyper text markup language) = website ka eik stucture create krta hai, data ko divide krne ke kaam aati hai website ki labelling krti hai
+Self closing tag = khud close hote hain alag se closing tag nhi hota
+Root tag = html tag root tag bhi kehlaata hai
+Comment = control aur slash se hota hai, developer apne liye notes likhta hai ya kch bhi jo show nhi krwana ho browser pr
+
+Extra baaten:
+- bs apna goal banao aur eik kamray main bethjao seekhtay jao kisi ko bataana nhi hai wrna appreciation pehle hojayegi aur goal poora nhi hopayega
+- dost to ban jaate hain bs jaib main paisa hona chahiye 2 baar kisi ko khaanay pe le jao wo dost banjayega tumhara
+- kisi ko tumhara paisa nhi chahiye tumhare parents sirf successful dekhna chahte hain tumhen aur sbse behtar dekhna chahte hain tumhen
+- vim ide bht acha hai mast chz hai eik dam
+
+Homework:
+aj jo bhi prha revise krna hai in se jese html ke baare main aur html quiz wagera bhi dedia phr to behtreen
+1. mdn docs
+2. w3school
+phr kch smjh naa aaye, use chatgpt
+
+CLASS 05:  HTML TAGS | Types of HTML TAGS | Emmet in VS Code | How to Code Faster | SAT   
+Heading tags = h1 se h6 tk
+Tags = markup entity jin ke through html websites ko structure provide krta hai
+Meaning tags = semantic tags, meaninhful hote hain jo website ko eik meaning dete hain, h1-h6, p, a, ul, ol, table, input, img etc
+Structure tags = website ko chote chote parts main divide krta hai eik structure deta hai jese html, head, body, header, footer, section, article, nav, main, aside
+Formatting tags = b, i, u, s, strong, em, sup, sub, pre, code etc
+- i ki jaga em aur b ki jaga strong use krna chahiye, ye text to speech main bhi kaam aata hai use krna acha rehta hai bcuz wo b aur i tags wagera use nhi krta 
+
+HTML lists = 
+ul =
+ol = 
+attribute = 
+emit =
+
+Homework:
+h1 ko apne poore page main kitni baar use kr skte hain?
+what is description list in HTML
+_self
+_parent
+difference b/w article and section tag
+shortcut likhna hai is code ka = <div><p><strong>Anas raza</strong></p></div>
+
+CLASS 06: - MON
+Elements in html = opening tag, attributes, closing tag in sbko milaa kr eik element banta hai
+Inline element = it will cover area fit to the content, and will come in same line aur ye height aur width nhi lega e.g. span, i, b
+Block element = covers area from extreme left to right, different line main aayega aur margin, padding, height, width sb lega e.g. div, p, h1-h6
+
+extra baaten:
+- twitter acha hai freelancing ke liye but freelancing main kisi app ya platform pr dependent mt raho khud se google pr search kro client hunt kro seekho khud se dhundo to zaada best hai ye
+- medium ke articles prho is se reading habit develop hogi
+- js mastery, harkirath singh, piyush garg, sahil gaba, prime time, fireship, william lin, john fish
+
+
+Homework:
+1. target attribute ki aur bhi values explore krni hai
+2. how can we use anchor tag for bookmark in website?
+3. more block elements
+4. home, about, contact, our services ko eik line main likhna hai
+5. how to convert inline element to block element?
+6. how to convert block element to inline element?
+7. what is inline-block element?
+8. img is which type of element?
