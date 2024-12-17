@@ -126,7 +126,6 @@ extra baaten:
 - medium ke articles prho is se reading habit develop hogi
 - js mastery, harkirath singh, piyush garg, sahil gaba, prime time, fireship, william lin, john fish
 
-
 Homework:
 1. target attribute ki aur bhi values explore krni hai
 2. how can we use anchor tag for bookmark in website?
@@ -136,3 +135,20 @@ Homework:
 6. how to convert block element to inline element?
 7. what is inline-block element?
 8. img is which type of element?
+
+CLASS 07: Tables in HTML - TUE
+Table = arrangement of data in rows and columns
+<table> tag = use to create tables in html
+<thead> tag = it is a html table tag use for creating heading section of table
+<tbody> tag = use to write actual content
+<tfoot> tag = use for summarizing or totalling table data
+<tr> tag = use to create table row 
+<td> (tbody) tag = use to create table data
+<th> (thead) tag = use to create table head data
+rowspan = jb eik cell ko rows main expand krna ho tb ye use krte hain
+colspan = jb eik cell ko columns main expand krna ho tb ye use krte hain
+- jb complex table project ya css grid saamnay aaye to jahan lines nhi hain wahan bhi lines khechdo smjhne ke liye
+
+Homework:
+1. assignment table 01
+2. assignment table 02
