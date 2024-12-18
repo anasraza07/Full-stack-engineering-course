@@ -153,3 +153,24 @@ Homework:
 1. assignment table 01
 2. assignment table 02
 3. assignment table 03
+
+CLASS 08: Forms in HTML - WED
+Forms in html = use to collect user data
+Input = it is use to take data from user
+Label = it gives name or tag or label to input
+How to connect label to input = label ke for attribute main jo value hogi wohi input ki id main hona chahiye is se ye dono connect hojayenge
+Input type attribute = email, password, number, tel, numbers, text (default), color, file, radio etc
+Input name attribute = backend ke data ko get krne ke liye use krte hain, radio input main kisi eik ko select krne ke liye bhi name attribute use hota hai jis main values same rkhte hain
+Input value attribute = jb input type button hoga to value main jo bhi likhengay wo uska text hojayega wrna other types main uski current value ban jaati hai jo change kr skte hain ham 
+placeholder attribute = input ke andr as a label kaam krta hai jo typing ke baad hat jaata hai
+Form elements = input, label, select, option, button, textarea, fieldset, legend
+select = use to create dropdown in html
+textarea = bht zaadaa input lena ho user se tb use hota hai ye jese blogs wagera main
+fieldset = use to group multiple form elements
+legend = it gives caption to fieldset
+action attribute = jb form submit wagera krna hota hai tb use hota hai
+
+Homework:
+1. dropdown banaana hai jis pr select an option aana chahiye by default
+2. input type tel ke kch patterns pata krne hain research krke
+3. input attributes prhne hain jese pattern, maxlength, minlength, size etc
