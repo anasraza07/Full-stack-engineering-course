@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 01</title>
+</head>
+
+<body>
+    <h1>Travel reservation form</h1>
+    <h4>* denotes mandatory</h3>
+
+        <form>
+            <label for="fullname">Full name*:</label><br>
+            <input type="text" id="fullname" placeholder="FirstName LastName">
+            <br><br>
+
+            <label for="email">Email address*:</label><br>
+            <input type="email" id="email" placeholder="EMAIL_ADDRESS">
+            <br><br>
+
+            <label for="package">Select Tour Package*:</label><br>
+            <select id="package">
+                <option value="Delhi">Delhi</option>
+                <option value="Karachi">Karachi</option>
+                <option value="Goa" selected>Goa</option>
+                <option value="Islamabad">Islamabad</option>
+            </select>
+            <br><br>
+
+            <label for="arrival-date">Arrival date*:</label><br>
+            <input type="date" id="arrival-date">
+            <br><br>
+
+            <label for="persons">Number of persons*:</label><br>
+            <input type="number" id="persons" placeholder="UNKNOWN_TYPE">
+            <br><br>
+
+            <label for="">What would you want to avail?*</label>
+            <br>
+            <input type="checkbox" id="boarding">
+            <label for="boarding">Boarding</label>
+            <br>
+
+            <input type="checkbox" id="fooding">
+            <label for="fooding">Fooding</label>
+            <br>
+
+            <input type="checkbox" id="sight-seeing">
+            <label for="sight-seeing">Sight seeing</label>
+            <br><br>
+
+            <label for="code">Discount Coupon code:</label><br>
+            <input type="text" id="code" placeholder="UNKNOWN_TYPE">
+            <br><br>
+
+            <label for="terms">Terms and conditions*</label><br>
+            <input type="radio" name="terms" id="agree">
+            <label for="agree">I agree</label>
+
+            <input type="radio" name="terms" id="disagree">
+            <label for="disagree">I disagree</label>
+            <br><br>
+
+            <input type="submit" value="Complete reservation">
+        </form>
+</body>
+
+</html>
