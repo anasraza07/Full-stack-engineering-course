@@ -174,3 +174,13 @@ Homework:
 1. dropdown banaana hai jis pr select an option aana chahiye by default
 2. input type tel ke kch patterns pata krne hain research krke
 3. input attributes prhne hain jese pattern, maxlength, minlength, size etc
+
+Class 09 - Form Practice ✨✨ - THU
+input type submit = form ko submit krdeta hai
+input type reset = form ko reset krdeta hai
+input type checkbox = user can select multiple options
+Frequently asked question (FAQ) or accordian with html = details aur summary tags use krke ham simple banaaskte hain wrna css aur javascript se aur bhi acha hojaata hai
+
+Homework:
+Form 1: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrswBQjyZizhYiATSiC4ipwILo-CRsdip5kw&s
+Form 2: https://stuyhsdesign.wordpress.com/wp-content/uploads/2017/02/web-form.png
