@@ -100,8 +100,7 @@ Tags = markup entity jin ke through html websites ko structure provide krta hai
 Meaning tags = semantic tags, meaninhful hote hain jo website ko eik meaning dete hain, h1-h6, p, a, ul, ol, table, input, img etc
 Structure tags = website ko chote chote parts main divide krta hai eik structure deta hai jese html, head, body, header, footer, section, article, nav, main, aside
 Formatting tags = b, i, u, s, strong, em, sup, sub, pre, code etc
-- i ki jaga em aur b ki jaga strong use krna chahiye, ye text to speech main bhi kaam aata hai use krna acha rehta hai bcuz wo b aur i tags wagera use nhi krta 
-
+- i ki jaga em aur b ki jaga strong use krna chahiye, ye text to speech main bhi kaam aata hai use krna acha rehta hai bcuz text to speech b aur i tags wagera use nhi krta 
 HTML lists = 
 ul =
 ol = 
@@ -184,3 +183,25 @@ Frequently asked question (FAQ) or accordian with html = details aur summary tag
 Homework:
 Form 1: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrswBQjyZizhYiATSiC4ipwILo-CRsdip5kw&s
 Form 2: https://stuyhsdesign.wordpress.com/wp-content/uploads/2017/02/web-form.png
+
+CLASS 10: Media and Iframes in HTML - FRI
+HTML media = image, audio and video
+img src attribute = agr offline hai to path dete hain wrna link dete hain online
+alt attribute in img = alternate kehlaata hai, error handle hota hai is se like agr image load nhi hua ya koi error aagaya to alt ki value show hogi
+img width and height = width ya height main se koi eik denge to baaqi doosra wo khud set krleta hai and by default img tag main width aur height px main hi set hoti hai
+Path = current folder se kch uthaana hai to use karenge ./ (dot slash), wrna dot slash ke bagair image get ki to msle aate hain github main bhi problems hoti hain phr 
+video controls attribute = is se controls aate hain pause play sound wagera ke buttons sb display hojaate hain phr 
+video autoplay attribute = autoplay hoga page ke refresh hone pr
+video muted attribute = mute hi rahega page ke refresh hone pr
+video loop attribute = video end hone pr again start hojayega
+- kch browsers video play hi nhi krte agr video main sound hota hai isiliye phr muted attribute use krke vidoe chalti rehti hai
+video source tag = agr path alag se dena ho to video tag ke andr source tag main de skte hain path ko aur baqi attribute video ke tag main aayenge
+- controls dena must hai video aur audio dono main bcuz ye controls laata hai wrna iske bagair kch nhi hoga
+iframe = use to put external sites like google map or youtube vidoe in our website
+syntax = code likhne ka tareeqa
+
+Homework:
+1. img tag main loading="lazy" attribute kia hai kis tarh kaam krta hai
+2. iframe tag use krke apni google map ki location dikhaani hai website pr
+3. audio tag use krke dekhna hai jo video ki tarh hi hota hai almost
+4. ham iframe ko optimize kese kr skte hain jis se wo foran se load krde youtube video ya jo bhi hai
