@@ -216,7 +216,7 @@ favicon generator = is naam se bht si websites favicon banaa ke deti hain emoji,
 - we can link css and js files
 - seacrh krne pr jo website sbse ooper aaye so it means ke us pr ya to traffic bht zaada hai ya phr uski seo bht achi hui hai, seo website ko ooper le aata hai
 engine = chrome browser eik engine hai jo website ko rank krta hai
-meta tags = seo ke liye use hote hain, meta means data about data
+meta tags = seo ke liye use hote hain, defines metadata about an HTML document, metadata means data about data
 <meta charset="UTF-8"> = charset ko bolte hain characterset, utf=8 eik encoding hai, ab iska ye mtlb hai ke tumhen apni website main aur bhi languages daalni hain so jb baaqi languages ka bhi support tum derahe ho usko bolte hain utf-8 encoding
 UTF-8 = multi language support
 - seo ka lena dena keyword, description aur title wagera se hai, utf-8 se seo ka koi lena dena nhi hai
