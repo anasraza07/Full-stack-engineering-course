@@ -205,3 +205,28 @@ Homework:
 2. iframe tag use krke apni google map ki location dikhaani hai website pr
 3. audio tag use krke dekhna hai jo video ki tarh hi hota hai almost
 4. ham iframe ko optimize kese kr skte hain jis se wo foran se load krde youtube video ya jo bhi hai
+
+CLASS 11: SEO and META TAGS in HTML - SAT
+Head tag in html = search engine optimization (SEO) ke liye use hota hai zaadatar, website ki saari seo is tag ke through hojaati hai
+title tag = new tab ki jaga pr jo title denge wo show hoga as a website title
+favicon = icon near title, it must be in root directory
+root folder = jahan index.html file hoti hai wohi root folder hota hai 
+favicon generator = is naam se bht si websites favicon banaa ke deti hain emoji, text, images sbka favicon ban jaata hai
+- linux ya ubuntu use krne waale directory bolte hain jbke windows use krne waale folder kehte hain
+- we can link css and js files
+- seacrh krne pr jo website sbse ooper aaye so it means ke us pr ya to traffic bht zaada hai ya phr uski seo bht achi hui hai, seo website ko ooper le aata hai
+engine = chrome browser eik engine hai jo website ko rank krta hai
+meta tags = seo ke liye use hote hain, meta means data about data
+<meta charset="UTF-8"> = charset ko bolte hain characterset, utf=8 eik encoding hai, ab iska ye mtlb hai ke tumhen apni website main aur bhi languages daalni hain so jb baaqi languages ka bhi support tum derahe ho usko bolte hain utf-8 encoding
+UTF-8 = multi language support
+- seo ka lena dena keyword, description aur title wagera se hai, utf-8 se seo ka koi lena dena nhi hai
+content="width=device-width in meta tag = iska mtlb hai ke website ki initial width window ya device ki width jitna hi hoga jo innerWidth kehlaata hai koi horizontal baar shuru main isiliye nhi aata 
+initial-scale=1.0 in meta tag = iska mtlb hai ke zoom jo hai website ka wo 100% hi hoga 
+http-equiv="X-UA-Compatible" in meta tag = ab jb website eik device ke browser pr best chal rahi ho aur doosri device ke alag browser pr sahi kaam naa kare to usko kehte hain engine rendering compatibility, ye attribute yehi kaam krta hai ke hr engine pr website best tareeqay se kaam karay aur output sb pr same dikhay but phr is problem ka solution nikaal lia gaya html se hi aur ab ye attribute itna use nhi hota
+meta name="keyword", "description", "author" etc = ye sb bhi seo ke liye use hote hain jese keyword lagaaane se user apka keyword search karega to website ooper aajayegi, description aur author dena bhi acha hai
+- deploy krne se do teen din pehle seo ka kaam saara kia jaata hai
+- jitne zaada meta tags utni achi seo 
+
+Homework:
+utf-8 encoding ke baare main thora prhna hai 
+meta tags ke different aur bhi attributes dekhne hain 
