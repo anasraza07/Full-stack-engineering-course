@@ -230,3 +230,23 @@ meta name="keyword", "description", "author" etc = ye sb bhi seo ke liye use hot
 Homework:
 utf-8 encoding ke baare main thora prhna hai 
 meta tags ke different aur bhi attributes dekhne hain 
+
+CLASS 12: - MON
+CSS = cascading style sheet 
+cascading = hamne agr 3 jaga different different background color dia hai to konsa aayega is chz ko kehte hain cascading
+3 ways to write css = inline css, internal css aur external css
+Inline css = css ko eik hi line main style attribute ka use krke likhne ko kehte hain but ye good practice nhi hai inline css avoid krni chahiye
+Internal css = head tag ke andr style tag ka use krke phr kisi tag ko target krna aur us main css likhne ko kehte hain, is tarh sirf head ke andr hi likh skte hain aur kahi nhi
+selector = css likhne ke liye kisi chz ko pakarna ya select krne ke liye use hota hai css main
+External css = jo ham bahir use krte hain iske do steps hain pehle eik css file banti hai aur phr us file ko link krne ke baad css likh skte hain, yehi recommended aur acha hai
+Simple formula = jis bhi tag ko style krna hai us tag ke sbse qareeb jo styling hoti hai wo lagjayegi pehle hi 
+!important = ye agr mark krdia to iski hi sbse pehli priority hoti hai
+By defult priorities = !important > inline > Intrnal > External
+inline, internal and external = 
+- external aur internal main wohi hoga jo sbse qareeb hoga uswaqt tag ke agr important lagaadia dono main hi tb bhi sbse qareeb waala hoga 
+- in sbke sth practice kro khel lo yehi hoti hai logic building aese hi build hoti hai aur interview main bhi kaam aata hai
+CSS docs = css tricks, mdn, w3school ye teeno use krne hain homework ke liye hr baar
+
+Homework:
+inline, internal aur external ke sth thora khelna hai check krna hai smjhna hai 
+prhna bhi hai in teeno ke baare main teeno docs se
