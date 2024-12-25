@@ -101,17 +101,17 @@ Meaning tags = semantic tags, meaninhful hote hain jo website ko eik meaning det
 Structure tags = website ko chote chote parts main divide krta hai eik structure deta hai jese html, head, body, header, footer, section, article, nav, main, aside
 Formatting tags = b, i, u, s, strong, em, sup, sub, pre, code etc
 - i ki jaga em aur b ki jaga strong use krna chahiye, ye text to speech main bhi kaam aata hai use krna acha rehta hai bcuz text to speech b aur i tags wagera use nhi krta 
-HTML lists = 
-ul =
-ol = 
-attribute = 
-emit =
+ul = unordered list, jis main koi order nhi hota, navbar main aksar use krte hain, order is not important
+ol = ordered list, use when order is important
+target="_blank" attribute = link ko new tab main open krta hai
+attribute = opening tag ke baad kch extra infromation jo dete hain element ke baare main usi ko attribute kehte hain
+sementic tag = meaningful tags hote hain jo meaning provide krte hain jis se seo main help hoti hai
+emit = coding thori fast krne ke liye emit zaroori hai
 
 Homework:
 h1 ko apne poore page main kitni baar use kr skte hain?
-what is description list in HTML
-_self
-_parent
+Description list kia hoti hai hai kia kaam krti hai
+Values of target attribute prhni hain like _self, _parent, _top kia kaam krta hai
 difference b/w article and section tag
 shortcut likhna hai is code ka = <div><p><strong>Anas raza</strong></p></div>
 
