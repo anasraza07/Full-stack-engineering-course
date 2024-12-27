@@ -253,3 +253,19 @@ CSS docs = css tricks, mdn, w3school ye teeno use krne hain homework ke liye hr 
 Homework:
 inline, internal aur external ke sth thora khelna hai check krna hai smjhna hai 
 prhna bhi hai in teeno ke baare main teeno docs se
+
+Class 13: Selectors in CSS - FRI
+Selectors in css = kisi chz ko style dene ke liye usko pakarne main use hote hain
+Element or Tag name selector = kisi tag ya element ke naam se usko pakarna like: p {} or h1 {}
+Id selector = kisi specific element ko ko unique style dene ke liye use hote hain like: #para-01 {} bcuz tags aur elements to bht saare hote hain aur sb pe same styles lag jaate hain
+Class selector = multiple elements ko same style dene ke liye use hota hai like: .name {}
+Group selector = eik se zaada elements ko comma seperated likh kr same styles dene ke liye use hota hai like: div, p, h3 {}
+Child selector = kisi element ke andr waale element ko target krne ke liye use hota hai like: div p {}
+Direct child selector = kisi element ke direct child ko select krne ke liye use hota hai ye like: #parent > span {} 
+Universal selector = sbko eik sth styles dene ke liye use hota hai us page ke saare elements pr lag jaati hai ye styling like: * {}
+- baad main aane waali same styling overwrite hojaati hai
+- id ki priority zaada hai class se
+
+Homework:
+aur baaqi selectors bhi dekhne hain prhne hain w3school
+css priotites bhi dekhni hain
