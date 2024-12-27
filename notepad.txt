@@ -112,7 +112,7 @@ emmit cheatsheet = https://docs.emmet.io/cheat-sheet/
 
 Homework:
 h1 ko apne poore page main kitni baar use kr skte hain?
-Description list kia hoti hai hai kia kaam krti hai
+Description list kia hoti hai kia kaam krti hai
 Values of target attribute prhni hain like _self, _parent, _top kia kaam krta hai
 difference b/w article and section tag
 shortcut likhna hai is code ka: <div><p><strong>Anas raza</strong></p></div>
