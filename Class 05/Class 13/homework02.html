@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 13 - Homework 02</title>
+</head>
+
+<body>
+    <h1>CSS Specificity</h1>
+    <h2>What is Specificity?</h2>
+    <p>If there are two or more CSS rules that point to the same element, the selector with the highest specificity will "win", and its style declaration will be applied to that HTML element.</p>
+    <p>Think of specificity as a hierarchy that determines which style declaration is ultimately applied to an element.</p>
+    <h3>Specificity Hierarchy</h3>
+    <p>Every CSS selector has a position in the specificity hierarchy.</p>
+    <table border="">
+        <thead>
+            <tr>
+                <th>Priority</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Inline style</td>
+                <td>Highest priority</td>
+            </tr>
+            <tr>
+                <td>Id selectors</td>
+                <td>Second highest priority</td>
+            </tr>
+            <tr>
+                <td>Classes and pseudo classes</td>
+                <td>Third highest priority</td>
+            </tr>
+            <tr>
+                <td>Attributes</td>
+                <td>Low priority</td>
+            </tr>
+            <tr>
+                <td>Elements and pseudo elements</td>
+                <td>Lowest priority</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

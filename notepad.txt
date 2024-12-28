@@ -269,3 +269,24 @@ Universal selector = sbko eik sth styles dene ke liye use hota hai us page ke sa
 Homework:
 aur baaqi selectors bhi dekhne hain prhne hain w3school
 css priotites bhi dekhni hain
+
+CLASS 14: - SAT
+px = screen pr koi bhi point jo hai usko px keh skte hain
+physical 1px = 1/96 inch or 0.26 mm
+font-size = by default paragraph ki ye 16px hoti hai
+font-family = font ke likhne ka tareeqa like cursive
+fallback system in font-family = pehle waale ki priority sbse zaada hoti hai agr wo nhi milta so next font ki taraf jaaya jaata hai isi tarh end tk
+line-height = is se font ke ooper aur neeche ki space define hoti hai
+font-weight = 100 se 900 tk de skte hain bold ya thick krne ke liye 
+google-fonts = import krna zaada easy rehta hai direct css main import krke font family use kr skte hain
+named colors = jese red blue green yellow wagera
+rgb color = red, blue, green jis main 0 hota hai dark aur 255 hota hai light
+alpha value = 0 to 1 jis main 0 ka mtlb hai full light aur 1 ka mtlb full dark, rgba main use hota hai
+hex color = 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F bs yehi hote hain in se phr bnta hai 6 digit hex color jis main pehle 2 red ke liye phr green and phr blue ke hote hain jese #ffffff ye white color
+
+saturation = intensity bataadeta hai
+
+Homework:
+Digital pixel aur physical pixel difference
+color theory prhni hai thori
+cmyk ke baare main prhna hai
