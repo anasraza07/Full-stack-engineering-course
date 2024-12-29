@@ -231,8 +231,8 @@ meta name="keyword", "description", "author" etc = ye sb bhi seo ke liye use hot
 - jitne zaada meta tags utni achi seo 
 
 Homework:
-utf-8 encoding ke baare main thora prhna hai 
-meta tags ke different aur bhi attributes dekhne hain 
+1. utf-8 encoding ke baare main thora prhna hai 
+2. meta tags ke different aur bhi attributes dekhne hain 
 
 CLASS 12: - MON
 CSS = cascading style sheet 
@@ -251,8 +251,8 @@ inline, internal and external =
 CSS docs = css tricks, mdn, w3school ye teeno use krne hain homework ke liye hr baar
 
 Homework:
-inline, internal aur external ke sth thora khelna hai check krna hai smjhna hai 
-prhna bhi hai in teeno ke baare main teeno docs se
+1. inline, internal aur external ke sth thora khelna hai check krna hai smjhna hai 
+2. prhna bhi hai in teeno ke baare main teeno docs se
 
 Class 13: Selectors in CSS - FRI
 Selectors in css = kisi chz ko style dene ke liye usko pakarne main use hote hain
@@ -267,8 +267,8 @@ Universal selector = sbko eik sth styles dene ke liye use hota hai us page ke sa
 - id ki priority zaada hai class se
 
 Homework:
-aur baaqi selectors bhi dekhne hain prhne hain w3school
-css priotites bhi dekhni hain
+1. aur baaqi selectors bhi dekhne hain prhne hain w3school
+2. css priotites bhi dekhni hain
 
 CLASS 14: - SAT
 px = screen pr koi bhi point jo hai usko px keh skte hain

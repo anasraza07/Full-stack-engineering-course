@@ -5,13 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class 13 - Homework 02</title>
+    <style>
+        .code {
+            color: brown;
+        }
+    </style>
 </head>
 
 <body>
     <h1>CSS Specificity</h1>
     <h2>What is Specificity?</h2>
-    <p>If there are two or more CSS rules that point to the same element, the selector with the highest specificity will "win", and its style declaration will be applied to that HTML element.</p>
-    <p>Think of specificity as a hierarchy that determines which style declaration is ultimately applied to an element.</p>
+    <p>If there are two or more CSS rules that point to the same element, the selector with the highest specificity will
+        "win", and its style declaration will be applied to that HTML element.</p>
+    <p>Think of specificity as a hierarchy that determines which style declaration is ultimately applied to an element.
+    </p>
     <h3>Specificity Hierarchy</h3>
     <p>Every CSS selector has a position in the specificity hierarchy.</p>
     <table border="">
@@ -44,6 +51,33 @@
             </tr>
         </tbody>
     </table>
+    <h3>More Specificity Rules Examples</h3>
+    <p><strong>Equal specificity: the latest rule wins</strong> - If the same rule is written twice into the external
+        style sheet, then the latest rule wins.</p>
+    <p><strong>ID selectors have a higher specificity than attribute selectors</strong> - Look at the following three
+        code lines:</p>
+    <p class="code">div#myDiv {background-color: green;}</p>
+    <p class="code">#myDiv {background-color: yellow;}</p>
+    <p class="code">div[id=myDiv] {background-color: blue;}</p>
+    <p>the first rule is more specific than the other two, and will therefore be applied.</p>
+    <p><strong>Contextual selectors are more specific than a single element selector</strong> - The embedded style sheet
+        is closer to the element to be styled.</p>
+    <p>Jab multiple rules ek element ke liye compete karte hain, toh:</p>
+
+    <p>Jo zyada specific hai (jaise contextual selector ya inline style), wo jeetegi.</p>
+    <p>Agar specificity same ho, toh closer rule (e.g., embedded style) apply hoga.</p>
+    <p><strong>Contextual selector =</strong> Contextual selector ka use tab hota hai jab aap ek specific element ke andar ka koi child element target karna chahte ho.</p>
+    <p><strong>Embedded CSS =</strong> Yeh directly HTML page ke &lt;style&gt; tag ke andar hoti hai.</p>
+    <p><strong>A class selector beats any number of element selectors</strong> - a class selector such as .intro beats h1, p, div, etc</p>
+    <p><strong>The universal selector (*) and inherited values</strong> - The universal selector (*) and inherited values do not impact the specificity weight value</p>
+    <p>iska mtlb ye ke universal selectors aur inherited values dono ki koi specificity value nhi hoti kisi bhi bari specificity waale rule se override hojaate hain</p>
+    <p>CSS inheritance ka matlab hai ke kuch properties (e.g., color, font-family) parent element se automatically child elements mein pass ho jati hain</p>
+
+    <h3>Cascading Rule Priority:</h3>
+
+        <p><strong>Specificity:</strong> Rules with higher specificity override lower ones.</p>
+        <p><strong>Location:</strong> Inline > Embedded > External.</p>
+        <p><strong>Importance:</strong> !important overrides all.</p>
 </body>
 
 </html>
