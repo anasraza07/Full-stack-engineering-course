@@ -39,7 +39,7 @@ Domain = Kisi website ka naam aur address. Example: google.com.
 DNS (Domain Name System): Ye domain name ko IP address main convert karta hai, taki browser ko pata chale ki website kahan host hai.
 
 Homework:
-IPv6 =
+IPv6 = 
 IPv4 = 
 
 CLASS 03: How Internet Works | Protocol | Protocol Stack | THU
