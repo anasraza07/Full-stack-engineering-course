@@ -1,5 +1,5 @@
-CLASS 01: Introductory class | roadmap details | TUE
-HTML canvas = is se bht kch kr skte hain ham bht se drawing projects, aur 300 images se eik video bhi banaaskte hain using canvas
+CLASS 01: Full Stack Engineering Roadmap Discussion - TUE
+HTML canvas = is se bht kch kr skte hain ham like bht se drawing projects, 300 images se eik video bhi banaaskte hain using canvas
 Matter JS = is se apni website main ham kisi bhi chz pr physics apply kr skte hain saari cheezen physics se related kaam karengi apni website ke kisi bhi element pr animations wagera, flappy bird ya angry bird ham banaaskte hain
 P5 JS = creativity ke liye use krte hain
 React JS = facebook ne banaaya tha apni msg functionality ke liye taakay poora page baar baar load hone ki waja se zaada sever bill naa aaye aur react eik time main eik hi chz ko relaod krke update karay using state
@@ -15,28 +15,28 @@ Freelancing = video proposal aur cold email se client attract hota hai, agr skil
 Book: computer and networks
 
 CLASS 02: Introduction to web development | Computer networking basics | WED
-Web = kisi bhi audio, video, file pdf ki interconnetivity ke liye use hota hai
-Development  = building
-Website = static in nature
-Web app = dynamic in nature
-Front end = 
-Backend = 
-Database = 
-Fullstack = jo ye saari cheezen dekhta ho frontend, backend aur database
+Web = internet par kisi bhi audio, video, file, ya PDF ki interconnectivity ke liye use hota hai.
+Development  = building ya construct karna (websites ya web apps ko design aur develop karna).
+Website = static in nature, iska content fixed hota hai, jo har user ke liye same dikhta hai. Example: Portfolio websites, basic informational sites.
+Web app = dynamic in nature, iska content user ke interaction ke hisaab se change hota hai. Example: Facebook, Gmail, e-commerce websites.
+Front end = jo user ke saamne dikh raha hai (UI/UX). kch languages/tools ye hain: HTML, CSS, JavaScript, React, Angular.
+Backend = jo system ke piche chal raha hota hai (logic, server-side). kch languages/tools ye hain: Node.js, Python (Django/Flask), PHP, Java.
+Database = Data ko store aur manage karne ka system. MySQL, MongoDB, PostgreSQL.
+Fullstack = jo ye saari cheezen dekhta ho frontend, backend aur database.
 How can you take best out of this course = notes banaanay hain hr class ke khud se aur hr module ke end main test hoga
-Network = jis se bht saari cheezen connected hoti hain aapas main eik hota hai wired aur eik wireless hota hai
-LAN local area network = apka apna wifi jis se bht saare products connect hote hain ya office ka wifi jis se pc connect hote hain
-MAN metropolitan area network = ye city to city network hota hai jese islamabad se peshawar etc
-WAN wide area network = overall country wise hota hai jese pakistan islamabad america etc
-Internet = global system 
+Network = devices ka ek doosre ke saath connected system. 1. wired (cables ka use hota hai) aur 2. wireless (Wi-Fi, Bluetooth, etc).
+LAN (local Area Network) = local network hota hai, jaise ghar ka Wi-Fi ya office ka system. Ek limited area tak restricted hota hai.
+MAN (metropolitan area network) = city-to-city ka network. Example: Islamabad se Peshawar. Do ya zyada LANs ko connect karta hai.
+WAN (wide area network) = country-level ya global network. Example: Internet.
+Internet = global system of interconnected networks.
 Big entity = LAN WAN MAN internet
-WWW = world wide web
-Web = photos, videos, audio
-IP address 
-Browser = tool - file, website, webapp
-Browser engine = google, opera, edge
-Client server model = www.fb.com
-Domain = DNS
+WWW (world wide web) = Collection of websites aur content (photos, videos, audio, text).
+IP address = Internet par har device ka unique address. Example: 192.168.1.1 (local network ke liye) ya public IP (global access ke liye).
+Browser = tool jo web files, websites, aur web apps ko access karne ke liye use hota hai. Examples: Google Chrome, Opera, Microsoft Edge.
+Browser engine = ek browser ka part jo webpage ko render karta hai. Example: Google Chrome ka engine "Blink" hai, Firefox ka "Gecko".
+Client server model = client jo request karta hai (user ka browser). server jo data provide karta hai (jese Facebook ka server). example: jJab tum www.fb.com type karte ho, client request karta hai aur server response bhejta hai.
+Domain = Kisi website ka naam aur address. Example: google.com.
+DNS (Domain Name System): Ye domain name ko IP address main convert karta hai, taki browser ko pata chale ki website kahan host hai.
 
 Homework:
 IPv6 =
