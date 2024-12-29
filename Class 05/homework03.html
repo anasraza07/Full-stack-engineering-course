@@ -6,7 +6,36 @@
     <title>Homework 03</title>
 </head>
 <body>
-    <a href="./homework02.html" target="_parent">Homwork 02</a>
-    <a href="https://facebook.com" target="_parent">Go to facebook</a>
+    <h1>Values of target attribute like _self, _parent, _top kia kaam krta hai</h1>
+    <iframe src="./sample.html" name="my-frame" height="200" frameborder="1">
+    </iframe>
+    <br><br>
+    <a href="./myFrame.html" target="my-frame">Click me to open in the named iframe</a>
+    <h2>_self</h2>
+    <p>Opens the linked document in the same frame as it was clicked aur ye value by default hoti hai.</p>
+    <h2>_parent</h2>
+    <p>Opens the linked document in the parent frame</p>
+    <h2>_top</h2>
+    <p>Opens the linked document in the full body of the window</p>
+    <h2>framename</h2>
+    <p>Opens the linked document in the named iframe</p>
+
+    <table border="">
+        <tbody>
+            <tr>
+                <td style="font-weight: bold;">_parent</td>
+                <td>Sirf ek level upar ke parent frame mein open karta hai.</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">_top</td>
+                <td>Sabse top-level frame ka structure tod kar, browser window mein open karta hai.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- <a href="./homework01.html" target="_parent">Homwork 01</a> -->
+    <!-- <a href="./homework02.html" target="my-frame">Homwork 02</a> -->
+    <!-- <a href="https://facebook.com" target="_">Go to facebook</a> -->
+    <br><br>
 </body>
 </html>

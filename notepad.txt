@@ -111,12 +111,12 @@ shift + 1 = html boiler-plate code
 emmit cheatsheet = https://docs.emmet.io/cheat-sheet/
 
 Homework:
-h1 ko apne poore page main kitni baar use kr skte hain?
-Description list kia hoti hai kia kaam krti hai
-Values of target attribute prhni hain like _self, _parent, _top kia kaam krta hai
-difference b/w article and section tag
-shortcut likhna hai is code ka: <div><p><strong>Anas raza</strong></p></div>
-emmit ke baare main thora saa prhna hai
+1. h1 ko apne poore page main kitni baar use kr skte hain?
+2. Description list kia hoti hai kia kaam krti hai
+3. Values of target attribute prhni hain like _self, _parent, _top kia kaam krta hai
+4. difference b/w article and section tag
+5. shortcut likhna hai is code ka: <div><p><strong>Anas raza</strong></p></div>
+6. emmit ke baare main thora saa prhna hai
 
 CLASS 06: - MON
 Elements in html = opening tag, attributes, closing tag in sbko milaa kr eik element banta hai
