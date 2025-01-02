@@ -39,8 +39,8 @@ Domain = Kisi website ka naam aur address. Example: google.com.
 DNS (Domain Name System): Ye domain name ko IP address main convert karta hai, taki browser ko pata chale ki website kahan host hai.
 
 Homework:
-IPv6 = 
-IPv4 = 
+1. IPv6 
+2. IPv4 
 
 CLASS 03: How Internet Works | Protocol | Protocol Stack | THU
 inter = inter connected
@@ -66,13 +66,13 @@ Extra baaten:
 - core subjects sahi tarh acha prhne se tumhari base mazboot hojaayegi                                                        
 
 Homework:
-google.com ki ip address ham kese find kr skte hain using command
-HUB
-switch
-Router
-Modem
-7 layers osi model
-TCP / IP
+1. google.com ki ip address ham kese find kr skte hain using command
+2. HUB
+3. switch
+4. Router
+5. Modem
+6. Seven (7) layers OSI model
+7. TCP / IP
 
 CLASS 04: VS Code Setup For Course | Understanding HTML Basics | FRI
 IDE = integrated development environment i.e. atom, sublime3, vscode, vim but vscode acha hai microsoft ka hai beginner friendly hai
