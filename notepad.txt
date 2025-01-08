@@ -270,7 +270,7 @@ Homework:
 1. aur baaqi selectors bhi dekhne hain prhne hain w3school
 2. css priotites bhi dekhni hain
 
-CLASS 14: - SAT
+CLASS 14: CSS Typography and Color Theory - SAT
 px = screen pr koi bhi point jo hai usko px keh skte hain
 physical 1px = 1/96 inch or 0.26 mm
 font-size = by default paragraph ki ye 16px hoti hai
@@ -290,3 +290,81 @@ Homework:
 Digital pixel aur physical pixel difference
 color theory prhni hai thori
 cmyk ke baare main prhna hai
+
+Class 15: Box Model and Box Sizing border box - SUN
+box-model = css main eik concept hai ke hr element ko ham box maante hain koi bhi element ho, ab hr element ya hr eik box main 6 cheezen hoti hain: content, height, width, padding, margin and border 
+content = jo bhi text wagera hota hai element ke andr
+border = jo ham dete hain kisi bhi element ko, by default black color aur 3px hota hai
+padding = content aur border ke beech ka jo part hota hai usko kehte hain
+margin = border ke bahar wala part kehlaata hai, yaani ke element ke bahar jo space dete hain ham
+box-sizing: border-box = jb eik box jiski width aur height 200px hai aur us main agr padding top aur padding left dete hain to height aur width increase hoti hai jbke box sizing border box property dene se width and height wohi rehti aur us main agr padding ya border hai to wo adjust hojaati hai bina size ke increase hue
+css reset = browser hr element pr kch padding aur margin by default add krta hai so usko zero krne ke liye Universal selector ka use krke ham tamam elements ki padding aur margin reset kr skte hain
+
+Homework:
+1. padding aur margin ka syntax prhna hai eik baar mdn se
+2. kia margin pr koi effect prta hai border box sizing lagaane se?
+
+Class 16: Inline VS Block VS Inline Block Elements - THU
+inline elements = jo eik hi line main aate hain, inka size fit to the content hota hai yaani content ke hisaab se hi size leta hai aur width and height ka koi asar nhi prta in pr, margin bhi sirf left aur right see lete hain vertically nhi lete e.g. span, i, b
+block element = it will take by default width and height from extreme left to extreme right aur custom width and height bhi leta hai ye e.g. p, div, h1 - h6
+block to inline & inline to block = kisi bhi inline element ko block aur block element ko inline banaane ke liye display property use hoti hai display: inline; & display: block; 
+display: inline-block; = se element inline to rehta hai lekin block waali saari properties bhi apply hojaati hain jese width, height etc
+
+Self homework:
+1. margin & padding overlapping kiun krte hain iska concept smjhna hai
+
+Class 17: CSS Position || Static, Relative, Absolute
+position = css main kisi bhi chz ko eik specific jaga pe rkhne ke liye use krte hain
+smjhne waali 2 cheezen = eik to konsi position kiske relative move krti hai aur doosra wo apni jaga se hatraha hai ya nhi
+position: relative = it will move with respect to its orignal position and will always maintain its orignal space
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Css flexbox = stands for flexible box
+Why use flexbox = a powerful tool for 1 dimension layout, 
+parent properties =
+flex direction =
+main axis
+cross axis
+
+
+
+
+
+
+
+
+
+
+
+
+
+Homework:
+1. what is vmin and vmax
+2. logical px vs physical px
+3. ppi vs dpi
+4. 1vw = how many px
+
+
+
+
