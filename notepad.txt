@@ -317,6 +317,10 @@ Class 17: CSS Position || Static, Relative, Absolute
 position = css main kisi bhi chz ko eik specific jaga pe rkhne ke liye use krte hain
 smjhne waali 2 cheezen = eik to konsi position kiske relative move krti hai aur doosra wo apni jaga se hatraha hai ya nhi
 position: relative = it will move with respect to its orignal position and will always maintain its orignal space
+position: absolute = it will not maintain its orignal position and will move with respect to the nearest parent positioned element mtlb apni jaga chor kr phr sbse nazdeek position waale parent ko dhundta hai uske respect main move krta hai aur agr koi nhi milta to root (html) element ke according move krta hai
+
+Homework:
+1. button with a badge
 
 
 
@@ -342,11 +346,23 @@ position: relative = it will move with respect to its orignal position and will 
 
 Css flexbox = stands for flexible box
 Why use flexbox = a powerful tool for 1 dimension layout, 
-parent properties =
+parent properties = display, flex-direction, justify-content, align-items, flex-wrap, align-content, 
 flex direction =
 main axis
 cross axis
+align-items = it always works on cross axis
+justify-content = it always works on main axis
+flex-wrap = 
+align-content = 
+order: jiska sbse zaada hoga wo sbse last main aajayega
+flexbox child properties = order, flex-grow, flex-shrink, 
 
+Homework:
+1. game flex-froggy khelna hai
+2. baseline, strech wagera prhni hai css tricks se
+3. flex-flow prhni hai
+4. flex (shorhand) prhna hai
+5. flex-basis prhna hai
 
 
 

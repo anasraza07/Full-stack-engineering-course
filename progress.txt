@@ -17,3 +17,4 @@ class 13 lecture noted
 class 13 homework done
 class 15 lecture noted
 class 16 lecture noted
+class 17 lecture noted
