@@ -313,7 +313,7 @@ display: inline-block; = se element inline to rehta hai lekin block waali saari 
 Self homework:
 1. margin & padding overlapping kiun krte hain iska concept smjhna hai
 
-Class 17: CSS Position || Static, Relative, Absolute
+Class 17: CSS Position || Static, Relative, Absolute - FRI
 position = css main kisi bhi chz ko eik specific jaga pe rkhne ke liye use krte hain
 smjhne waali 2 cheezen = eik to konsi position kiske relative move krti hai aur doosra wo apni jaga se hatraha hai ya nhi
 position: relative = it will move with respect to its orignal position and will always maintain its orignal space
@@ -321,6 +321,8 @@ position: absolute = it will not maintain its orignal position and will move wit
 
 Homework:
 1. button with a badge
+
+Class 18: Position fixed and Sticky + 1 project - SAT
 
 
 
