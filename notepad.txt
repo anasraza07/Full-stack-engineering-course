@@ -384,5 +384,17 @@ Homework:
 4. 1vw = how many px
 
 
+Media query use cases = responsive design, resolution, orientation, theme wagera ke basis pr website ko handle krne ke kaam aata hai
+Basic syntax: @media (media-feature){
+    css styling code
+}
+min-width: 200px = kam se kam 200px ya is se zaada hojaye to style apply krdo
+max-width: 900px = 900px ya is se kam hojaye to style apply krdo
+(min-width: 600px) and (max-width: 900px) = 600 se zaada 900 se kam yaani inke beech main hoga to styles apply hojayenge
+prefers-color-scheme: light = agr theme light hoga to styles apply hongay
+prefers-color-scheme: dark = agr theme dark hoga to styles apply hongay
+orientation: portrait = portrait mode hoga tb hi styles apply hongay  
+orientation: landscape = landscape mode hoga tb hi styles apply hongay
 
-
+Homework: 
+1. media query ke baare main prhna hai thora
