@@ -47,7 +47,8 @@ body {
   font-size: 44px;
   font-weight: bold;
   color: #7d776e;
-  transform: rotate(180deg);
+  display: inline-block;
+  transform: rotate(120deg);
 }
 
 #home-content h1,

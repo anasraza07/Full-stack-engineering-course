@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 01</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        nav {
+            padding: 20px 40px;
+        }
+
+        #logo,
+        ul,
+        li {
+            display: inline-block;
+        }
+
+        #logo img {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            border: 2px solid blue;
+            vertical-align: middle;
+        }
+
+        ul {
+            margin-left: 50px;
+        }
+
+        li {
+            margin: 0 12px;
+        }
+
+        li a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: black;
+        }
+
+        .card {
+            width: 650px;
+            height: 300px;
+            background-color: wheat;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .product {
+            width: 200px;
+            height: 200px;
+            background-color: rgb(103, 0, 0);
+            border-radius: 12px;
+            position: absolute;
+            top: 50px;
+            left: -80px;
+        }
+
+        .product img {
+            height: 250px;
+            position: absolute;
+            right: 5px;
+            bottom: 2px;
+            rotate: -30deg;
+        }
+
+        .card h1 {
+            position: absolute;
+            top: 80px;
+            left: 150px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .card p {
+            position: absolute;
+            top: 120px;
+            left: 150px;
+        }
+
+        .card button{
+            position: absolute;
+            bottom: 70px;
+            left: 150px;
+            padding: 4px 8px;
+            background-color: royalblue;
+            border: none;
+            color: white;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <nav>
+            <div id="logo">
+                <img src="https://i.pinimg.com/236x/21/42/a4/2142a43bdca7bac4272cd6f7156c3f81.jpg" alt="Nature  ">
+            </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Our Services</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="card">
+            <div class="product">
+                <img src="https://static.nike.com/a/images/t_default/5eb3d983-e731-4a7a-8990-446d231c2229/NIKE+AIR+MAX+IMPACT+4.png"
+                    alt="">
+            </div>
+            <h1>Nike Air Jorden</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta ab reiciendis unde et fugit quis vitae
+                doloremque laborum dolor veniam.</p>
+            <button>Buy now 
+                <i class="ri-shopping-bag-line"></i>
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>

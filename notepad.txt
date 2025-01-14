@@ -322,7 +322,19 @@ position: absolute = it will not maintain its orignal position and will move wit
 Homework:
 1. button with a badge
 
-Class 18: Position fixed and Sticky + 1 project - SAT
+Class 18: Position fixed and Sticky + 1 project
+position: sticky; = maintain its original space, move with respect to its orignal position but parent se bahir kabhi nhi jaayega
+position: fixed; = maintain its original space, move with respect to its orignal position aur parent se bahar nikal kr screen pr fixed rehta hai
+display list = li ka by default ye hota hai agr li ko inline-block krden to wo dots bhi hat jaate hain khud hi
+div ko centre krne ke liye = usko width de kr margin left aur right se auto krdo
+tools => transparent = ye krne se without background waali pictures hi google pr aati hain
+rotate: 40deg = img tag main just rotate property bhi kaam krti hai
+remix icon = icons ke liye acha hai, github icon pr jaakr iska cdn uthaalo lagao aur use kro
+
+Self homework:
+1. sticky main right left kiun kaam nhi kr raha
+
+Class 19: Position fixed and Sticky + 1 project - SAT
 
 
 
@@ -398,3 +410,9 @@ orientation: landscape = landscape mode hoga tb hi styles apply hongay
 
 Homework: 
 1. media query ke baare main prhna hai thora
+
+
+
+9:33
+pointer and hover query = ye functionality bhi media query main aati hai jis se ham pata laga skte hain ke touch-screen device hai ya hover device hai
+@media(pointer: coarse) = agr device touch-screen waali hai 
