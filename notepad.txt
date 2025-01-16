@@ -322,7 +322,7 @@ position: absolute = it will not maintain its orignal position and will move wit
 Homework:
 1. button with a badge
 
-Class 18: Position fixed and Sticky + 1 project
+Class 18: Position fixed and Sticky + 1 project - SAT
 position: sticky; = maintain its original space, move with respect to its orignal position but parent se bahir kabhi nhi jaayega
 position: fixed; = maintain its original space, move with respect to its orignal position aur parent se bahar nikal kr screen pr fixed rehta hai
 display list = li ka by default ye hota hai agr li ko inline-block krden to wo dots bhi hat jaate hain khud hi
@@ -334,25 +334,29 @@ remix icon = icons ke liye acha hai, github icon pr jaakr iska cdn uthaalo lagao
 Self homework:
 1. sticky main right left kiun kaam nhi kr raha
 
-Class 19: Position fixed and Sticky + 1 project - SAT
+Class 19: CSS Units EM, REM, vh, vw, % - SUN
+css units = agr seekhliye ache se to aagay jaakr responsiveness main bht zaada use hone waali cheezen hain ye bht zaroori hain
+absolute or fixed units = change nhi hote ye kbhi bhi, fixed rehte hain zindagi bhar ke liye jese in (inch), cm(centimeter), mm(millimeter), px(pixel)
+1px = 1/96 inch
+relative units = jo change hojaate hain kisi pe depend krte hain ya to parent pr ya screen pr ya root element pr depend krte hain
+(%) unit = child depend upon parent
+vh, vw = the white space or screen you see is view aur us view ka jitna percent dena ho wo ham dete hain jese 1vh view height 1% lega aur 3vw view width ka 3% lega mltb current jo width hai screen ki uska 3% width
+em unit = by default one em 16px ka hota hai aur apne parent ke font-size pr depend krta hai
+how to calculate em = font size of parent in px * font size of child in em
+rem unit = depends on root element (html) font size
+by default 1rem = 16px
+How to calculate rem = font size of root element (html) in px * font size of child element in rem
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Homework:
+1. eik inch main kitne cm hote hain
+2. what is vmin & vmax (dekhna hai prhna hai)
+3. digital px vs physical px
+4. ppi vs dpi kia hota hai kia chz hai
+5. article prho rem & em kiun aur kahan use krna chahiye, baaqi relative units kb use krne chahiye
+6. 1vw = how many pixel?
 
 
 
@@ -377,14 +381,6 @@ Homework:
 3. flex-flow prhni hai
 4. flex (shorhand) prhna hai
 5. flex-basis prhna hai
-
-
-
-
-
-
-
-
 
 
 
