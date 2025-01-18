@@ -347,9 +347,6 @@ rem unit = depends on root element (html) font size
 by default 1rem = 16px
 How to calculate rem = font size of root element (html) in px * font size of child element in rem
 
-
-
-
 Homework:
 1. eik inch main kitne cm hote hain
 2. what is vmin & vmax (dekhna hai prhna hai)
@@ -358,6 +355,14 @@ Homework:
 5. article prho rem & em kiun aur kahan use krna chahiye, baaqi relative units kb use krne chahiye
 6. 1vw = how many pixel?
 
+Class 20: Float and Clear in CSS
+Css floats = turing company ke interview main pucha gaya tha
+float = means jese paani pr leave float krta hai wese hi float krna website ke ooper
+clear = jb 2 elements ko eik jesa float dete hain wo eik doosre ke saamnay aajate hain but phr clear dene se eik doosre ke neechay aajate hain elements vertically
+the great collapse problem = childs ko float dene se parent gayab hojaata hai jo ke eik ajeeb hi problem thi jisko ham overflow: auto; property lagaakr solve krte hain
+
+Self homework:
+1. clear, float, great collapse problem sbke baare main thora thora prhna hai
 
 
 
