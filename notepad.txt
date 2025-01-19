@@ -364,28 +364,38 @@ the great collapse problem = childs ko float dene se parent gayab hojaata hai jo
 Self homework:
 1. clear, float, great collapse problem sbke baare main thora thora prhna hai
 
-
-
-
+Class 21: Complete Flex Box
 Css flexbox = stands for flexible box
-Why use flexbox = a powerful tool for 1 dimension layout, 
-parent properties = display, flex-direction, justify-content, align-items, flex-wrap, align-content, 
-flex direction =
-main axis
-cross axis
-align-items = it always works on cross axis
+Flexible = jese jo bhi dancer ya gymnast hote hain un main flexibility zaada hoti hai wo apni body ko kahi pr bhi move kr skte hain
+Why use flexbox? = a powerful tool for 1 dimension layout, mtlb ya to rows main (horizontally) manage kr skte ho ya phr columns main (vertically) kr skte ho eik time pr eik hi possible hai that is 1d layout
+display: flex; = element ko flex container banaata hai
+parent in flexbox = flex container
+childs in flexbox = flex items
+gap property = dene se childs ke beech main gap aajata hai
+flex-direction = ye property bataati hai ke flex items kis tarh manage hongay row main ya column main, by default ye row hota hai
+main axis alignment = jis directtion main flex items hote hain wo main axis hota hai
+cross axis alignment = jis directtion main flex items nhi hote wo cross axis hota hai ya main axis ka opposite axis
+align-items = it always works on cross axis, start by default hota hai
 justify-content = it always works on main axis
-flex-wrap = 
-align-content = 
-order: jiska sbse zaada hoga wo sbse last main aajayega
-flexbox child properties = order, flex-grow, flex-shrink, 
+justify-content: space-around; = around ka mtlb hota hai ird gird yaani right aur left se same space hogi hr element pr
+flex-wrap = flex container ke baad flexbox saare elements ko eik hi line main show krne ki koshish krta hai lekin flex-wrap lagaane se elements apni complete width lekr phr wrap hojaate hain
+align-content = align-items waali property main kam values hain jese space between, around, evenly wagera nhi hote bcuz uski need hi nhi hoti elements eik hi row ya eik hi column main rehte hain lekin jb flex-wrap lagta hai to elements brh jaate hain aur more than one rows and columns ban jaate hain so yahan use hota hai align-content jis main justify waali bhi saari values use hoti hain
+Flexbox parent properties = display, flex-direction, justify-content, align-items, flex-flow, flex-wrap, align-content 
+order: child property hai jiska order sbse zaada wo sbse last main aur sbse kam waala sbse pehle jese -1 value jisko denge wo first pe aajayega
+flex-grow = decide krta hai ke item ko container ki remaining space main se kitna proportion milna chahiye, jis item ko brhaana chahte hain usko flex-grow dete hain
+flex-shirnk = ye decide krta hai ke item kitna shrink kr skta hai agr space kam hai aur saaray items overflow horahe hain tb, flex-wrap: no-wrap hoga tb hi shrink use main aayega
+align-self = kisi child ko cross axis main align krne ke liye use hota hai
+Flexbox child properties = order, flex-grow, flex-shrink, flex, align-self, flex-basis   
 
 Homework:
 1. game flex-froggy khelna hai
 2. baseline, strech wagera prhni hai css tricks se
-3. flex-flow prhni hai
+3. flex-flow prhna hai
 4. flex (shorhand) prhna hai
 5. flex-basis prhna hai
+
+Self homeworl:
+1. align-items property ki values ko thora study krna hai
 
 
 
