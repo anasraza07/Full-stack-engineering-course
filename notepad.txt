@@ -375,7 +375,7 @@ gap property = dene se childs ke beech main gap aajata hai
 flex-direction = ye property bataati hai ke flex items kis tarh manage hongay row main ya column main, by default ye row hota hai
 main axis alignment = jis directtion main flex items hote hain wo main axis hota hai
 cross axis alignment = jis directtion main flex items nhi hote wo cross axis hota hai ya main axis ka opposite axis
-align-items = it always works on cross axis, start by default hota hai
+align-items = it always works on cross axis, by default strech hota hai
 justify-content = it always works on main axis
 justify-content: space-around; = around ka mtlb hota hai ird gird yaani right aur left se same space hogi hr element pr
 flex-wrap = flex container ke baad flexbox saare elements ko eik hi line main show krne ki koshish krta hai lekin flex-wrap lagaane se elements apni complete width lekr phr wrap hojaate hain
@@ -397,14 +397,14 @@ Homework:
 Self homeworl:
 1. align-items property ki values ko thora study krna hai
 
-
-
+Class 22: The Art of Card Design
+card = facebook page kholen to ham bht saari cheezon ko card bol skte hain, zaada tar website main hr chz card hi hoti hai, card mltb jis main eik image, title, description wagera hota hai
+object-fit = img main use hota hai jb width aur height dono deni ho tb ye property use hoti hai jis se image ajeeb nhi banti set rehti hai
+object-position = property image ko top, center ya bottom se dikhane ke liye use hoti hai
+border radius of child = border-radius of parent - padding of parent  
 
 Homework:
-1. what is vmin and vmax
-2. logical px vs physical px
-3. ppi vs dpi
-4. 1vw = how many px
+1. pinterest pr search kro web design cards aur eik do banaado
 
 
 Media query use cases = responsive design, resolution, orientation, theme wagera ke basis pr website ko handle krne ke kaam aata hai
