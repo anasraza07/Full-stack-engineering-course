@@ -5,117 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 02</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        }
-
-        main {
-            background-color: #eeeeee;
-            height: 100vh;
-            width: 100vw;
-            padding: 40px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 100px;
-        }
-
-        #text-content {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 8px;
-            text-align: center;
-        }
-
-        h1 {
-            text-transform: uppercase;
-        }
-
-        .line {
-            width: 80px;
-            height: 2px;
-            background-color: #6B9796;
-        }
-
-        #text-content p {
-            color: gray;
-            width: 60%;
-        }
-
-        #cards {
-            width: 100%;
-            display: flex;
-            justify-content: space-around;
-            /* gap: 60px */
-        }
-
-        .background-box {
-            width: 300px;
-            height: 300px;
-            border-radius: 20px;
-        }
-
-        #box-01 {
-            background-color: #4C99C8;
-            rotate: 20deg;
-        }
-
-        #box-02 {
-            background-color: #72C26A;
-            rotate: -20deg;
-        }
-
-        #box-03 {
-            background-color: #50A594;
-            rotate: 20deg;
-        }
-
-        .card {
-            width: 100%;
-            height: 100%;
-            background-color: white;
-            display: flex;
-            flex-direction: column;
-            /* justify-content: center; */
-            align-items: center;
-            text-align: center;
-        }
-
-        #card-01 {
-            rotate: -20deg;
-        }
-
-        #card-02 {
-            rotate: 20deg;
-        }
-
-        #card-03 {
-            rotate: -20deg;
-        }
-
-        .img-container{
-            width: 100px;
-            height: 100px;
-            background-color: #d2d2d2;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            overflow: hidden;
-            margin: 0 auto;
-            position: relative;
-            top: -50px;
-        }
-
-        .card img {
-            width: 170%;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -124,38 +15,43 @@
             <h1>Our team</h1>
             <div class="line"></div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quaerat odio aliquid nihil ea magni esse
-                iste aut quisquam! Inventore!</p>
+                iste aut quisquam!</p>
         </div>
         <div id="cards">
             <div class="background-box" id="box-01">
                 <div class="card" id="card-01">
                     <div class="img-container">
-                        <img src="./images/profile-img.png" alt="" class="profile-img">
+                        <img src="./images/profile-img.png" alt="" class="profile-img" width="140px">
                     </div>
                     <h2 class="name">Lena Pearce</h2>
                     <div class="role">position</div>
-                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam exercitationem necessitatibus quisquam numquam laborum obcaecati.</p>
+                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam exercitationem
+                        necessitatibus.</p>
                 </div>
             </div>
             <div class="background-box" id="box-02">
                 <div class="card" id="card-02">
                     <div class="img-container">
-                        <img src="./images/profile-img.png" alt="" class="profile-img">
+                        <img src="./images/profile-img-03.png" alt="" class="profile-img" width="70px">
                     </div>
-                    <h2 class="name">Lena Pearce</h2>
+                    <h2 class="name">Sophia batch</h2>
                     <div class="role">position</div>
-                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam exercitationem necessitatibus quisquam numquam laborum obcaecati.</p>
-                    <div id="star-badge"></div>
+                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam exercitationem
+                        necessitatibus.</p>
+                    <div id="star-badge">
+                        <i class="ri-star-fill"></i>
+                    </div>
                 </div>
             </div>
             <div class="background-box" id="box-03">
                 <div class="card" id="card-03">
                     <div class="img-container">
-                        <img src="./images/profile-img.png" alt="" class="profile-img">
+                        <img src="./images/profile-img-02.png" alt="" class="profile-img" width="70px">
                     </div>
-                    <h2 class="name">Lena Pearce</h2>
+                    <h2 class="name">Arielle copper</h2>
                     <div class="role">position</div>
-                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam exercitationem necessitatibus quisquam numquam laborum obcaecati.</p>
+                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam exercitationem
+                        necessitatibus.</p>
                 </div>
             </div>
         </div>
