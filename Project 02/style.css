@@ -110,10 +110,11 @@ h1 {
   margin: 0 auto;
   position: absolute;
   top: -40px;
+  padding-top: 24px;
 }
 
-.card img {
-  /* width: 170%; */
+.card img{
+    width: 100px;
 }
 
 .card h2 {
