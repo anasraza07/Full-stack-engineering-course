@@ -419,6 +419,8 @@ Basic syntax = @media (media-feature){
 prefers-color-scheme: dark = agr system ka theme dark mode hoga to styles apply hongay
 orientation: portrait = portrait mode hoga tb hi styles apply hongay  
 orientation: landscape = landscape mode hoga yaai width height se bari hogi tb hi styles apply hongay
+bit = computer ki memory ka sbse chota point jo hota hai usko kehte hain
+- colors ke bit, device ke pixels (dpi) aur corus wagera tk ke liye media query ke use cases hain
 
 Homework: 
 1. media query ke baare main prhna hai thora
