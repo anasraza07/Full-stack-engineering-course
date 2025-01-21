@@ -406,18 +406,19 @@ border radius of child = border-radius of parent - padding of parent
 Homework:
 1. pinterest pr search kro web design cards aur eik do banaado
 
-
-Media query use cases = responsive design, resolution, orientation, theme wagera ke basis pr website ko handle krne ke kaam aata hai
-Basic syntax: @media (media-feature){
+Class 23: CSS Queries Part 1
+Media query = just responsiveness ke liye nhi hoti, sbse bari galat fehmi hai bcuz aur bht use cases hain iske
+Media query use cases = responsive design, resolution (aspect ratio jese different video size wagera), orientation, theme wagera ke basis pr website ko styles dena
+Basic syntax = @media (media-feature){
     css styling code
 }
-min-width: 200px = kam se kam 200px ya is se zaada hojaye to style apply krdo
-max-width: 900px = 900px ya is se kam hojaye to style apply krdo
-(min-width: 600px) and (max-width: 900px) = 600 se zaada 900 se kam yaani inke beech main hoga to styles apply hojayenge
-prefers-color-scheme: light = agr theme light hoga to styles apply hongay
-prefers-color-scheme: dark = agr theme dark hoga to styles apply hongay
+@media (min-width: 200px) = kam se kam 200px ya is se zaada hojaye to style apply krdo
+@media (max-width: 900px) = max 900px ya is se kam hojaye to style apply krdo
+@media (min-width: 600px) and (max-width: 900px) = 600 se zaada aur 900 se kam yaani inke beech main hoga to styles apply hojayenge
+@media (prefers-color-scheme: light) = agr system theme light mode hoga tb hi styles apply hongay
+prefers-color-scheme: dark = agr system ka theme dark mode hoga to styles apply hongay
 orientation: portrait = portrait mode hoga tb hi styles apply hongay  
-orientation: landscape = landscape mode hoga tb hi styles apply hongay
+orientation: landscape = landscape mode hoga yaai width height se bari hogi tb hi styles apply hongay
 
 Homework: 
 1. media query ke baare main prhna hai thora
@@ -427,3 +428,15 @@ Homework:
 9:33
 pointer and hover query = ye functionality bhi media query main aati hai jis se ham pata laga skte hain ke touch-screen device hai ya hover device hai
 @media(pointer: coarse) = agr device touch-screen waali hai 
+
+
+Class : pseudo classes and Elements (9:05)
+active = jb aapne kisi point pr kisi chz pr click kia hua ho 
+visited = jis link pr aap gaye ho eik baar 
+pseudo-class = eik semicolon aata hai iske syntax main
+pseudo-element = do semicolon aate hain iske syntax main, first-line, first-letter, before, after wagera bht saare hote hain
+before and after = ye by default inline hote hain jiski waja se width height nhi lete jb tk display change naa ho, zaadatar creative cheezon main use hote hain
+::first-letter = kisi bhi element ke text ke first letter ko acha saa aur alag style dene ke liye use hota hai 
+
+Homework:
+1. w3school se pseudo class aur elements prhna hai complete

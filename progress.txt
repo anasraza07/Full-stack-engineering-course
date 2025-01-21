@@ -23,3 +23,4 @@ class 19 lecture noted
 class 20 lecture noted
 class 21 lecture noted
 class 22 lecture noted
+class 23 part 1 lecture noted

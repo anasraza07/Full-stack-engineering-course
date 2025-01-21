@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query for theme</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        main{
+            height: 100vh;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            main{
+                background-color: #212121;
+                color: white;
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            main{
+                background-color: #ffffff;
+                color: #000;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure accusamus facilis odit, rerum quae odio
+            qui obcaecati atque nemo libero voluptates exercitationem. Maiores ullam quae atque nesciunt est pariatur
+            animi odit nisi laboriosam eius. Incidunt quibusdam odit adipisci minima eos aliquid dolorum eveniet velit,
+            fugit recusandae, quisquam perferendis vel!</p>
+    </main>
+</body>
+
+</html>
