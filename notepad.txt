@@ -425,11 +425,22 @@ bit = computer ki memory ka sbse chota point jo hota hai usko kehte hain
 Homework: 
 1. media query ke baare main prhna hai thora
 
+Resolution query = used to target screen based on their resolution, eik high resolution display hota hai eik low resolution display hota hai
+retina display of mac = high dpi
+aspect ratios = mtlb wohi width aur height ka ratio jese 16/9 youtube videos ke liye, aur 9/16 tiktok reels ke liye hota hai
+pointer and hover query = ye functionality bhi media query main aati hai jis se ham pata laga skte hain ke touch-screen device hai ya hover device hai jese mobile 
+@media (pointer: coarse) = agr device touch-screen waali hai to styles apply hojayenge 
+@media (pointer: hover) = agr device computer ya laptop hai jis main mouse use hota hai to styles apply hojayenge 
+- agr laptop main touch functionality hai tb bhi wo hover hi kehlayega coarse nhi ban jayega ye edge case hai so thats why companies jitna marzi laptop ko touch banaalen but wo mob ya ipad nhi banjaata
 
 
-9:33
-pointer and hover query = ye functionality bhi media query main aati hai jis se ham pata laga skte hain ke touch-screen device hai ya hover device hai
-@media(pointer: coarse) = agr device touch-screen waali hai 
+
+Homework:
+1. resolution queries ke baare main prhna hai kia hoti hoti hain ye
+2. dppi kia hota hai ye bhi prhna hai
+3. colors main kitne bit hote hain kia hota hai ye 
+4. color queries thora dekhna hai smjhna hai
+
 
 
 Class : pseudo classes and Elements (9:05)

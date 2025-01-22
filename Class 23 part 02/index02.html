@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aspect ratio query</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        img {
+            width: 50vw;
+            display: block;
+            height: 100vh;
+        }
+
+        @media (min-aspect-ratio: 16/9){
+            img{
+                width: 100vw;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <img src="https://i.pinimg.com/736x/5e/00/08/5e0008ed6e8e7cd9a8b7deab5ae6140b.jpg" alt="">
+</body>
+
+</html>
