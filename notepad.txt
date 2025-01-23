@@ -425,6 +425,7 @@ bit = computer ki memory ka sbse chota point jo hota hai usko kehte hain
 Homework: 
 1. media query ke baare main prhna hai thora
 
+Class 23B: CSS Queries Part 2
 Resolution query = used to target screen based on their resolution, eik high resolution display hota hai eik low resolution display hota hai
 retina display of mac = high dpi
 aspect ratios = mtlb wohi width aur height ka ratio jese 16/9 youtube videos ke liye, aur 9/16 tiktok reels ke liye hota hai
@@ -432,6 +433,13 @@ pointer and hover query = ye functionality bhi media query main aati hai jis se 
 @media (pointer: coarse) = agr device touch-screen waali hai to styles apply hojayenge 
 @media (pointer: hover) = agr device computer ya laptop hai jis main mouse use hota hai to styles apply hojayenge 
 - agr laptop main touch functionality hai tb bhi wo hover hi kehlayega coarse nhi ban jayega ye edge case hai so thats why companies jitna marzi laptop ko touch banaalen but wo mob ya ipad nhi banjaata
+
+Class 23C: CSS Queries Part 3
+Ui = jo user ko dikhta hai
+Ux = jo user experience krta hai jese koi button click kia but click doosra button hogaya so ye bad user experience hua
+#212121, #414141 kiun poora black kiun nhi dena chahiye = isliye tailwind bht bht zaada famous hua, bcuz black color kahi acha nhi lagta koi nhi deta balke uske shades diye jaate hain 
+horizontal bar = ye jb website pr aajaye mtlb is se ganda experience aur kch nhi hoskta
+min-height: 100vh = ka mtlb hai kam se kam 100vh lo baaqi aur content ho to aur bhi le lena
 
 
 
@@ -453,3 +461,18 @@ before and after = ye by default inline hote hain jiski waja se width height nhi
 
 Homework:
 1. w3school se pseudo class aur elements prhna hai complete
+
+Class 25:
+Grid = 2 dimension layout, manage rows and cols at same time
+fr = mtlb hissa kitna hissa dena hai item ko 1fr means 1 proportion
+background-blend-mode = filter hai eik tarh ka
+grid-template-columns: 300px 300px = 2 columns ban jayenge 300px ke 
+grid-template-rows: 200px 200px 200px = 3 columns ban jayenge 200px ke 
+grid-rows: span 2 = ye property grid item ko dete hain yaani 2 rows ki space lelo
+grid-column: span 3 = ye property grid item ko dete hain yaani 3 columns ki space lelo
+
+
+Self homework: 
+1. background-blend-mode dekhna hai kia hai ye
+2. grid ke same class waale project ko banaana hai practice krni hai responsive krke
+
