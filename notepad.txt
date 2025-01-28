@@ -406,7 +406,7 @@ border radius of child = border-radius of parent - padding of parent
 Homework:
 1. pinterest pr search kro web design cards aur eik do banaado
 
-Class 23: CSS Queries Part 1
+Class 23A: CSS Queries Part 1
 Media query = just responsiveness ke liye nhi hoti, sbse bari galat fehmi hai bcuz aur bht use cases hain iske
 Media query use cases = responsive design, resolution (aspect ratio jese different video size wagera), orientation, theme wagera ke basis pr website ko styles dena
 Basic syntax = @media (media-feature){
@@ -434,22 +434,50 @@ pointer and hover query = ye functionality bhi media query main aati hai jis se 
 @media (pointer: hover) = agr device computer ya laptop hai jis main mouse use hota hai to styles apply hojayenge 
 - agr laptop main touch functionality hai tb bhi wo hover hi kehlayega coarse nhi ban jayega ye edge case hai so thats why companies jitna marzi laptop ko touch banaalen but wo mob ya ipad nhi banjaata
 
-Class 23C: CSS Queries Part 3
-Ui = jo user ko dikhta hai
-Ux = jo user experience krta hai jese koi button click kia but click doosra button hogaya so ye bad user experience hua
-#212121, #414141 kiun poora black kiun nhi dena chahiye = isliye tailwind bht bht zaada famous hua, bcuz black color kahi acha nhi lagta koi nhi deta balke uske shades diye jaate hain 
-horizontal bar = ye jb website pr aajaye mtlb is se ganda experience aur kch nhi hoskta
-min-height: 100vh = ka mtlb hai kam se kam 100vh lo baaqi aur content ho to aur bhi le lena
-
-
-
 Homework:
 1. resolution queries ke baare main prhna hai kia hoti hoti hain ye
 2. dppi kia hota hai ye bhi prhna hai
 3. colors main kitne bit hote hain kia hota hai ye 
 4. color queries thora dekhna hai smjhna hai
 
+Class 23C: CSS Queries Part 3
+Ui = jo user ko dikhta hai
+Ux = jo user experience krta hai jese koi button click kia but click doosra button hogaya so ye bad user experience hua
+#212121, #414141 kiun poora black kiun nhi dena chahiye = isliye tailwind bht bht zaada famous hua, bcuz black color kahi acha nhi lagta koi nhi deta balke uske shades diye jaate hain 
+horizontal bar = ye jb website pr aajaye mtlb is se ganda experience aur kch nhi hoskta
+min-height: 100vh = ka mtlb hai kam se kam 100vh lo baaqi aur content ho to aur bhi height le lena
 
+self homework:
+1. responsive card project ko aur acha banana hai, improve krna hai
+
+Class 24: Box Shadows, CSS Filters, Neomorphism and many more
+images ko height aur width dono dene se = strech hojaati hai, kharab hojaati hai jiske liye phr object-fit property ka use hota hai
+object-fit: scale-down = jahan image fit hojaati hai usi scale pr image ko fit krdega
+object-fit: contain = ye bhi scale down ki tarh kaam krta hai
+object-fit: cover = image ko usi size main cover krdeta hai poora jis se streched image bhi set hojaati hai usi size main
+object-position = top, bottom ya center pr image ko dikhaane ke liye use hota hai, center by default hota hai
+opacity = 0 se 1 hoti hai iski value 0 means light 1 means dark
+overflow: hidden = mtlb koi bhi content jo bahar nikalraha hai wo hide hojaye
+background-image: url('') = is ke through ham img aur content dono ke sth eik hi jaga khel skte hain, kisi chz ke background main image daalne ke liye ye property use hoti hai
+background-repeat: no-repeat = background main image agr choti hai to by default repeat hoti hai isko rokne ke liye use hoti hai ye property
+background-position = object-position ki tarh kaam krta hai
+background-size = object-fit ki tarh kaam krta hai
+box-shadow: y-axis x-axis blur spread color = color by default black hota hai, spread mtlb shadow kitna phailega
+box-shadow: y axis x axis blur color, box-shadow: -y axis -x axis blur color = all sides pr shadow dene ke liye is tarh use hota hai pehla wala top aur right ke liye aur doosra wala bottom and left ke liye
+hard shadow viral design 2018 = ye design jo pehle bht chalta tha jo kch yu hai like box-shadow: 15px 15px black; 
+soft ui = background color kch gray type hota hai aur box color white 
+neophormic shadow design = ye glass design jesa hota hai jiske 2 rules hain; one: box aur main ka bg color same hoga, second: box ki eik side ka shadow usi color main light aur doosri side ka shadow usi color main dark rkhna
+filter: grayscale() = is se img black and white hojaati hai
+filter: blur() = is se img blur kr skte hain ham
+- image pr box-shadow property sahi tarh kaam nhi krti thats why ham drop shadow lagaate hain css filters ke through
+text-shadow = box-shadow ki tarh hi hota hai bs spread nhi hota is main
+
+Homework:
+1. css filters prhne hain jese hue, saturation, grayscale, invert etc
+
+self homework:
+1. object: scale-down aur contain ka farq
+2. box shadow main spread dekhna hai smjhna hai
 
 Class : pseudo classes and Elements (9:05)
 active = jb aapne kisi point pr kisi chz pr click kia hua ho 

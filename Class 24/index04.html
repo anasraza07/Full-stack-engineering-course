@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow in CSS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        main {
+            width: 100vw;
+            height: 100vh;
+            background-color: lightblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            width: 400px;
+            height: 400px;
+            background-color: rebeccapurple;
+            /* box-shadow: 5px 5px 15px 10px blue; */
+            /* box-shadow: -5px -5px 15px 10px blue; */
+            box-shadow: 5px 5px 15px red, -5px -5px 15px green;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="box"></div>
+    </main>
+</body>
+
+</html>
