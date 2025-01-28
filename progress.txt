@@ -27,3 +27,4 @@ class 23 part 1 lecture noted
 class 23 part 2 lecture noted
 class 23 part 3 lecture noted
 class 24 lecture noted
+class 24 lecture noted

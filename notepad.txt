@@ -479,6 +479,11 @@ self homework:
 1. object: scale-down aur contain ka farq
 2. box shadow main spread dekhna hai smjhna hai
 
+Class 25: Masonry Layout | Pinterest Design
+masonry layout = is main items ki height different hoti hai aur eik grid ki tarh fit hojaate hain
+column-count: 3; = ye one line code eik shorcut ya trick hai masonry layout banaane ki jis se columns create hojaate hain aur in main items vertically render hote hain one by one    
+columns: 300px; = ye one line code responsive bhi krdeta hai 300px ke column banjayenge is 300px se kam nhi hoga koi column, screen width kam hogi to columns bhi kam hojayenge
+
 Class : pseudo classes and Elements (9:05)
 active = jb aapne kisi point pr kisi chz pr click kia hua ho 
 visited = jis link pr aap gaye ho eik baar 
