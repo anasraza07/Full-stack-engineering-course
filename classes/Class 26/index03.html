@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index 03 pseudo elements</title>
+    <style>
+        div{
+            background-color: tomato;
+            width: 200px;
+            height: 200px;
+            padding: 12px;
+        }
+
+        div::before{
+            content: "Hello, ";
+            background-color: #313131;
+            color: tomato;
+            width: 100px;
+            height: 100px;
+            display: block;
+        }
+
+        p::first-letter{
+            font-size: 3rem;
+            color: orange;
+            text-decoration: underline;
+        }
+
+        ul li:first-child{
+            background-color: lightblue;
+        }
+
+        ul li:nth-child(4){
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <div>Anas raza</div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, asperiores!</p>
+
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Services</li>
+        <li>Signup</li>
+    </ul>
+</body>
+</html>

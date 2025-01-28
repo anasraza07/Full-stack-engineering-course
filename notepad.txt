@@ -479,23 +479,24 @@ self homework:
 1. object: scale-down aur contain ka farq
 2. box shadow main spread dekhna hai smjhna hai
 
-Class 25: Masonry Layout | Pinterest Design
+Class 25: Masonry Layout | Pinterest Design - MON
 masonry layout = is main items ki height different hoti hai aur eik grid ki tarh fit hojaate hain
 column-count: 3; = ye one line code eik shorcut ya trick hai masonry layout banaane ki jis se columns create hojaate hain aur in main items vertically render hote hain one by one    
-columns: 300px; = ye one line code responsive bhi krdeta hai 300px ke column banjayenge is 300px se kam nhi hoga koi column, screen width kam hogi to columns bhi kam hojayenge
+columns: 300px; = ye one line code responsive bhi krdeta hai 300px ke column banjayenge is 300px se kam nhi hoga koi column, screen width kam hogi to columns bhi kam hojayenge, ye property 1 paragraph ko bhi 3 columns main divide krdeti hai
 
-Class : pseudo classes and Elements (9:05)
-active = jb aapne kisi point pr kisi chz pr click kia hua ho 
-visited = jis link pr aap gaye ho eik baar 
-pseudo-class = eik semicolon aata hai iske syntax main
+Class 26: Psudo Classes and Psudo Elements - TUE
+psudo-class = element ki eik state ki tarh hoti hai jis main ham different styles apply kr skte hain, eik semicolon aata hai iske syntax main
+active = jb aapne kisi point pr kisi chz pr click kia hai abhi chora nhi hai tb style apply hoga 
+visited = jis link pr aap gaye ho eik baar pehle visit kia ho to usi pr style apply hoga 
 pseudo-element = do semicolon aate hain iske syntax main, first-line, first-letter, before, after wagera bht saare hote hain
-before and after = ye by default inline hote hain jiski waja se width height nhi lete jb tk display change naa ho, zaadatar creative cheezon main use hote hain
-::first-letter = kisi bhi element ke text ke first letter ko acha saa aur alag style dene ke liye use hota hai 
+before and after pseudo element = before mtlb element se pehle aayega aur after mtlb baad main show hoga, inke content main jo text hoga wo select nhi hota, ye by default inline hote hain jiski waja se width height nhi lete jb tk display change naa ho, zaadatar creative cheezon main use hote hain jese card waves wagera banaane ke liye
+::first-letter = kisi bhi element ke text ke first letter ko ache aur alag styles dene ke liye use hota hai 
+- css ko seekhna koi bari baat nhi hai, css ko projects main use krna acha hai
 
 Homework:
-1. w3school se pseudo class aur elements prhna hai complete
+1. w3school se pseudo class & pseudo elements prhna hai complete article
 
-Class 25:
+Class: grid
 Grid = 2 dimension layout, manage rows and cols at same time
 fr = mtlb hissa kitna hissa dena hai item ko 1fr means 1 proportion
 background-blend-mode = filter hai eik tarh ka
