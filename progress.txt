@@ -29,3 +29,4 @@ class 23 part 3 lecture noted
 class 24 lecture noted
 class 25 lecture noted
 class 26 lecture noted
+class 27 lecture noted

@@ -496,14 +496,19 @@ before and after pseudo element = before mtlb element se pehle aayega aur after 
 Homework:
 1. w3school se pseudo class & pseudo elements prhna hai complete article
 
-Class: grid
-Grid = 2 dimension layout, manage rows and cols at same time
-fr = mtlb hissa kitna hissa dena hai item ko 1fr means 1 proportion
+Class 27: CSS Grid - WED
+Grid = 2 dimension layout, manage rows and columns at the same time
+columns = vertical jo hote hain
+rows = horizontal jo hoti hain
+fr = mtlb hissa, kitna hissa dena hai item ko 1fr means 1 proportion
 background-blend-mode = filter hai eik tarh ka
 grid-template-columns: 300px 300px = 2 columns ban jayenge 300px ke 
 grid-template-rows: 200px 200px 200px = 3 columns ban jayenge 200px ke 
+repeat(column-count, size) = agr zaada columns create krne hon tb repeat use hota hai jese grid-template-columns: repeat(3, 300px); yaani 300px ke 3 columns repeat krdo
 grid-rows: span 2 = ye property grid item ko dete hain yaani 2 rows ki space lelo
 grid-column: span 3 = ye property grid item ko dete hain yaani 3 columns ki space lelo
+- grid project main sbse pehle items phr number of rows & columns count krlene chahiye
+- jisne table prha hai sahi se uske liye grid aasaan hai
 
 
 Self homework: 
