@@ -1,0 +1,63 @@
+@media (max-width: 1024px) {
+  #box-03 {
+    max-height: 100%;
+  }
+
+  #box-03 img {
+    width: 125%;
+    left: 35%;
+    bottom: -10%;
+  }
+}
+
+@media (max-width: 768px) {
+  #box-02,
+  #box-03,
+  #box-04,
+  #box-06 {
+    grid-column: span 2;
+  }
+
+  #box-03 img {
+    width: 100%;
+    left: 40%;
+    bottom: 0;
+  }
+
+  #box-07 {
+    grid-column: span 4;
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    padding: 20px;
+  }
+
+  main #name {
+    font-size: 2rem;
+  }
+  #bento-box-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .box {
+    padding: 10px;
+  }
+  #box-03 {
+    max-height: 400px;
+  }
+}
+
+@keyframes changeScale {
+  from {
+    scale: 0;
+    opacity: 0;
+  }
+
+  to {
+    scale: 1;
+    opacity: 1;
+  }
+}

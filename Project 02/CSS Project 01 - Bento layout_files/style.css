@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 18px;
+  font-family: sans-serif;
+}
+
+main {
+  min-height: 100vh;
+  background-color: #dde1e7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  /* padding: 4vw 2vw; */
+  gap: 40px;
+}
+
+main #name {
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+#bento-box-grid {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.box {
+  background-color: #ededed;
+  border-radius: 16px;
+  border: 1px solid white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.box .label {
+  background-color: #addaad;
+  padding: 8px 12px;
+  border-radius: 24px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #3d600f;
+}
+
+.box p {
+  font-size: 14px;
+  line-height: 1.6;
+  font-weight: 600;
+  color: #717171;
+}
+
+#box-01 {
+  grid-column: span 2;
+}
+
+#box-02 {
+  display: grid;
+  place-content: center;
+}
+
+#box-02 img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+#box-03 {
+  grid-row: span 2;
+  height: 376px;
+}
+
+#box-03 img {
+  width: 100%;
+  object-fit: cover;
+  mix-blend-mode: darken;
+  position: relative;
+  transform: rotate(-45deg);
+  left: 50%;
+}
+
+#box-04 {
+  background-color: #8dc1dd;
+  display: grid;
+  place-content: center;
+  position: relative;
+}
+
+#box-04 img {
+  width: 140px;
+  height: 140px;
+}
+
+#box-04 div {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: white;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+#box-04 i {
+  font-size: 18px;
+}
+
+#box-05 {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+#box-05 #experience {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+}
+
+.exp-item {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #919191;
+}
+
+.exp-item h2{
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.exp-item h2,
+.exp-item p {
+  text-transform: capitalize;
+}
+
+#box-07{
+  background-image: url(https://i.pinimg.com/736x/76/78/b9/7678b962565b139d0878e8f9f6058b91.jpg);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: #bebebe;
+  background-repeat: no-repeat;
+}

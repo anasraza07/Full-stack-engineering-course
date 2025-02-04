@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", serif;
+}
+
+body {
+  background-color: #0f0f0f;
+  color: #efece6;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px 7%;
+  position: sticky;
+  top: 0;
+  background-color: #0f0f0f;
+  z-index: 100;
+}
+
+#navbar #logo {
+  margin-right: 100px;
+}
+
+#logo img {
+  width: 96px;
+}
+
+#navbar ul li {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #efece6;
+  text-transform: capitalize;
+  transition: all 0.3s;
+}
+
+#navbar ul li a:hover {
+  color: #a1f25b;
+}
+
+#nav-btn {
+  padding: 16px 28px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #0f0f0f;
+  border: none;
+  text-transform: capitalize;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+#hero-layout {
+  min-height: 100vh;
+  padding: 28px 7%;
+  display: flex;
+  overflow: hidden;
+  /* border: 4px solid red; */
+}
+
+#hero-layout #hero-content {
+  /* border: 4px solid blue; */
+  width: 46%;
+  overflow: hidden;
+  margin-right: 72px;
+}
+
+#hero-content #hero-heading h1 {
+  font-size: 10rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: Zuume;
+  letter-spacing: 4px;
+  margin: -32px 0 -44px;
+  /* background-color: #0e0e0e; */
+  background-image: url(https://i.giphy.com/HkEDr0jVekaZO.webp);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+/* 
+#hero-content #heading h1::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: red;
+} */
+
+#hero-content p {
+  color: #969490;
+  font-size: 24px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+#hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+#hero-buttons button {
+  padding: 20px 28px;
+  font-size: 24px;
+  color: #0f0f0f;
+  font-weight: 600;
+  border: none;
+  border-radius: 24px;
+}
+
+#btn-one {
+  flex: 0.4;
+  text-transform: capitalize;
+  background-color: #a9ff5c;
+}
+
+#btn-two {
+  flex: 0.6;
+}
+
+#hero-video {
+  /* border: 4px solid green; */
+  position: relative;
+  /* left: 30%; */
+  width: 40%;
+  margin-top: -52px;
+  /* display: inline; */
+}
+
+#why-us {
+  min-height: 100vh;
+  padding: 28px 7%;
+  display: flex;
+  /* border: 4px solid red; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#why-us-heading {
+  /* border: 4px solid red; */
+  position: relative;
+  text-align: center;
+  width: 65%;
+}
+
+#why-us-heading h2 {
+  font-size: 150px;
+  font-family: zuume;
+  line-height: 0.8;
+  font-weight: 900;
+  letter-spacing: 3px;
+  position: relative;
+  z-index: 20;
+}
+
+.avatar {
+  width: 124px;
+  height: 124px;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  z-index: 10;
+}
+
+#avatar-one {
+  background-color: #ffaf5c;
+  top: -104px;
+  left: 50%;
+  transform: translate(-50%);
+  background-image: url(https://familyindustrieslive.com/wp-content/uploads/2023/04/AboutUs7.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#avatar-two {
+  background-color: #cb5cff;
+  top: 0;
+  right: -68px;
+  background-image: url(https://familyindustrieslive.com/wp-content/uploads/2023/04/AboutUs4.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#avatar-three {
+  background-color: #ffe95c;
+  left: -32px;
+  bottom: -18px;
+  background-image: url(https://familyindustrieslive.com/wp-content/uploads/2023/04/AboutUs3.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#avatar-four {
+  background-color: #ff5c7d;
+  bottom: -380px;
+  right: 116px;
+  background-image: url(https://familyindustrieslive.com/wp-content/uploads/2023/04/AboutUs4.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#why-us p {
+  font-size: 24px;
+  margin: 40px 0 50px;
+  color: #efece699;
+  /* border: 4px solid green; */
+  text-align: center;
+  width: 50%;
+  line-height: 1.45;
+  /* font-weight: 500; */
+}
+
+#why-us button {
+  padding: 20px 24px;
+  font-size: 24px;
+  color: #0f0f0f;
+  font-weight: 600;
+  border: none;
+  border-radius: 24px;
+  text-transform: capitalize;
+  width: 200px;
+  cursor: po;
+}
+
+#marque-layout {
+  min-height: calc(100vh - 142px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

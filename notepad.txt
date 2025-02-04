@@ -510,8 +510,77 @@ grid-column: span 3 = ye property grid item ko dete hain yaani 3 columns ki spac
 - grid project main sbse pehle items phr number of rows & columns count krlene chahiye
 - jisne table prha hai sahi se uske liye grid aasaan hai
 
-
 Self homework: 
 1. background-blend-mode dekhna hai kia hai ye
 2. grid ke same class waale project ko banaana hai practice krni hai responsive krke
 
+Class 28: Transform and Translate in CSS - FRI
+transition = eik state of style se doosre state of style pr smoothly shift hone ko kehte hain
+transition-timing-function: ease-in-out; = mtlb start slow, end slow, baaqi fast speed rahegi transition ki
+transition-timing-function: ease; = mtlb all over slow
+ease-in = mtlb start main slow
+ease-out = mtlb end main slow
+cubic-bezier() = ye bhi eik function hai transition ki custom animation speed define krne ka jo 4 values leta hai 0 se 1 tk koi bhi de skte hain 0 se slow aur 1 bht fast speed denote krta hai 
+transition shorthand property = is main pehle aati hai property, duration, timing-function aur phr delay
+Transformation = is main 4 properties hoti hain jese rotate, scale, skew aur translate
+rotate = kisi bhi chz ko ghumaane ke liye x-axis ya y-axis main, but zaadatar z-axis yaani poore item ko ghumaaane main use hota hai, value deg main dete hain
+scale = item ko kam ya zaada krne ke liye use hota hai, like 1 guna, 2 guna brhao ya kam krdo negative main value dekr
+skew = tilt krna item ko x ya y value deg main dete hain
+translate = kisi bhi chz ko move krne ke liye use hota hai, px main value de skte hain, first parameter x-axis ke liye and doosra y-axis
+
+Homework:
+1. step-start, step-end aur steps() in transition-timing-function    
+2. matrix in transform 
+
+Self homework:
+1. transform ki properties zara prhni hain, difference dekhna hai inka
+
+Class 29: Animation in CSS - SAT
+animation = eik style se smoothly different styles create krne ko kehte hain
+animation vs transition = dono main ye farq hai ke animation different styles smoothly change kr skta hai jbke transition eik se doosra style pr shift krdeta hai thats it, so in short transition eik single switch hai jabke animation kch sequence of steps hai
+@keyframe = use hota hai animation ko define krne ke liye
+from / to = use hote hain styles apply krne ke liye isi tarh from/to waale syntax ko naa use krke 0%, 50%, 100% waala syntax use kr skte hain
+animation: name duration timing-function delay iteration-count direction fill-mode; = shorthand hai animation ki tamam properties ka
+:root{} = iska use krke ham variables create kr skte hain jis se hamain phr jaga save value change krne ke bajaye eik hi jaga change krne ki facility milti hai and hr jaga applicable hojaata hai
+
+Homework:
+1. animation ka eik project bataya hai wo krna hai
+
+self homework:
+1. animation-direcion main alternate-reverse aur reverse main kia farq hai
+2. animation-fill-mode kia aur kese kaam krta hai
+
+Class 30A: A CSS Project 1 [Bento Box Layout] - MON
+bento layout = bento box japan main eik lunch box ya tiffen ka naam hota hai jis main different size ke section main different cheezen rakhi hoti hain, so wahi se ye naam aaya bento layout jo grid se thora alag dikhta hai
+grid vs bento = grid main aksar sb grid items main same tarh ka content rkhte hain lekin bento layout main different sections main different content rkha jaata hai
+- parent ko min-height dene se child pr height: 100%; kaam nhi krta jb tk min naa hat jaye parent se
+mix-blend-mode: darker; = is property ka use krke background remove kr skte hain ham 
+
+self homework:
+1. grid prhna hai eik baar css tricks se
+2. mix-blend-mode & background-blend-mode
+
+Class 30B: CSS Project 1 [Bento Box layout] - TUE
+mobile max size = 480px, is se zaada ka mob nhi hota
+mobile first responsiveness = tailwind main zaada use hota hai, is main pehle mob ke liye banaate hain phr us se bara isi tarh phr last main sbse bari screen bnti hai
+website first responsiveness = pehle bari screen phr us se choti phr us se choti aur phr end main sbse choti yaani mob ke liye banti hai
+min(400px, 1fr); = jo sbse chota hoga wohi value lega isi tarh max(500px, 1fr); main jo sbse bara hoga wohi value lega
+animation-iteration-count: forwards; = iska mtlb hai jahan tk animation pohanch gaya ab wahi stay kro rukjao
+- clone frontend main bante hain jb poora frontend krlo tb clone acha bhi lagta hai banaaana
+scroll based animation = usko kehte hain ke jb scroll krne pr us specific screen point pr animation start ho tb hi maza aata hai wrna page ke relaod pr agr jo elements neechay hain un pr animation chal jaye to kis kaam ki scroll krne pr jo animation start ho usko kehte hain scroll base animation
+
+Homework:
+1. media query for galaxy fold
+2. media query for smart watch
+3. animation-timeline kia hai css main kese kaam krta hai
+4. project dia hai pink layout wo krna hai
+
+
+
+
+browser = jo ham use krte hain jese chrome, safari. Saare browsers ko sirf 3 cheezen smjh aati hain html, css, javascript. Agr koi aur language browser ko smjhaani hai to usko compile krke convert krna prta hai
+c++ = one of the fastest programming language hai 
+web assembly = is se compile kr skte hain ham kisi bhi language ke code ko browser ko smjhaane ke liye
+v8 engine = browser main eik chz hota hai jo c++ main likha gaya hai, ye chrome main tha jisko google ne opensource krdia jiske baad phr nodejs bana aur bhi bht saare benificial cheezen bani
+
+programming language speed related article 

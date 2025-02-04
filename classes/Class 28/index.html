@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition in CSS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        main {
+            background-color: lightblue;
+            height: 100vh;
+            display: grid;
+            place-content: center;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            /* transition-property: height, width, background-color; */
+            /* transition-property: all; */
+            /* transition-duration: 3s; */
+            /* transition-delay: .3s; */
+            /* transition-timing-function: ease-in-out; */
+            /* eik jump jesa effect dene ke liye: */
+            /* transition-timing-function: cubic-bezier(1, 0, 0, 1);  */
+            transition: all 3s ease-in-out .3s;
+        }
+
+        .box:hover {
+            height: 250px;
+            width: 250px;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="box"></div>
+    </main>
+</body>
+
+</html>
