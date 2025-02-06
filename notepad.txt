@@ -577,10 +577,25 @@ Homework:
 
 
 
-
+Class - TUE
 browser = jo ham use krte hain jese chrome, safari. Saare browsers ko sirf 3 cheezen smjh aati hain html, css, javascript. Agr koi aur language browser ko smjhaani hai to usko compile krke convert krna prta hai
 c++ = one of the fastest programming language hai 
 web assembly = is se compile kr skte hain ham kisi bhi language ke code ko browser ko smjhaane ke liye
 v8 engine = browser main eik chz hota hai jo c++ main likha gaya hai, ye chrome main tha jisko google ne opensource krdia jiske baad phr nodejs bana aur bhi bht saare benificial cheezen bani
 
 programming language speed related article 
+
+Class : Number System | Transistor | Assembler | HLL (youtube) - WED
+Login building = leetcode ke problems solve krna nhi hai wo to problem solving hai naa hi projects banaaa hai wo bhi development main aajata hai balke logic building ye hai ke kisi bhi kaam ko tumne bht baar krlia ho aur ab tumhen uska flow uski logic smjh aane lag jaye 
+Tally marks number system = bina numbers ke count krna kisi bhi chz ko is tarh ke stone jaib main rkhte jao jitne stones utni wo chz
+Egyption number system = 60 numbers thay yaani base60 tha but is se arithmetic operations krna bht zaada mushkil tha
+Decimal number system = taqreeban (2500 - 3500 BC) main ye kisi indian ne introduce kia jo base10 tha (haath pau ki fingers bhi 10 hain, so hoskta hai yehi dekh ke base10 introduce kia ho us bndy ne) aur aaj bhi yehi use horaha hai jese 0, 1, 2, 3, 4, 5, 6, 7, 8, aur 9. Iska faida ye tha ke saare arithmetic operations is se krna easy hogaye the
+Computer evolution = angrazon ka qabza tha unka import export ka business tha jis ki calculation main ab difficulty horahi thi, low accuracy tha, data zaada tha time bht lagraha tha so yahan se computer start hua aur Charles babbage naam ke insaan se 1822 or 1825 main first computer invent kia jiska mtlb tha to calculate bs computer ka kaam tha cheezen calculate krna aur accuracy high thi iski but slow tha aur iska space eik room ke baraabar tha
+Transisto = smjho eik bulb hai, agr ye off hai to isko ham smjhenge 0 aur agr on hai to isko ham smjhenge 1
+Binary numbers = ye 0 aur 1 ko hi ham bolte the binary numbers yahan se binary numbers ye base2 tha yaani is main 2 numbers the 0 aur 1, computer bhi yehi smjhta hai aur bs inko numbers main convert krdeta hai
+Decimal to binary conversion = isko krne ke liye kisi bhi number 2 se divide krte jao jb tk answer 0 aajaye aur phr remainders ko ulta likhlo wohi us decimal number ka binary number hai jese 27 ka 011011 hai, agr isi method se decimal to decimal conversion karen to 27 ka 027 aayega and starting ka 0 hataa bhi skte hain so this method is verified also
+Binary to decimal = ./binary-to-decimal.png 
+Octal number = base8 hota hai yaani 0 se 7 tk numbers hote hain, decimal se octal aur octal se decimal main bhi convert krne ka wohi method hai jo binary ka hai bs base 2 ki jaga 8 aajayega baaqi sb same tareeqa hota hai
+Hexadecimal number = base16 yaani 16 numbers hongay 0 se 9 aur a se f where a= 10 ..... and f = 15, ye aapko ip addresses aur computer networks main milega. Ab iska reason ye hai ke agr 11 12 hi hota to smjh nhi aata ke ye 11 hai ya 1 aur 1 hai confusion hojaati conversions galat hojaatay isliye ye a se f krdia
+
+
