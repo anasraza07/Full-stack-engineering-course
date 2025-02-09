@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 17 - CSS Position || Static, Relative, Absolute</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .box {
+            background-color: rgb(16, 63, 47);
+            color: white;
+            margin: 10px;
+            width: 100px;
+            height: 100px;
+            padding: 12px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+
+        #box-02 {
+            background: red;
+            position: static;
+        }
+
+        #box-03 {
+            position: relative;
+            top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box" id="box-01">box 01</div>
+    <div class="box" id="box-02">box 02</div>
+    <div class="box" id="box-03">box 03</div>
+    <div class="box" id="box-04">box 04</div>
+</body>
+
+</html>

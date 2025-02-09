@@ -4,103 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Complex grid layout</title>
+    <title>index 02</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+        a:hover {
+            color: orange;
         }
 
-        main {
-            background-color: whitesmoke;
-            min-height: 100vh;
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            grid-template-rows: repeat(4, 1fr);
-            gap: 20px;
-            padding: 20px;
+        a:active{
+            color: red
         }
 
-        .item {
-            background-color: tomato;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            border-radius: 12px;
-            transition: all .5s;
-        }
-
-        .item:hover {
-            background-blend-mode: luminosity;
-            background-position: bottom;
-        }
-
-        #item-01,
-        #item-04,
-        #item-07 {
-            grid-row: span 2;
-        }
-
-        #item-05 {
-            grid-row: span 2;
-            grid-column: span 2;
-        }
-
-        #item-06 {
-            grid-row: span 3;
-        }
-
-        #item-02,
-        #item-03,
-        #item-08 {
-            grid-column: span 2;
-        }
-
-        @media(max-width: 400px) {
-            main {
-                display: flex;
-                flex-direction: column;
-            }
-
-            .item {
-                height: 300px;
-                background-position: top;
-            }
+        a:visited{
+            color: brown;
         }
     </style>
 </head>
 
 <body>
-    <main>
-        <div class="item" id="item-01"
-            style="background-image: url(https://i.pinimg.com/236x/a4/22/8e/a4228e02796742b817b1bcdedecf6116.jpg);">
-        </div>
-        <div class="item" id="item-02"
-            style="background-image: url(https://i.pinimg.com/736x/3b/5d/20/3b5d2078828b9568a685f2a52a0b1822.jpg);">
-        </div>
-        <div class="item" id="item-03"
-            style="background-image: url(https://i.pinimg.com/236x/a4/22/8e/a4228e02796742b817b1bcdedecf6116.jpg);">
-        </div>
-        <div class="item" id="item-04"
-            style="background-image: url(https://i.pinimg.com/236x/91/f3/ca/91f3caa70546a6867ec538677f4d100b.jpg);">
-        </div>
-        <div class="item" id="item-05"
-            style="background-image: url(https://i.pinimg.com/236x/51/b8/7c/51b87c6b8b4c01ba9a87c1014e9dc22a.jpg);">
-        </div>
-        <div class="item" id="item-06"
-            style="background-image: url(https://i.pinimg.com/236x/0e/44/8b/0e448b8d8ab8d03e54680e6f0506c3fa.jpg);">
-        </div>
-        <div class="item" id="item-07"
-            style="background-image: url(https://i.pinimg.com/236x/83/8a/b8/838ab8ef2addffa518cd564e8943b572.jpg);">
-        </div>
-        <div class="item" id="item-08"
-            style="background-image: url(https://i.pinimg.com/236x/58/68/14/586814963fbb2e892d8f4a6a1bbe7eef.jpg);">
-        </div>
-        <div class="item" id="item-09"
-            style="background-image: url(https://i.pinimg.com/474x/d9/8a/84/d98a8414578f80b4021557f6e05a5ad3.jpg);">
-        </div>
-    </main>
+    <a href="https://youtube.com">Youtube</a>
 </body>
 
 </html>

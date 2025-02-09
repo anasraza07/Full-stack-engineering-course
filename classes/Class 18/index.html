@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class 18</title>
+    <title>Class 18 - Inline VS Block VS Inline Block Elements</title>
     <style>
         * {
             margin: 0;
@@ -12,61 +12,28 @@
             box-sizing: border-box;
         }
 
-        .main {
-            width: 100vw;
-            height: 100vh;
-            background-color: lightblue;
-        }
-
-        .box {
-            background-color: rgb(16, 63, 47);
-            color: white;
+        span {
+            background-color: red;
+            height: 200px;
+            width: 200px;
             margin: 10px;
-            width: 100px;
-            height: 100px;
-            padding: 12px;
-            border-radius: 10px;
-            display: inline-block;
+            padding: 20px;
         }
-
-        #box-03{
-            position: sticky;
-            top: 150px;
-        }
-
-        #box-04{
-            position: fixed;
-            top: 120px;
-            right: 300px;
-        }
-
-        .main2 {
-            width: 100vw;
-            height: 100vh;
-            background-color: rgb(130, 205, 230);
-        }
-
-        .main3 {
-            width: 100vw;
-            height: 100vh;
-            background-color: rgb(85, 192, 227);
+        p{
+            background-color: green;
+            height: 150px;
+            width: 200px;
+            margin: 100px;
+            padding: 50px;
         }
     </style>
 </head>
 
 <body>
-    <div class="main">
-        <div class="box" id="box-01">box 01</div>
-        <div class="box" id="box-02">box 02</div>
-        <div class="box" id="box-03">box 03</div>
-        <div class="box" id="box-04">box 04</div>
-    </div>
-
-    <div class="main2"></div>
-
-    <div class="main3"></div>
-
-
+    <span>Anas</span>
+    <span>Anas</span>
+    <p>Anas raza</p>
+    <p>Anas raza</p>
 </body>
 
 </html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 23C - CSS Queries Part 3 - Responsive card design</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        main {
+            padding: 8px;
+            background-color: #BEBCBD;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .card {
+            background-color: #d7d7d7;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            width: 50vw;
+            border-radius: 12px;
+            padding: 8px;
+        }
+
+        .card .right {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            align-items: start;
+        }
+
+        .card img {
+            width: 200px;
+            border-radius: 4px;
+        }
+
+        .card h2 {
+            font-size: 3rem;
+        }
+
+        .card p {
+            font-size: 1.1rem;
+            margin-bottom: 1vw;
+        }
+
+        .card .buy-now {
+            background-color: #313131;
+            color: #dddddd;
+            padding: .5rem .8rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+
+        @media (max-width: 480px){
+            .card{
+                width: 90vw;
+                flex-direction: column;
+            }
+
+            .card img{
+                width: 100%;
+            }
+
+            .card h2 {
+            font-size: 2rem;
+        }
+
+        .card p {
+            font-size: 1rem;
+        }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/ef/62/2c/ef622cc489f83b6eefba054434b426be.jpg" alt="Nike shoes">
+            <div class="right">
+                <h2 class="title">Nike shoes</h2>
+                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quo error laboriosam
+                    tempore blanditiis corporis!</p>
+                <button class="buy-now">Buy now</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/ef/62/2c/ef622cc489f83b6eefba054434b426be.jpg" alt="Nike shoes">
+            <div class="right">
+                <h2 class="title">Nike shoes</h2>
+                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quo error laboriosam
+                    tempore blanditiis corporis!</p>
+                <button class="buy-now">Buy now</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/ef/62/2c/ef622cc489f83b6eefba054434b426be.jpg" alt="Nike shoes">
+            <div class="right">
+                <h2 class="title">Nike shoes</h2>
+                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quo error laboriosam
+                    tempore blanditiis corporis!</p>
+                <button class="buy-now">Buy now</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

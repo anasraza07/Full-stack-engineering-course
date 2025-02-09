@@ -8,20 +8,64 @@
 </head>
 
 <body>
-    <h2>1. UTF-8 encoding ke baare main thora prhna hai</h2>
-    <p>Computer text ko pehle numbers mein convert karta hai (Unicode ke codes ki madad se), aur UTF-8 un numbers ko
-        binary format mein badal kar store karta hai, taake computer unhe asaani se samajh sake. UTF-8 ka sabse bada
-        fayda yeh hai ke yeh duniya ki har language ke characters ko support karta hai, jaise alphabets (English, Urdu,
-        etc.), emojis, aur special symbols. Is wajah se hum ek hi document mein alag-alag languages aur emojis ko ek
-        saath likh sakte hain. Web pages mein agar UTF-8 encoding define na ki jaye, toh kuch text ya symbols sahi
-        display nahi hote. Isliye HTML pages mein UTF-8 encoding use karna zaroori hai, taake saara content properly
-        dikhai de.</p>
+    <h1>Travel reservation form</h1>
+    <h4>* denotes mandatory</h4>
 
-    <h2>2. meta tags ke different aur bhi attributes dekhne hain</h2>
-        <p><strong>meta name="application-name" content="value"</strong> specifies the name of the Web application that the page
-            represents. apni website ka naam is main put kr skte hain
-        </p>
-        <p><strong>meta http-equiv="refresh" content="10"</strong> web page ko har 10 seconds baad automatically refresh kar deta hai. ye ek basic aur purani technique hai jo ab modern use cases ke liye recommended nahi hai. Agar aapko data dynamically update karna hai toh AJAX ya WebSocket jaisi approaches ka use karein. Refresh karte rehne se unnecessary load aur poor user experience ka risk hota hai.</p>
+        <form>
+            <label for="fullname">Full name*:</label><br>
+            <input type="text" id="fullname" placeholder="FirstName LastName" required>
+            <br><br>
+
+            <label for="email">Email address*:</label><br>
+            <input type="email" id="email" placeholder="EMAIL_ADDRESS" required>
+            <br><br>
+
+            <label for="package">Select Tour Package*:</label><br>
+            <select id="package" required>
+                <option value="" selected disabled></option>
+                <option value="Delhi">Delhi</option>
+                <option value="Karachi">Karachi</option>
+                <option value="Goa">Goa</option>
+                <option value="Islamabad">Islamabad</option>
+            </select>
+            <br><br>
+
+            <label for="arrival-date">Arrival date*:</label><br>
+            <input type="date" id="arrival-date" required>
+            <br><br>
+
+            <label for="persons">Number of persons*:</label><br>
+            <input type="number" id="persons" placeholder="UNKNOWN_TYPE" required>
+            <br><br>
+
+            <label for="">What would you want to avail?*</label>
+            <br>
+            <input type="checkbox" id="boarding">
+            <label for="boarding">Boarding</label>
+            <br>
+
+            <input type="checkbox" id="fooding">
+            <label for="fooding">Fooding</label>
+            <br>
+
+            <input type="checkbox" id="sight-seeing">
+            <label for="sight-seeing">Sight seeing</label>
+            <br><br>
+
+            <label for="code">Discount Coupon code:</label><br>
+            <input type="text" id="code" placeholder="UNKNOWN_TYPE">
+            <br><br>
+
+            <label for="terms">Terms and conditions*</label><br>
+            <input type="radio" name="terms" id="agree">
+            <label for="agree">I agree</label>
+
+            <input type="radio" name="terms" id="disagree">
+            <label for="disagree">I disagree</label>
+            <br><br>
+
+            <input type="submit" value="Complete reservation">
+        </form>
 </body>
 
 </html>

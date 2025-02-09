@@ -4,24 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework 01</title>
+    <title>Homework</title>
 </head>
 
 <body>
-    <h1>Loading lazy attribute</h1>
-    <!-- Jab ek webpage load hota hai:
-    Default behavior ke andar saari images (even jo screen ke bahar hain) turant load hoti hain.
-    Isse network bandwidth consume hoti hai aur page load time badhta hai.
+    <h1>1. Dropdown banao jis pr -- select an option -- aana chahiye by default</h1>
+    <form>
+        <select name="country" id="">
+            <option value="" selected disabled>-- Select an option --</option>
+            <option value="Karachi">Karachi</option>
+            <option value="Islamabad">Islamabad</option>
+            <option value="Lahore">Lahore</option>
+        </select>
+    </form>
 
-    Jab aap loading="lazy" use karte hain:
-    Browser sirf wahi images turant load karega jo viewport ke andar hain (ya kareeb hain).
-    Baaki images tab load hoti hain jab user scroll kare aur woh images viewport mein aayein. -->
+    <h1>2. Input type tel ke kch patterns ke baare main bataana hai</h1>
+    <h2>Regular Expression (Pattern) Banane Ka Tareeqa:</h2>
+    <ul type="none">
+        <li><strong>\d: </strong>Ek digit (0-9) ke liye.</li>
+        <li><strong>[0-9]: </strong>Sirf digits ko allow karega.</li>
+        <li><strong>{n}: </strong>Ek fixed number of characters ke liye. <br> Example: {3} ka matlab hai exactly 3 characters hone chahiye.</li>
+        <li><strong>| : </strong>"OR" ke liye.</li>
+        <li><strong>() : </strong>Grouping ke liye.</li>
+        <li><strong>- : </strong>Dash ko explicitly allow karne ke liye.</li>
+    </ul>
+    <h3>Required Attributes for User Clarity:</h3>
+    <p><strong>placeholder: </strong>Yeh user ko correct format dikhane ke liye hai.</p>
+    <p><strong>title: </strong>Agar input incorrect ho, toh browser error message ke sath yeh title bhi show karega.</p>
 
-    <img src="../images/img-01.jpeg" alt="" width="500" height="500" loading="lazy">
-    <img src="../images/img-02.jpeg" alt="" width="500" height="500" loading="lazy">
-    <img src="../images/img-03.jpeg" alt="" width="500" height="500" loading="lazy">
-    <img src="../images/img-04.jpeg" alt="" width="500" height="500" loading="lazy">
-    <img src="../images/img-05.jpeg" alt="" width="500" height="500" loading="lazy">
+    <h1>3. input tag ke attributes prhne hain jese pattern, maxlength, minlength, size etc</h1>
+    <p>maxlength aur minlength to apne naam se hi apna mtlb bataarahe hain aur size attribute ka kaam ye hai ke inputs ki width content ke size jitni hi krdena, mtlb agr size="50" hoga to input 50 characters jitni hi width le lega</p>
 </body>
 
 </html>

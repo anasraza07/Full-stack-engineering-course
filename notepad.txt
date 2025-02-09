@@ -1,20 +1,21 @@
-CLASS 01: Full Stack Engineering Roadmap Discussion - TUE
+CLASS 01: Full Stack Engineering Roadmap Discussion - TUE (✔)
 HTML canvas = is se bht kch kr skte hain ham like bht se drawing projects, 300 images se eik video bhi banaaskte hain using canvas
 Matter JS = is se apni website main ham kisi bhi chz pr physics apply kr skte hain saari cheezen physics se related kaam karengi apni website ke kisi bhi element pr animations wagera, flappy bird ya angry bird ham banaaskte hain
 P5 JS = creativity ke liye use krte hain
-React JS = facebook ne banaaya tha apni msg functionality ke liye taakay poora page baar baar load hone ki waja se zaada sever bill naa aaye aur react eik time main eik hi chz ko relaod krke update karay using state
-- design, basic color aur font size wagera same hona chahiye website ka baaqi bht saari different cheezen aur ui libraries bhi use kr skte hain
+React JS = facebook ne banaaya tha apni msg functionality ke liye taakay poora page baar baar load hone ki waja se zaada server ka bill naa aaye aur react eik time main eik hi chz ko relaod krke update karay using state
+- design, basic color aur font size wagera same hona chahiye website ka baaqi bht saari different cheezen aur different ui libraries bhi use kr skte hain
 re
-Caching - Redis = first time facebook kholo to data dair se aata hai aur second time jaldi aajata hai kiun ke phr wo cache krleta hai jiske liye redis uss krte hain ham
-Web sockets = real time koi bhi kaam krwaane ke liye connection build ke liye use krte hain
-Web RTCP = video calling ke liye zaadatar use krte hain
+Caching - Redis = first time facebook kholo to data dair se aata hai aur second time jaldi aajata hai kiun ke phr wo cache krleta hai jiske liye redis use krte hain ham
+Web sockets = real time koi bhi kaam krwaane ke liye connection build krne ke liye use krte hain
+Web RTC = video calling ke liye zaadatar use krte hain
 Microservices = jb nodejs aur java aesi differet cheezen use krni hon tb  hamare paas microservices ata hai seekhna parta hai
 Learning resources = mdn web docs, w3school
 Freelancing = video proposal aur cold email se client attract hota hai, agr skill hai to bs sale krna hai ab sbse bari chz skill hai skill aaagaya phr dukaandaari hai sirf bechna aana chahiye
 
-Book: computer and networks
+Book: 
+1. Computer and networks
 
-CLASS 02: Introduction to web development | Computer networking basics | WED
+ClASS 02 & Class 03: Introduction to web development | Computer networking basics | WED & THU (✔) 
 Web = internet par kisi bhi audio, video, file, ya PDF ki interconnectivity ke liye use hota hai.
 Development  = building ya construct karna (websites ya web apps ko design aur develop karna).
 Website = static in nature, iska content fixed hota hai, jo har user ke liye same dikhta hai. Example: Portfolio websites, basic informational sites.
@@ -34,7 +35,7 @@ WWW (world wide web) = Collection of websites aur content (photos, videos, audio
 IP address = Internet par har device ka unique address. Example: 192.168.1.1 (local network ke liye) ya public IP (global access ke liye).
 Browser = tool jo web files, websites, aur web apps ko access karne ke liye use hota hai. Examples: Google Chrome, Opera, Microsoft Edge.
 Browser engine = ek browser ka part jo webpage ko render karta hai. Example: Google Chrome ka engine "Blink" hai, Firefox ka "Gecko".
-Client server model = client jo request karta hai (user ka browser). server jo data provide karta hai (jese Facebook ka server). example: jJab tum www.fb.com type karte ho, client request karta hai aur server response bhejta hai.
+Client server model = client jo request karta hai (user ka browser). server jo data provide karta hai (jese Facebook ka server). example: jab tum www.fb.com search karte ho, client request karta hai aur server response bhejta hai.
 Domain = Kisi website ka naam aur address. Example: google.com.
 DNS (Domain Name System): Ye domain name ko IP address main convert karta hai, taki browser ko pata chale ki website kahan host hai.
 
@@ -42,24 +43,24 @@ Homework:
 1. IPv6 
 2. IPv4 
 
-CLASS 03: How Internet Works | Protocol | Protocol Stack | THU
-inter = inter connected
-net = network
+CLASS 04: How Internet Works | Protocol | Protocol Stack | THU (✔)
+Inter = inter connected
+Net = network
 Router = wifi ka dabba jo hota hai
 Network = ab agr wifi aur mob pc wagera sbko connect krlen aapas main to network banta hai
 Internet = global system hai jahan saare devices connect hojaate hain eik jaga
 History of internet = 1960 main eik bnday ne project banaaya ARPANET ke naam se, jahan source se destination pr data bheja jaata tha chote chote chunks main jisko packet bhi kehte hain taake data loss naa hojaye
 Internet revolution = 1970 main phr kch bari companies ne internet ko adopt krlia, 1980 main DNS/DRD aur www bht aane laga, 1990 main email, messaging, shopping waali cheezen aagai thi, 2000 main facebook aaya mobile phones ka rise hua, 2024 main ab chatgpt, AI, ML, robots jese cheezen aagai
 IP address = hr device ka apna eik unique ip address hota hai jis se us tk data pohanchta hai aur bhi kaam hote hain
-Client server modals = client request krta hai server pr jese www.youtube.com is tarh krne se request jaati hai youtube ke server pr aur wo client ko homepage response main de deta hai , client kch bhi hoskta hai
-- request direct server pr nhi jaati pehle hamare router ke paas jaati hai uska apna router table hota hai jahan ip address save rehte hain agr hai to wo local isp ke paas bhejdeta hai phr local ISP dekhta hai ke mere paas is server ka ip address hai ya nhi hai agr nhi hai to client ko 404 dikhaadeta hai wrna regional isp ke paas req jaati hai wo check krta hai is tarh phr national isp ke paas bhi jaati hai jiske paas hr eik chz ka access hota hai aur eik do aur router se hote hue server tk pohachti hai
-- jitna ye circle chota hoga utni cheezen aasaani se aayengi hamare paas
-ISP (internet service provider) = jese ptcl hai ya jazz ka data use kr rahe ho to wo hai ISP, jo bhi pakistan main twitter wagera block hote hain wo bhi isp krta hai
-Router and router table = hr router ka apne eik router table hota hai jo ip addresses wagera save krke rkhta hai apne paas
-Protocol = set of rules that we define to send data like HTTP (hyper text transfer protocol), SMTP, FTP etc
-SMTP (simple mailing transfer protocol) = ye gmail aur messaging app use krte hain zaadaa tar apne msgs ko ek jaga se doosri jaga
+Client server modals = client request krta hai server pr jese www.youtube.com is tarh krne se request jaati hai youtube ke server pr aur wo client ko homepage response main de deta hai, client kch bhi hoskta hai 
+- request direct server pr nhi jaati pehle hamare router ke paas jaati hai uska apna router table hota hai jahan ip address save rehte hain agr hai to wo local ISP ke paas bhejdeta hai phr local ISP dekhta hai ke mere paas is server ka IP address hai ya nhi, agr nhi hai to client ko 404 dikhaadeta hai wrna regional ISP ke paas req jaati hai wo check krta hai is tarh phr national ISP ke paas bhi jaati hai jiske paas hr eik chz ka access hota hai aur eik do aur router se hote hue server tk pohachti hai
+- jitna ye circle chota hoga utni cheezen aasaani se aayengi hamare paas.
+ISP (internet service provider) = jese ptcl hai ya jazz ka data use kr rahe ho to wo hai ISP, jo bhi pakistan main twitter wagera block hote hain wo bhi ISP krta hai
+Router and router table = hr router ka apne eik router table hota hai jo IP addresses wagera save krke rkhta hai apne paas 
+Protocol = set of rules that we define to send data like HTTP (hyper text transfer protocol), SMTP, FTP etc 
+SMTP (simple mailing transfer protocol) = ye gmail aur messaging app use krte hain zaadaa tar apne msgs ko ek jaga se doosri jaga send krne ke liye
 FTP = file transfer protocol
-Protocol stack = is main layers hoti hain like application layer jo bataati hai kis app main request jaarahi hai aur TCP layer hoti hai jo PORT bataati hai isi tarh IP layer ip address batati hai req ka ye teeno cheezen req ke sth add hojaati hain aur server ke paas pohach jaati hain aur ye sb internet ke through hota hai do apps ke beech main gmail ka poora architecture isi tarh banaana hai
+Protocol stack = is main layers hoti hain like application layer jo bataati hai kis app main request jaarahi hai aur TCP layer hoti hai jo PORT bataati hai isi tarh IP layer request ka IP address batati hai, ye teeno cheezen req ke sth add hojaati hain aur server ke paas pohach jaati hain aur ye sb internet ke through hota hai do apps ke beech main, gmail ka poora architecture isi tarh banaana hai
 
 Extra baaten:
 - basics pr focus rkho hamesha to kch bhi kr skte ho
@@ -74,39 +75,37 @@ Homework:
 6. Seven (7) layers OSI model
 7. TCP / IP
 
-CLASS 04: VS Code Setup For Course | Understanding HTML Basics | FRI
-IDE = integrated development environment i.e. atom, sublime3, vscode, vim but vscode acha hai microsoft ka hai beginner friendly hai
-DOCTYPE = doc ka mtlb hota hai document aur type ka mtlb qisam, ye likhte hain ham bataane ke liye ke ye jo document ya file hai iski type html hai
+CLASS 05: VS Code Setup For Course | Understanding HTML Basics - FRI (✔)
+IDE = integrated development environment i.e. atom, sublime3, vscode, vim but vscode acha hai microsoft ka hai beginner friendly hai, baaqi coding krne ko to bnda notepad wagera main bhi kr skta hai but krni nhi chahiye bcuz environment bhi eik chz hoti hai jis se benifits bhi milte hain
+DOCTYPE html = doc ka mtlb hota hai document aur type ka mtlb qisam, ye likhte hain ham bataane ke liye ke ye jo document ya file hai iski type html hai
 HTML (hyper text markup language) = website ka eik stucture create krta hai, data ko divide krne ke kaam aati hai website ki labelling krti hai
 Self closing tag = khud close hote hain alag se closing tag nhi hota
 Root tag = html tag root tag bhi kehlaata hai
 Comment = control aur slash se hota hai, developer apne liye notes likhta hai ya kch bhi jo show nhi krwana ho browser pr
+- vim IDE bht acha hai mast chz hai eik dam lekin beginner friendly nhi hai
 
 Extra baaten:
 - bs apna goal banao aur eik kamray main bethjao seekhtay jao kisi ko bataana nhi hai wrna appreciation pehle hojayegi aur goal poora nhi hopayega
 - dost to ban jaate hain bs jaib main paisa hona chahiye 2 baar kisi ko khaanay pe le jao wo dost banjayega tumhara
 - kisi ko tumhara paisa nhi chahiye tumhare parents sirf successful dekhna chahte hain tumhen aur sbse behtar dekhna chahte hain tumhen
-- vim ide bht acha hai mast chz hai eik dam
 
 Homework:
-aj jo bhi prha revise krna hai in se jese html ke baare main aur html quiz wagera bhi dedia phr to behtreen
-1. mdn docs
-2. w3school
-phr kch smjh naa aaye, use chatgpt
+1. aaj jo bhi prha revise krna hai mdn aur w3school se jese html ke baare main aur html quiz wagera bhi dedia phr to behtreen
+2. phr agr kch smjh naa aaye, use chatgpt
 
-CLASS 05:  HTML TAGS | Types of HTML TAGS | Emmet in VS Code | How to Code Faster | SAT   
+CLASS 06 & 07: HTML TAGS | Types of HTML TAGS | Emmet in VS Code | How to Code Faster | SAT (✔)
 Heading tags = h1 se h6 tk
 Tags = markup entity jin ke through HTML websites ko structure provide krta hai
-Meaning tags = semantic tags, meaninhful hote hain jo website ko eik meaning dete hain, h1-h6, p, a, ul, ol, table, input, img etc
-Structure tags = website ko chote chote parts main divide krta hai eik structure deta hai jese html, head, body, header, footer, section, article, nav, main, aside
+Meaning tags = semantic tags, meaninghful hote hain jo website ko eik meaning dete hain, h1-h6, p, a, ul, ol, table, input, img etc
+Structure tags = website ko chote chote parts main divide krte hain, eik structure dete hain jese html, head, body, header, footer, section, article, nav, main, aside. Aur ye sb bhi semantic tags kehlaate hain
 Formatting tags = b, i, u, s, strong, em, sup, sub, pre, code etc
-- i ki jaga em aur b ki jaga strong use krna chahiye, ye text to speech main bhi kaam aata hai use krna acha rehta hai bcuz text to speech b aur i tags wagera use nhi krta 
-ul = unordered list, jis main koi order nhi hota, navbar main aksar use krte hain, order is not important
+- <i> ki jaga <em> aur <b> ki jaga <strong> tag use krna chahiye, ye text to speech main bhi kaam aata hai use krna acha rehta hai bcuz text to speech <b> aur <i> tags wagera use nhi krta 
+ul = unordered list, jis main koi order nhi hota, navbar main aksar use krte hain, where order is not important
 ol = ordered list, use when order is important
 target="_blank" attribute = link ko new tab main open krta hai
 attribute = opening tag ke baad kch extra infromation jo dete hain element ke baare main usi ko attribute kehte hain
 sementic tag = meaningful tags hote hain jo meaning provide krte hain jis se seo main help hoti hai
-emit = coding thori fast krne ke liye emit zaroori hai, vscode ka eik plugin hai jo hamain full code ke shortcuts provide krta hai
+emit = coding fast krne ke liye emit zaroori hai, emit vscode ka eik plugin hai jo hamain full code ke shortcuts provide krta hai
 shift + 1 = html boiler-plate code
 emmit cheatsheet = https://docs.emmet.io/cheat-sheet/
 
@@ -118,57 +117,57 @@ Homework:
 5. shortcut likhna hai is code ka: <div><p><strong>Anas raza</strong></p></div>
 6. emmit ke baare main thora saa prhna hai
 
-CLASS 06: - MON
+CLASS 08: Elements in CSS | Inline VS Block Element - MON (✔)
 Elements in html = opening tag, attributes, closing tag in sbko milaa kr eik element banta hai
-Inline element = it will cover area fit to the content, and will come in same line aur ye height aur width nhi lega e.g. span, i, b
-Block element = covers area from extreme left to right, different line main aayega aur margin, padding, height, width sb lega e.g. div, p, h1-h6
+<mark> tag = text ko highlight krne ke liye use hota hai
+Inline element = it will cover area fit to the content, and will come in same line. Height aur width nhi leta. Margin horizontally work karega vertically ignore krdega, padding horizontally & vertically work karega, but flow change nahi hoga like content eik hi jaga rehta hai e.g. <span>, <i>, <b>
+Block element = covers area from extreme left to right, different line main aayega aur margin, padding, height, width sb lega e.g. <div>, <p>, <h1> - <h6>
 
 extra baaten:
 - twitter acha hai freelancing ke liye but freelancing main kisi app ya platform pr dependent mt raho khud se google pr search kro client hunt kro seekho khud se dhundo to zaada best hai ye
 - medium ke articles prho is se reading habit develop hogi
-- js mastery, harkirath singh, piyush garg, sahil gaba, prime time, fireship, william lin, john fish
+- js mastery, harkirath singh, piyush garg, sahil gaba, prime time, fireship, william lin, john fish ye kch ache youtube channels hain web development ke liye
 
 Homework:
-1. target attribute ki aur bhi values explore krni hai
-2. how can we use anchor tag for bookmark in website?
-3. more block elements
-4. home, about, contact, our services ko eik line main likhna hai
-5. how to convert inline element to block element?
-6. how to convert block element to inline element?
-7. what is inline-block element?
-8. img is which type of element?
+1. how can we use anchor tag for bookmark in website?
+2. more block and inline elements
+3. home, about, contact, our services ko eik line main likhna hai
+4. how to convert inline element to block element?
+5. how to convert block element to inline element?
+6. what is inline-block element?
+7. img is which type of element?
 
-CLASS 07: Tables in HTML - TUE
+CLASS 09: Tables in HTML - TUE (✔)
 Table = arrangement of data in rows and columns
-<table> tag = use to create tables in html
-<thead> tag = it is a html table tag use for creating heading section of table
-<tbody> tag = use to write actual content
-<tfoot> tag = use for summarizing or totalling table data
-<tr> tag = use to create table row 
-<td> (tbody) tag = use to create table data
-<th> (thead) tag = use to create table head data
+<table> tag = used to create tables in html
+<thead> tag = used for creating heading section in table
+<tbody> tag = used to write actual content in table
+<tfoot> tag = used for summarizing or totalling table data
+<tr> tag = used to create table row 
+<td> (tbody) tag = used to create table data
+<th> (thead) tag = used to create table head data
 rowspan = jb eik cell ko rows main expand krna ho tb ye use krte hain
 colspan = jb eik cell ko columns main expand krna ho tb ye use krte hain
-- jb complex table project ya css grid saamnay aaye to jahan lines nhi hain wahan bhi lines khechdo smjhne ke liye
+- jb complex table project ya css grid saamnay aaye to jahan lines nhi hain wahan bhi lines khechdo smjhne ke liye phr code krna aasaan hojayega  
 
 Homework:
 1. assignment table 01
 2. assignment table 02
 3. assignment table 03
 
-CLASS 08: Forms in HTML - WED
+CLASS 10: Forms in HTML - WED (✔)
 Forms in html = use to collect user data
 Input = it is use to take data from user
 Label = it gives name or tag or label to input
 How to connect label to input = label ke for attribute main jo value hogi wohi input ki id main hona chahiye is se ye dono connect hojayenge
 Input type attribute = email, password, number, tel, numbers, text (default), color, file, radio etc
 Input name attribute = backend ke data ko get krne ke liye use krte hain, radio input main kisi eik ko select krne ke liye bhi name attribute use hota hai jis main values same rkhte hain
-Input value attribute = jb input type button hoga to value main jo bhi likhengay wo uska text hojayega wrna other types main uski current value ban jaati hai jo change kr skte hain ham 
+Input value attribute = jb input type button hoga to value main jo bhi likhengay wo uska text hojayega wrna other input types main uski current value ban jaati hai jo change kr skte hain ham backspace krke 
 placeholder attribute = input ke andr as a label kaam krta hai jo typing ke baad hat jaata hai
 Form elements = input, label, select, option, button, textarea, fieldset, legend
-select = use to create dropdown in html
+select = used to create dropdown in html
 textarea = bht zaadaa input lena ho user se tb use hota hai ye jese blogs wagera main
-fieldset = use to group multiple form elements
+fieldset = used to group multiple form elements
 legend = it gives caption to fieldset
 action attribute = jb form submit wagera krna hota hai tb use hota hai
 
@@ -177,7 +176,7 @@ Homework:
 2. input type tel ke kch patterns pata krne hain research krke
 3. input attributes prhne hain jese pattern, maxlength, minlength, size etc
 
-Class 09 - Form Practice ✨✨ - THU
+Class 11 - Form Practice ✨✨ - THU (✔)
 input type submit = form ko submit krdeta hai
 input type reset = form ko reset krdeta hai
 input type checkbox = user can select multiple options
@@ -187,7 +186,7 @@ Homework:
 Form 1: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrswBQjyZizhYiATSiC4ipwILo-CRsdip5kw&s
 Form 2: https://stuyhsdesign.wordpress.com/wp-content/uploads/2017/02/web-form.png
 
-CLASS 10: Media and Iframes in HTML - FRI
+CLASS 12: Media and Iframes in HTML - FRI
 HTML media = image, audio and video
 img src attribute = agr offline hai to path dete hain wrna link dete hain online
 alt attribute in img = alternate kehlaata hai, error handle hota hai is se like agr image load nhi hua ya koi error aagaya to alt ki value show hogi
@@ -209,7 +208,7 @@ Homework:
 3. audio tag use krke dekhna hai jo video ki tarh hi hota hai almost
 4. ham iframe ko optimize kese kr skte hain jis se wo foran se load krde youtube video ya jo bhi hai
 
-CLASS 11: SEO and META TAGS in HTML - SAT
+CLASS 13: SEO and META TAGS in HTML - SAT
 Head tag in html = search engine optimization (SEO) ke liye use hota hai zaadatar, website ki saari seo is tag ke through hojaati hai
 title tag = new tab ki jaga pr jo title denge wo show hoga as a website title
 favicon = icon near title, it must be in root directory
@@ -234,7 +233,7 @@ Homework:
 1. utf-8 encoding ke baare main thora prhna hai 
 2. meta tags ke different aur bhi attributes dekhne hain 
 
-CLASS 12: - MON
+CLASS 14: Inline VS Internal VS External CSS - MON (✔)
 CSS = cascading style sheet 
 cascading = hamne agr 3 jaga different different background color dia hai to konsa aayega is chz ko kehte hain cascading
 3 ways to write css = inline css, internal css aur external css
@@ -254,7 +253,7 @@ Homework:
 1. inline, internal aur external ke sth thora khelna hai check krna hai smjhna hai 
 2. prhna bhi hai in teeno ke baare main teeno docs se
 
-Class 13: Selectors in CSS - FRI
+Class 15: Selectors in CSS - FRI (✔)
 Selectors in css = kisi chz ko style dene ke liye usko pakarne main use hote hain
 Element or Tag name selector = kisi tag ya element ke naam se usko pakarna like: p {} or h1 {}
 Id selector = kisi specific element ko ko unique style dene ke liye use hote hain like: #para-01 {} bcuz tags aur elements to bht saare hote hain aur sb pe same styles lag jaate hain
@@ -268,9 +267,9 @@ Universal selector = sbko eik sth styles dene ke liye use hota hai us page ke sa
 
 Homework:
 1. aur baaqi selectors bhi dekhne hain prhne hain w3school
-2. css priotites bhi dekhni hain
+2. css priorites bhi dekhni hain
 
-CLASS 14: CSS Typography and Color Theory - SAT
+CLASS 16: CSS Typography and Color Theory - SAT
 px = screen pr koi bhi point jo hai usko px keh skte hain
 physical 1px = 1/96 inch or 0.26 mm
 font-size = by default paragraph ki ye 16px hoti hai
@@ -291,7 +290,7 @@ Digital pixel aur physical pixel difference
 color theory prhni hai thori
 cmyk ke baare main prhna hai
 
-Class 15: Box Model and Box Sizing border box - SUN
+Class 17: Box Model and Box Sizing border box - SUN
 box-model = css main eik concept hai ke hr element ko ham box maante hain koi bhi element ho, ab hr element ya hr eik box main 6 cheezen hoti hain: content, height, width, padding, margin and border 
 content = jo bhi text wagera hota hai element ke andr
 border = jo ham dete hain kisi bhi element ko, by default black color aur 3px hota hai
@@ -304,7 +303,7 @@ Homework:
 1. padding aur margin ka syntax prhna hai eik baar mdn se
 2. kia margin pr koi effect prta hai border box sizing lagaane se?
 
-Class 16: Inline VS Block VS Inline Block Elements - THU
+Class 18: Inline VS Block VS Inline Block Elements - THU
 inline elements = jo eik hi line main aate hain, inka size fit to the content hota hai yaani content ke hisaab se hi size leta hai aur width and height ka koi asar nhi prta in pr, margin bhi sirf left aur right see lete hain vertically nhi lete e.g. span, i, b
 block element = it will take by default width and height from extreme left to extreme right aur custom width and height bhi leta hai ye e.g. p, div, h1 - h6
 block to inline & inline to block = kisi bhi inline element ko block aur block element ko inline banaane ke liye display property use hoti hai display: inline; & display: block; 
@@ -313,7 +312,7 @@ display: inline-block; = se element inline to rehta hai lekin block waali saari 
 Self homework:
 1. margin & padding overlapping kiun krte hain iska concept smjhna hai
 
-Class 17: CSS Position || Static, Relative, Absolute - FRI
+Class 19A: CSS Position || Static, Relative, Absolute - FRI
 position = css main kisi bhi chz ko eik specific jaga pe rkhne ke liye use krte hain
 smjhne waali 2 cheezen = eik to konsi position kiske relative move krti hai aur doosra wo apni jaga se hatraha hai ya nhi
 position: relative = it will move with respect to its orignal position and will always maintain its orignal space
@@ -322,7 +321,7 @@ position: absolute = it will not maintain its orignal position and will move wit
 Homework:
 1. button with a badge
 
-Class 18: Position fixed and Sticky + 1 project - SAT
+Class 19B: Position fixed and Sticky + 1 project - SAT
 position: sticky; = maintain its original space, move with respect to its orignal position but parent se bahir kabhi nhi jaayega
 position: fixed; = maintain its original space, move with respect to its orignal position aur parent se bahar nikal kr screen pr fixed rehta hai
 display list = li ka by default ye hota hai agr li ko inline-block krden to wo dots bhi hat jaate hain khud hi
@@ -334,7 +333,7 @@ remix icon = icons ke liye acha hai, github icon pr jaakr iska cdn uthaalo lagao
 Self homework:
 1. sticky main right left kiun kaam nhi kr raha
 
-Class 19: CSS Units EM, REM, vh, vw, % - SUN
+Class 20: CSS Units EM, REM, vh, vw, % - MON
 css units = agr seekhliye ache se to aagay jaakr responsiveness main bht zaada use hone waali cheezen hain ye bht zaroori hain
 absolute or fixed units = change nhi hote ye kbhi bhi, fixed rehte hain zindagi bhar ke liye jese in (inch), cm(centimeter), mm(millimeter), px(pixel)
 1px = 1/96 inch
@@ -355,7 +354,7 @@ Homework:
 5. article prho rem & em kiun aur kahan use krna chahiye, baaqi relative units kb use krne chahiye
 6. 1vw = how many pixel?
 
-Class 20: Float and Clear in CSS
+Class 21: Float and Clear in CSS - TUE
 Css floats = turing company ke interview main pucha gaya tha
 float = means jese paani pr leave float krta hai wese hi float krna website ke ooper
 clear = jb 2 elements ko eik jesa float dete hain wo eik doosre ke saamnay aajate hain but phr clear dene se eik doosre ke neechay aajate hain elements vertically
@@ -364,7 +363,7 @@ the great collapse problem = childs ko float dene se parent gayab hojaata hai jo
 Self homework:
 1. clear, float, great collapse problem sbke baare main thora thora prhna hai
 
-Class 21: Complete Flex Box
+Class 22: Complete Flex Box - THU
 Css flexbox = stands for flexible box
 Flexible = jese jo bhi dancer ya gymnast hote hain un main flexibility zaada hoti hai wo apni body ko kahi pr bhi move kr skte hain
 Why use flexbox? = a powerful tool for 1 dimension layout, mtlb ya to rows main (horizontally) manage kr skte ho ya phr columns main (vertically) kr skte ho eik time pr eik hi possible hai that is 1d layout
@@ -394,10 +393,10 @@ Homework:
 4. flex (shorhand) prhna hai
 5. flex-basis prhna hai
 
-Self homeworl:
+Self homework:
 1. align-items property ki values ko thora study krna hai
 
-Class 22: The Art of Card Design
+Class 23: The Art of Card Design - FRI
 card = facebook page kholen to ham bht saari cheezon ko card bol skte hain, zaada tar website main hr chz card hi hoti hai, card mltb jis main eik image, title, description wagera hota hai
 object-fit = img main use hota hai jb width aur height dono deni ho tb ye property use hoti hai jis se image ajeeb nhi banti set rehti hai
 object-position = property image ko top, center ya bottom se dikhane ke liye use hoti hai
@@ -406,7 +405,7 @@ border radius of child = border-radius of parent - padding of parent
 Homework:
 1. pinterest pr search kro web design cards aur eik do banaado
 
-Class 23A: CSS Queries Part 1
+Class 24A: CSS Queries Part 1 - MON
 Media query = just responsiveness ke liye nhi hoti, sbse bari galat fehmi hai bcuz aur bht use cases hain iske
 Media query use cases = responsive design, resolution (aspect ratio jese different video size wagera), orientation, theme wagera ke basis pr website ko styles dena
 Basic syntax = @media (media-feature){
@@ -425,7 +424,7 @@ bit = computer ki memory ka sbse chota point jo hota hai usko kehte hain
 Homework: 
 1. media query ke baare main prhna hai thora
 
-Class 23B: CSS Queries Part 2
+Class 24B: CSS Queries Part 2 - TUE
 Resolution query = used to target screen based on their resolution, eik high resolution display hota hai eik low resolution display hota hai
 retina display of mac = high dpi
 aspect ratios = mtlb wohi width aur height ka ratio jese 16/9 youtube videos ke liye, aur 9/16 tiktok reels ke liye hota hai
@@ -440,7 +439,7 @@ Homework:
 3. colors main kitne bit hote hain kia hota hai ye 
 4. color queries thora dekhna hai smjhna hai
 
-Class 23C: CSS Queries Part 3
+Class 24C: CSS Queries Part 3 - WED
 Ui = jo user ko dikhta hai
 Ux = jo user experience krta hai jese koi button click kia but click doosra button hogaya so ye bad user experience hua
 #212121, #414141 kiun poora black kiun nhi dena chahiye = isliye tailwind bht bht zaada famous hua, bcuz black color kahi acha nhi lagta koi nhi deta balke uske shades diye jaate hain 
@@ -450,7 +449,7 @@ min-height: 100vh = ka mtlb hai kam se kam 100vh lo baaqi aur content ho to aur 
 self homework:
 1. responsive card project ko aur acha banana hai, improve krna hai
 
-Class 24: Box Shadows, CSS Filters, Neomorphism and many more
+Class 25: Box Shadows, CSS Filters, Neomorphism and many more - THU
 images ko height aur width dono dene se = strech hojaati hai, kharab hojaati hai jiske liye phr object-fit property ka use hota hai
 object-fit: scale-down = jahan image fit hojaati hai usi scale pr image ko fit krdega
 object-fit: contain = ye bhi scale down ki tarh kaam krta hai
@@ -479,12 +478,12 @@ self homework:
 1. object: scale-down aur contain ka farq
 2. box shadow main spread dekhna hai smjhna hai
 
-Class 25: Masonry Layout | Pinterest Design - MON
+Class 26: Masonry Layout | Pinterest Design - FRI
 masonry layout = is main items ki height different hoti hai aur eik grid ki tarh fit hojaate hain
 column-count: 3; = ye one line code eik shorcut ya trick hai masonry layout banaane ki jis se columns create hojaate hain aur in main items vertically render hote hain one by one    
 columns: 300px; = ye one line code responsive bhi krdeta hai 300px ke column banjayenge is 300px se kam nhi hoga koi column, screen width kam hogi to columns bhi kam hojayenge, ye property 1 paragraph ko bhi 3 columns main divide krdeti hai
 
-Class 26: Psudo Classes and Psudo Elements - TUE
+Class 27: Psudo Classes and Psudo Elements - TUE
 psudo-class = element ki eik state ki tarh hoti hai jis main ham different styles apply kr skte hain, eik semicolon aata hai iske syntax main
 active = jb aapne kisi point pr kisi chz pr click kia hai abhi chora nhi hai tb style apply hoga 
 visited = jis link pr aap gaye ho eik baar pehle visit kia ho to usi pr style apply hoga 
@@ -496,7 +495,7 @@ before and after pseudo element = before mtlb element se pehle aayega aur after 
 Homework:
 1. w3school se pseudo class & pseudo elements prhna hai complete article
 
-Class 27: CSS Grid - WED
+Class 28: CSS Grid - WED
 Grid = 2 dimension layout, manage rows and columns at the same time
 columns = vertical jo hote hain
 rows = horizontal jo hoti hain
@@ -514,7 +513,7 @@ Self homework:
 1. background-blend-mode dekhna hai kia hai ye
 2. grid ke same class waale project ko banaana hai practice krni hai responsive krke
 
-Class 28: Transform and Translate in CSS - FRI
+Class 29: Transform and Translate in CSS - FRI
 transition = eik state of style se doosre state of style pr smoothly shift hone ko kehte hain
 transition-timing-function: ease-in-out; = mtlb start slow, end slow, baaqi fast speed rahegi transition ki
 transition-timing-function: ease; = mtlb all over slow
@@ -535,7 +534,7 @@ Homework:
 Self homework:
 1. transform ki properties zara prhni hain, difference dekhna hai inka
 
-Class 29: Animation in CSS - SAT
+Class 30: Animation in CSS - SAT
 animation = eik style se smoothly different styles create krne ko kehte hain
 animation vs transition = dono main ye farq hai ke animation different styles smoothly change kr skta hai jbke transition eik se doosra style pr shift krdeta hai thats it, so in short transition eik single switch hai jabke animation kch sequence of steps hai
 @keyframe = use hota hai animation ko define krne ke liye
@@ -550,7 +549,7 @@ self homework:
 1. animation-direcion main alternate-reverse aur reverse main kia farq hai
 2. animation-fill-mode kia aur kese kaam krta hai
 
-Class 30A: A CSS Project 1 [Bento Box Layout] - MON
+Class 31A: A CSS Project 1 [Bento Box Layout] - MON
 bento layout = bento box japan main eik lunch box ya tiffen ka naam hota hai jis main different size ke section main different cheezen rakhi hoti hain, so wahi se ye naam aaya bento layout jo grid se thora alag dikhta hai
 grid vs bento = grid main aksar sb grid items main same tarh ka content rkhte hain lekin bento layout main different sections main different content rkha jaata hai
 - parent ko min-height dene se child pr height: 100%; kaam nhi krta jb tk min naa hat jaye parent se
@@ -560,7 +559,7 @@ self homework:
 1. grid prhna hai eik baar css tricks se
 2. mix-blend-mode & background-blend-mode
 
-Class 30B: CSS Project 1 [Bento Box layout] - TUE
+Class 31B: CSS Project 1 [Bento Box layout] - TUE
 mobile max size = 480px, is se zaada ka mob nhi hota
 mobile first responsiveness = tailwind main zaada use hota hai, is main pehle mob ke liye banaate hain phr us se bara isi tarh phr last main sbse bari screen bnti hai
 website first responsiveness = pehle bari screen phr us se choti phr us se choti aur phr end main sbse choti yaani mob ke liye banti hai
@@ -574,7 +573,6 @@ Homework:
 2. media query for smart watch
 3. animation-timeline kia hai css main kese kaam krta hai
 4. project dia hai pink layout wo krna hai
-
 
 
 Class - TUE

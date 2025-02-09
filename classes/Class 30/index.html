@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 30 - Animation in CSS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        main {
+            height: 100vh;
+            background-color: lightblue;
+        }
+
+        .box {
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            /* animation-name: rightMovement;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-delay: .5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate; */
+            animation: rightMovement 2s cubic-bezier(0.075, 0.82, 0.165, 1) .2s infinite alternate both;
+        }
+
+        @keyframes rightMovement {
+            from {
+                transform: translate(0)
+            }
+
+            to {
+                transform: translate(1000px)
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="box"></div>
+    </main>
+</body>
+
+</html>

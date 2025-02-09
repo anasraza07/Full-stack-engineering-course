@@ -4,41 +4,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class 14</title>
+    <title>Class 15 - Selectors in CSS</title>
     <style>
-        p {
-            background-color: aquamarine;
-            width: 400px;
-            height: 200px;
-            border-style: solid;
-            padding-left: 20px;
-            padding-top: 30px;
-            padding-right: 50px;
-            padding-bottom: 50px;
-
-            /* all sides */
-            padding: 20px;
-
-            /* top-bottom left-right */
-            padding: 20px 50px;
-
-            margin-top: 100px;
-            margin-left: 50px;
+        /* universal selector */
+        * {
+            color: white;
         }
 
-        /* h1, div, p{
+        /* tag name or element selector */
+        h1 {
             background-color: red;
-            height: 200px;
-            width: 200px;
-        } */
+        }
+
+        p {
+            background-color: brown;
+        }
+
+        /* id selector */
+        #para-01 {
+            background-color: aquamarine;
+        }
+
+        /* class selector */
+        .name {
+            background-color: yellowgreen;
+        }
+
+        /* group selector */
+        h3,
+        b,
+        div {
+            background-color: violet;
+        }
+
+        /* child selector */
+        div p {
+            background-color: blue;
+        }
+
+        /* direct child selector */
+        #parent>span {
+            background-color: orange;
+        }
     </style>
 </head>
 
 <body>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <!-- <h1></h1>
-    <div></div>
-    <p></p> -->
+    <h1>Anas raza</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla cumque sapiente laudantium vero, ullam debitis
+        accusamus, deserunt eum alias nesciunt minima inventore veritatis perspiciatis nisi nostrum dolore doloremque
+        dolorem. Blanditiis inventore quidem soluta similique animi dolore quas alias itaque porro.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla cumque sapiente laudantium vero, ullam debitis
+        accusamus, deserunt eum alias nesciunt minima inventore veritatis perspiciatis nisi nostrum dolore doloremque
+        dolorem. Blanditiis inventore quidem soluta similique animi dolore quas alias itaque porro.</p>
+    <p id="para-01">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia tempora consectetur ducimus nemo,
+        veniam omnis commodi voluptas sunt consequuntur saepe! Id, eos officia. Id molestias, corrupti, vel qui aut
+        soluta placeat molestiae quisquam, quas tenetur a saepe vero alias provident!</p>
+
+    <h2 class="name">Anas</h2>
+    <span class="name">Anas</span>
+    <i class="name">Anas</i>
+
+    <h3>Anas</h3>
+    <b>Anas</b>
+    <div>Anas</div>
+
+    <div>
+        <p>Anas raza</p>
+    </div>
+
+    <div id="parent">
+        <div id="child">
+            <span>Child span (indirect)</span>
+        </div>
+        <span>Parent span (direct)</span>
+    </div>
 </body>
 
 </html>

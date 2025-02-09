@@ -4,49 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Grid</title>
+    <title>Class 27 - Psudo Classes and Psudo Elements</title>
     <style>
-        * {
+        *{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
-        #main {
-            padding: 40px;
-            height: 100vh;
-            background-color: lightblue;
-            display: grid;
-            /* grid-template-columns: 300px 300px 300px;
-            grid-template-rows: 200px 200px; */
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(2, 1fr);
-            place-content: center;
-            /* row-gap: 20px;
-            column-gap: 20px; */
-            gap: 20px;
-        }
-
-        .card {
+        div{
+            width: 200px;
+            height: 200px;
             background-color: blue;
+            margin: 12px;
         }
 
-        .card:hover{
-            width: 310px;
-            height: 210px;
+        div:hover{
+            border-radius: 50%;
         }
     </style>
 </head>
 
 <body>
-    <div id="main">
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-    </div>
+    <div></div>
 </body>
 
 </html>

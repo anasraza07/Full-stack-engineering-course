@@ -1,50 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class 20</title>
+    <title>Class 20 - CSS Units EM, REM, vh, vw, %</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-size: 18px;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        .parent{
+            width: 500px;
+            height: 500px;
+            background-color: lightsalmon;
         }
 
-        img {
-            width: 300px;
-            object-fit: cover;
-        }
-
-        #img-01 {
-            float: right;
-        }
-
-        #img-02 {
-            float: right;
-            clear: right;
+        .child{
+            height: 100%;
+            width: 50%;
+            background-color: lightgreen;
         }
     </style>
 </head>
-
 <body>
-    <div>
-        <img id="img-01" src="https://i.pinimg.com/736x/b3/b0/8f/b3b08f1c6c610b58b25928e85aec53e3.jpg" alt=""
-            height="300">
-        <img id="img-02" src="https://i.pinimg.com/236x/d7/f8/66/d7f8662f98b296fa5f7b6f38b88077ba.jpg" alt=""
-            height="300">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi voluptate soluta aspernatur vel sunt, velit
-            eligendi impedit reprehenderit omnis. Explicabo labore laborum unde quaerat tempore alias deleniti dicta
-            error! Incidunt corrupti blanditiis totam repudiandae vitae consequuntur? Repellendus, ratione architecto
-            quasi molestiae minima amet, non eaque quisquam voluptatem reiciendis perspiciatis sapiente ex incidunt
-            eveniet. Ratione fugit ducimus corporis asperiores, dolorem, aliquid impedit rem, illum perferendis itaque
-            laudantium nihil vel dolor ipsam ab iusto doloribus eos doloremque provident. Autem sit quidem deserunt
-            voluptate asperiores saepe consectetur, libero cumque dolor aut fuga repudiandae mollitia voluptates eveniet
-            reprehenderit, quaerat incidunt deleniti commodi tempora nobis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab culpa quia temporibus placeat animi iusto assumenda odit eius alias labore sit vitae, dolores optio nihil eos a, pariatur asperiores dolorum quaerat! Veniam fuga quo illum asperiores quisquam recusandae accusamus accusantium, exercitationem dolores rerum, cumque ratione sequi! Sequi temporibus at vitae aperiam dignissimos dolores sint eum id, perferendis numquam, repudiandae eveniet incidunt adipisci non est voluptatum, illum nostrum maxime soluta porro. Corrupti minima, dolorem, repellat iste nam voluptatibus aut laudantium cum voluptatum porro corporis expedita natus alias recusandae in laborum ratione. Aliquam, nulla. Cupiditate doloremque itaque quia ipsam possimus quaerat dolor corrupti libero voluptas odit fuga rerum vero maiores harum eum ut minima, consequatur vel nobis deleniti! Eius sunt quae blanditiis assumenda voluptatibus, iste minus velit rerum excepturi ducimus sint quibusdam molestias, praesentium non et enim cumque recusandae voluptatem animi incidunt aperiam hic suscipit! Eaque quisquam nobis deserunt repudiandae. Dolor nobis quidem quos doloremque voluptate repudiandae error tempore quibusdam obcaecati. Assumenda ratione cumque molestiae obcaecati, doloremque est in veniam facere pariatur perspiciatis dignissimos aliquid rem repellendus vitae unde illo id quasi et? Officiis quam, possimus architecto ipsum maxime aliquid eum eveniet deserunt? Quasi hic, expedita nihil consectetur aut quaerat dignissimos similique.</p>
+    <div class="parent">
+        <div class="child"></div>
     </div>
 </body>
-
 </html>

@@ -4,66 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class 13 - Homework 01</title>
-    <style>
-        .code{
-            color: brown;
-        }
-    </style>
+    <title>Homework 01</title>
 </head>
 
 <body>
-    <h1>CSS Selectors</h1>
-    <p>CSS selectors are used to "find" (or select) the HTML elements you want to style.</p>
-    <p>We can divide CSS selectors into five categories:</p>
+    <h2>1. UTF-8 encoding ke baare main thora prhna hai</h2>
+    <p>Computer text ko pehle numbers mein convert karta hai (Unicode ke codes ki madad se), aur UTF-8 un numbers ko
+        binary format mein badal kar store karta hai, taake computer unhe asaani se samajh sake. UTF-8 ka sabse bada
+        fayda yeh hai ke yeh duniya ki har language ke characters ko support karta hai, jaise alphabets (English, Urdu,
+        etc.), emojis, aur special symbols. Is wajah se hum ek hi document mein alag-alag languages aur emojis ko ek
+        saath likh sakte hain. Web pages mein agar UTF-8 encoding define na ki jaye, toh kuch text ya symbols sahi
+        display nahi hote. Isliye HTML pages mein UTF-8 encoding use karna zaroori hai, taake saara content properly
+        dikhai de.</p>
 
-    <ul>
-        <li>Simple selectors (select elements based on name, id, class)</li>
-        <li>Combinator selectors (select elements based on a specific relationship between them)</li>
-        <li>Attribute selectors (select elements based on an attribute or attribute value)</li>
-        <li>Pseudo-class selectors (select elements based on a certain state)</li>
-        <li>Pseudo-elements selectors (select and style a part of an element)</li>
-    </ul>
-
-    <h2>Simple Selectors</h2>
-    <h3>1. CSS element Selector</h3>
-    <h3>2. CSS id Selector</h3>
-    <p><strong>Note: </strong>An id name cannot start with a number!</p>
-    <h3>3. CSS class Selector</h3>
-    <p>You can also specify that only specific HTML elements should be affected by a class.</p>
-    <p class="code">p.center { text-align: center; color: red; }
-    </p>
-    <p>In this example only &lt;p&gt; elements with class="center" will be red and center-aligned</p>
-    <p><strong>Note: </strong>A class name cannot start with a number!</p>
-    <h3>4. CSS Universal Selector</h3>
-    <h3>5. CSS Grouping Selector</h3>
-
-    <h2>CSS Combinators</h2>
-    <p>A combinator is something that explains the relationship between the selectors.</p>
-    <p>A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a
-        combinator.</p>
-
-    <p>There are four different combinators in CSS:</p>
-    <h3>6. Descendant combinator (space)</h3>
-    <h3>7. Child combinator (>)</h3>
-    <p>Mtlb direct child hoga tb hi styles apply hongay, child ka child yahan target nhi hoga wo descendant main aata
-        hai</p>
-    <h3>8. Next sibling combinator (+)</h3>
-    <p>The next sibling combinator is used to select an element that is directly after another specific element.</p>
-    <p>Sibling elements must have the same parent element, and "adjacent" means "immediately following".</p>
-    <h3>9. Subsequent-sibling combinator (~)</h3>
-    <p>Aur ye saare siblings ko target krleta hai zaroori nhi specific element ke foran baad hi ho</p>
-
-    <h2>CSS Attribute Selectors</h2>
-    <p>It is possible to style HTML elements that have specific attributes or attribute values.</p>
-    <h3>10. CSS [attribute] Selector</h3>
-    <p>The [attribute] selector is used to select elements with a specified attribute.</p> 
-    <p>The following example selects all <a> elements with a target attribute:</p>
-    <p class="code">a[target] { background-color: yellow; }</p>
-    <h3>CSS [attribute="value"] Selector</h3>
-    <p>The [attribute="value"] selector is used to select elements with a specified attribute and value.</p> 
-    <p>The following example selects all <a> elements with a target="_blank" attribute:</p>
-    <p class="code">a[target="_blank"] { background-color: yellow; }</p>
+    <h2>2. meta tags ke different aur bhi attributes dekhne hain</h2>
+        <p><strong>meta name="application-name" content="value"</strong> specifies the name of the Web application that the page
+            represents. apni website ka naam is main put kr skte hain
+        </p>
+        <p><strong>meta http-equiv="refresh" content="10"</strong> web page ko har 10 seconds baad automatically refresh kar deta hai. ye ek basic aur purani technique hai jo ab modern use cases ke liye recommended nahi hai. Agar aapko data dynamically update karna hai toh AJAX ya WebSocket jaisi approaches ka use karein. Refresh karte rehne se unnecessary load aur poor user experience ka risk hota hai.</p>
 </body>
 
 </html>

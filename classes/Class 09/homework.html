@@ -4,67 +4,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework 01</title>
+    <title>Homework</title>
 </head>
 
-<body>
-    <h1>Travel reservation form</h1>
-    <h4>* denotes mandatory</h3>
+<body style="padding-bottom: 20px;">
+    <!-- Homework 01 -->
+    <table border="">
+        <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Priya</td>
+                <td>Sharma</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>Arun</td>
+                <td>Singh</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td>Sam</td>
+                <td>Waston</td>
+                <td>41</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
 
-        <form>
-            <label for="fullname">Full name*:</label><br>
-            <input type="text" id="fullname" placeholder="FirstName LastName">
-            <br><br>
+    <!-- Homework 02 -->
+    <table border="">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Full Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Founder Microsoft</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve Jobs</td>
+                <td>Founder Apple</td>
+                <td>$2000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Larry Page</td>
+                <td>Founder Google</td>
+                <td>$1100</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark Zuckerberg</td>
+                <td>Founder Facebook</td>
+                <td>$1300</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
 
-            <label for="email">Email address*:</label><br>
-            <input type="email" id="email" placeholder="EMAIL_ADDRESS">
-            <br><br>
-
-            <label for="package">Select Tour Package*:</label><br>
-            <select id="package">
-                <option value="Delhi">Delhi</option>
-                <option value="Karachi">Karachi</option>
-                <option value="Goa" selected>Goa</option>
-                <option value="Islamabad">Islamabad</option>
-            </select>
-            <br><br>
-
-            <label for="arrival-date">Arrival date*:</label><br>
-            <input type="date" id="arrival-date">
-            <br><br>
-
-            <label for="persons">Number of persons*:</label><br>
-            <input type="number" id="persons" placeholder="UNKNOWN_TYPE">
-            <br><br>
-
-            <label for="">What would you want to avail?*</label>
-            <br>
-            <input type="checkbox" id="boarding">
-            <label for="boarding">Boarding</label>
-            <br>
-
-            <input type="checkbox" id="fooding">
-            <label for="fooding">Fooding</label>
-            <br>
-
-            <input type="checkbox" id="sight-seeing">
-            <label for="sight-seeing">Sight seeing</label>
-            <br><br>
-
-            <label for="code">Discount Coupon code:</label><br>
-            <input type="text" id="code" placeholder="UNKNOWN_TYPE">
-            <br><br>
-
-            <label for="terms">Terms and conditions*</label><br>
-            <input type="radio" name="terms" id="agree">
-            <label for="agree">I agree</label>
-
-            <input type="radio" name="terms" id="disagree">
-            <label for="disagree">I disagree</label>
-            <br><br>
-
-            <input type="submit" value="Complete reservation">
-        </form>
+    <!-- Homework 03 -->
+    <table border="">
+        <thead>
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="3">Seminar</th>
+            </tr>
+            <tr>
+                <th colspan="2">Schedule</th>
+                <th rowspan="2">Topic</th>
+            </tr>
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8:00 a.m.</td>
+                <td rowspan="2">5:00 p.m.</td>
+                <td>Introduction to XML</td>
+            </tr>
+            <tr>
+                <td>Validity: DTD and Relax NG</td>
+            </tr>
+            <tr>
+                <td rowspan="4">Tuesday</td>
+                <td>8:00 a.m.</td>
+                <td>11:00 a.m.</td>
+                <td rowspan="2">XPath</td>
+            </tr>
+            <tr>
+                <td rowspan="2">11:00 a.m.</td>
+                <td rowspan="2">2:00 p.m.</td>
+            </tr>
+            <tr>
+                <td rowspan="2">XSL Transformations</td>
+            </tr>
+            <tr>
+                <td>2:00 p.m.</td>
+                <td>5:00 p.m.</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>8:00 a.m.</td>
+                <td>12:00 p.m.</td>
+                <td>XSL Formatting Objects</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 
 </html>

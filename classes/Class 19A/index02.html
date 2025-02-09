@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index 02</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .grand-parent{
+            background-color: lightcoral;
+            padding: 40px;
+            position: relative;
+        }
+        
+        .parent{
+            background-color: lightblue;
+            padding: 20px;
+            position: relative;
+        }
+
+        .box {
+            background-color: rgb(16, 63, 47);
+            color: white;
+            margin: 10px;
+            width: 100px;
+            height: 100px;
+            padding: 12px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        #box-03{
+            position: absolute;
+            top: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grand-parent">
+        <div class="parent">
+            <div class="box" id="box-01">box 01</div>
+            <div class="box" id="box-02">box 02</div>
+            <div class="box" id="box-03">box 03</div>
+            <div class="box" id="box-04">box 04</div>
+        </div>
+    </div>
+</body>
+
+</html>

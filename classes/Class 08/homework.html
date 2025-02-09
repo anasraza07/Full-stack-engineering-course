@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 01</title>
+</head>
+
+<body>
+    <a href="#homework-01">1. How can we use anchor tag for bookmark in website?</a>
+    <br>
+    <a href="#homework-02">2. More block and inline elements</a>
+    <br>
+    <a href="#homework-03">3. Home, about, contact, our services ka navbar</a>
+    <br>
+    <a href="#homework-04">4. How to convert inline element to block element?</a>
+    <br>
+    <a href="#homework-05">5. How to convert block element to inline element?</a>
+    <br>
+    <a href="#homework-06">6. What is inline-block element?</a>
+    <br>
+    <a href="#homework-07">7. &lt;img&gt; is which type of element?</a>
+
+    <!-- Homework 01 -->
+    <h1 id="homework-01">1. How can we use anchor tag for bookmark in website?</h1>
+    <p>HTML links can be used to create bookmarks, so that readers can jump to specific parts of a web page.</p>
+    <p>When the link is clicked, the page will scroll down or up to the location with the bookmark.</p>
+    <p>Pehle ham id attribute ka use krke bookmark create krte hain aur phr anchor tag ke href attribute main us id ki
+        value dete hain kch is tarah:</p>
+    <pre>
+        <code>
+    &lt;h3 id=&quot;C4&quot;&gt;Chapter 4&lt;/h3&gt;
+    &lt;a href=&quot;#C4&quot;&gt;Jump to Chapter 4&lt;/a&gt;
+</code>
+</pre>
+    <p>Agr another page ke bookmark ka link dena ho to kch is tarah:</p>
+    <pre>
+    <code>
+        &lt;a href=&quot;another-page.html#C4&quot;&gt;Jump to Chapter 4&lt;/a&gt;
+    </code>
+</pre>
+
+    <h2>Example:</h2>
+
+    <p><a href="#C4">Jump to Chapter 4</a></p>
+    <p><a href="#C10">Jump to Chapter 10</a></p>
+
+
+    <h3>Chapter 1</h3>
+    <p>This chapter explains ba bla bla</p>
+
+    <h3>Chapter 2</h3>
+    <p>This chapter explains ba bla bla</p>
+
+    <h3>Chapter 3</h3>
+    <p>This chapter explains ba bla bla</p>
+
+    <h3 id="C4">Chapter 4</h3>
+    <p>This chapter explains ba bla bla</p>
+
+    <h3>Chapter 5</h3>
+    <p>This chapter explains ba bla bla</p>
+
+    <h3>Chapter 6</h3>
+    <p>This chapter explains ba bla bla</p>
+
+    <h3>Chapter 7</h3>
+    <p>This chapter explains ba bla bla</p>
+
+    <h3>Chapter 8</h3>
+    <p>This chapter explains ba bla bla</p>
+
+    <h3>Chapter 9</h3>
+    <p>This chapter explains ba bla bla</p>
+
+    <h3 id="C10">Chapter 10</h3>
+    <p>This chapter explains ba bla bla</p>
+
+    <h3>Chapter 11</h3>
+    <p>This chapter explains ba bla bla</p>
+
+    <h3>Chapter 12</h3>
+    <p>This chapter explains ba bla bla</p>
+
+    <h3>Chapter 13</h3>
+    <p>This chapter explains ba bla bla</p>
+
+    <h3>Chapter 14</h3>
+    <p>This chapter explains ba bla bla</p>
+
+    <h3>Chapter 15</h3>
+    <p>This chapter explains ba bla bla</p>
+
+    <!-- Homework 02 -->
+    <h1 id="homework-02">2. More block and inline elements</h1>
+    <h2>Block:</h2>
+    <code>
+        &lt;address&gt; &lt;article&gt; &lt;aside&gt; &lt;blockquote&gt; &lt;canvas&gt; &lt;dd&gt; &lt;div&gt; &lt;dl&gt; &lt;dt&gt; &lt;fieldset&gt; &lt;figcaption&gt; &lt;figure&gt; &lt;footer&gt; &lt;form&gt; &lt;h1&gt;-&lt;h6&gt; &lt;header&gt; &lt;hr&gt; &lt;li&gt; &lt;main&gt; &lt;nav&gt; &lt;noscript&gt; &lt;ol&gt; &lt;p&gt; &lt;pre&gt; &lt;section&gt; &lt;table&gt; &lt;tfoot&gt; &lt;ul&gt; &lt;video&gt;
+    </code>
+
+    <h2>Inline:</h2>
+    <code>
+        &lt;a&gt; &lt;abbr&gt; &lt;acronym&gt; &lt;b&gt; &lt;bdo&gt; &lt;big&gt; &lt;br&gt; &lt;button&gt; &lt;cite&gt; &lt;code&gt; &lt;dfn&gt; &lt;em&gt; &lt;i&gt; &lt;img&gt; &lt;input&gt; &lt;kbd&gt; &lt;label&gt; &lt;map&gt; &lt;object&gt; &lt;output&gt; &lt;q&gt; &lt;samp&gt; &lt;script&gt; &lt;select&gt; &lt;small&gt; &lt;span&gt; &lt;strong&gt; &lt;sub&gt; &lt;sup&gt; &lt;textarea&gt; &lt;time&gt; &lt;tt&gt; &lt;var&gt; 
+    </code>
+
+    <h1 id="homework-03">3. Home, about, contact, our services ka eik navbar</h1>
+    <nav style="text-align: center;">
+        <span style="padding: 12px;"><a href="#">Home</a></span>
+        <span style="padding: 12px;"><a href="#">About</a></span>
+        <span style="padding: 12px;"><a href="#">Contact</a></span>
+        <span style="padding: 12px;"><a href="#">Our services</a></span>
+    </nav>
+
+    <!-- Homework 04 -->
+    <h1 id="homework-04">4. How to convert inline element to block element?</h1>
+    <p>Using <code>display: block;</code> property in CSS</p>
+
+    <!-- Homework 05 -->
+    <h1 id="homework-05">5. How to convert block element to inline element?</h1>
+    <p>Using <code>display: inline;</code> property in CSS</p>
+
+    <!-- Homework 06 -->
+    <h1 id="homework-06">6. What is inline-block element?</h1>
+    <p>An <strong>inline-block</strong> element in HTML is a type of element that combines the behavior of both
+        <strong>inline</strong> and <strong>block</strong> elements, meaning it can flow with other text on the same
+        line like an inline element, but also allows you to set width and height properties like a block element,
+        enabling more flexible layout control within a webpage. And ham inline-block elements ki all sides ko margin &
+        padding bhi de skte hain
+    </p>
+
+    <!-- Homework 07 -->
+    <h1 id="homework-07">7. &lt;img&gt; is which type of element?</h1>
+    <p>&lt;img&gt; is an inline and empty element, which means that it doesn't start on a new line and doesn't take a closing tag.</p>
+
+    <a style="position: fixed; top: 4px; right: 4px;" href="#">Top</a>
+</body>
+
+</html>

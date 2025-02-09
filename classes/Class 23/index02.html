@@ -4,42 +4,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media query for theme</title>
+    <title>Card 02</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
-        main{
+        #main {
+            width: 100vw;
             height: 100vh;
+            background-color: beige;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Roboto", serif;
         }
 
-        @media (prefers-color-scheme: dark) {
-            main{
-                background-color: #212121;
-                color: white;
-            }
+        #main .card {
+            width: 350px;
+            background-color: white;
+            padding: 8px;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
         }
 
-        @media (prefers-color-scheme: light) {
-            main{
-                background-color: #ffffff;
-                color: #000;
-            }
+        .card .top-row{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
         }
 
+        .top-row .left{
+            background-color: #212121;
+            color: white;
+            padding: 6px;
+            border-radius: 100px;
+        }
+
+        .top-row .left i{
+            color: orange;
+            vertical-align: middle;
+        }
+
+        .top-row .left span{
+            font-size: 12px;
+            font-weight: 300;
+        }
+
+        .top-row .right{
+            background-color: #c7c7c7;
+            color: white;
+            padding: 6px;
+            border-radius: 8px;
+        }
+
+        .top-row .right i{
+            color: black;
+        }
+
+        #main .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            object-position: bottom;
+            border-radius: 4px;
+        }
     </style>
 </head>
 
 <body>
-    <main>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure accusamus facilis odit, rerum quae odio
-            qui obcaecati atque nemo libero voluptates exercitationem. Maiores ullam quae atque nesciunt est pariatur
-            animi odit nisi laboriosam eius. Incidunt quibusdam odit adipisci minima eos aliquid dolorum eveniet velit,
-            fugit recusandae, quisquam perferendis vel!</p>
-    </main>
+    <div id="main">
+        <div class="card">
+            <div class="top-row">
+                <div class="left">
+                    <i class="ri-time-fill"></i>
+                    <span>2d left</span>
+                </div>
+                <div class="right"><i class="ri-arrow-right-up-line"></i></div>
+            </div>
+            <h2 class="heading">GET 30% Discount</h2>
+            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quae maiores earum dolore
+                culpa. Quas.</p>
+            <img src="https://i.pinimg.com/736x/3a/c4/e5/3ac4e50bcd15d170baf2bda3b64fb4f2.jpg" alt="light"
+                class="product-img">
+        </div>
+    </div>
 </body>
 
 </html>

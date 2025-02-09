@@ -1,37 +1,32 @@
-class 02 notes updated
-class 02 homework completed
-class 03 homework done
-class 05 lecture noted
-class 07 lecture noted
-class 07 homework done
-class 08 lecture noted
-class 09 lecture noted
-class 09 homework done
-class 10 lecture noted
-class 10 homework done
-class 11 lecture noted
-class 11 homework done
-class 12 lecture noted
-class 12 homework done
-class 13 lecture noted
-class 13 homework done
-class 15 lecture noted
-class 16 lecture noted
-class 17 lecture noted
-class 18 lecture noted
-class 19 lecture noted
-class 20 lecture noted
-class 21 lecture noted
-class 22 lecture noted
-class 23 part 1 lecture noted
-class 23 part 2 lecture noted
-class 23 part 3 lecture noted
-class 24 lecture noted
-class 25 lecture noted
-class 26 lecture noted
-class 27 lecture noted
-class 28 lecture noted
-class 29 lecture noted
-class 30A lecture noted
-class 30B lecture noted
-project 03 - family industries website clone started 2 sections done
+class 02 & 03 done with homework  
+class 04 done with homework
+class 05 done with homework
+class 06 & 07 done with homework
+class 08 done with homework
+class 09 done with homework
+class 10 done with homework
+class 11 done with homework
+class 14 done with homework
+class 15 done with homework
+class 17 done 
+class 18 done 
+class 19A done 
+project 01 completed
+class 19B done 
+class 20 done 
+class 21 done 
+class 22 done 
+class 23 done 
+project 02 completed
+class 24A done
+class 24B done
+class 24C done
+class 25 done
+class 26 done
+class 27 done
+class 28 done
+class 29 done
+class 30 done
+class 31A done
+class 31B done
+project 03 completed without responsiveness

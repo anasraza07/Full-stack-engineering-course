@@ -1,20 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class 10</title>
+    <title>Class 10 - Forms in HTML</title>
 </head>
+
 <body>
-    <img height="300" src="https://i.pinimg.com/736x/b8/8e/64/b88e64f13bddc16c2742aea9193b5b8c.jpg" alt="Flying eagle">
-    <img src="../media/images/img-01.jpeg" alt="Art image">
+    <form>
+        <fieldset>
+            <legend>Login</legend>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+            <br><br>
 
-    <!-- <video controls autoplay muted loop width="800" src="../media/video.mp4"></video> -->
+            <label for="email">Email</label>
+            <input type="text" id="email">
+            <br><br>
 
-    <video controls autoplay muted loop width="800">
-        <source src="../media/video.mp4">
-    </video>
+            <label for="password">Password</label>
+            <input type="password" id="password">
+        </fieldset>
+        <br><br>
 
-    <audio src="../media/audio.mp3" controls></audio>
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <br>
+
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+            <br><br>
+
+            <label for="color-picker">Pick any color:</label>
+            <input type="color" id="color-picker">
+            <br><br>
+
+            <input type="file" id="color-picker">
+        </fieldset>
+        <br><br>
+
+        <fieldset>
+            <legend>Other</legend>
+            <input type="search" placeholder="Search...">
+            <br><br>
+
+            <label for="country">Country</label>
+            <select name="" id="country">
+                <option value="Pakistan">Pakistan</option>
+                <option value="India">India</option>
+                <option value="America">America</option>
+            </select>
+
+            <br><br>
+            
+            <textarea name="" id="" cols="" rows=""></textarea>
+            <br><br>
+            <input type="button" value="Input Button">
+            <button>Submit</button>
+        </fieldset>
+
+    </form>
 </body>
+
 </html>

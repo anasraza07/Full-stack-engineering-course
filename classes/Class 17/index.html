@@ -4,42 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Position || Static, Relative, Absolute</title>
+    <title>Class 17</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+        p {
+            background-color: aquamarine;
+            width: 400px;
+            height: 200px;
+            border-style: solid;
+            padding-left: 20px;
+            padding-top: 30px;
+            padding-right: 50px;
+            padding-bottom: 50px;
+
+            /* all sides */
+            padding: 20px;
+
+            /* top-bottom left-right */
+            padding: 20px 50px;
+
+            margin-top: 100px;
+            margin-left: 50px;
         }
 
-        .box {
-            background-color: rgb(16, 63, 47);
-            color: white;
-            margin: 10px;
-            width: 100px;
-            height: 100px;
-            padding: 12px;
-            border-radius: 10px;
-            display: inline-block;
-        }
-
-        #box-02 {
-            background: red;
-            position: static;
-        }
-
-        #box-03 {
-            position: relative;
-            top: 100px;
-        }
+        /* h1, div, p{
+            background-color: red;
+            height: 200px;
+            width: 200px;
+        } */
     </style>
 </head>
 
 <body>
-    <div class="box" id="box-01">box 01</div>
-    <div class="box" id="box-02">box 02</div>
-    <div class="box" id="box-03">box 03</div>
-    <div class="box" id="box-04">box 04</div>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <!-- <h1></h1>
+    <div></div>
+    <p></p> -->
 </body>
 
 </html>

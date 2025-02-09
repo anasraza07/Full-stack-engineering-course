@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework</title>
+    <style>
+        *{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        img{
+            border: 2px solid red;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="./image.png" alt="" width="500px">
+    <h1>New seekhne waale topics from the Quiz</h1>
+    <h2>Who is making the Web standards?</h2>
+    <p>The World Wide Web Consortium</p>
+    <p>World Wide Web Consortium (W3C) ek international organization hai jo web ke standards banati hai. Ye ensure karti hai ke websites aur web technologies har jagah ek jese kaam karein, chahe koi bhi browser ya device ho. W3C HTML, CSS, JavaScript, aur dusre web-related technologies ke liye rules aur guidelines define karti hai taake developers best practices follow kar sakein.</p>
+
+    <h2>In HTML, you can embed SVG elements directly into an HTML page.</h2>
+    <p>True</p>
+    <p>Circle bhi draw kr skte hain HTML main, svg bhi create kr skte hain</p>
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+    </svg>
+    <p>SEE THE CODE</p>
+
+    <h2>The HTML global attribute, "contenteditable" is used to:</h2>
+    <p contenteditable="true">Specify whether the content of an element should be editable or not</p>
+    <p>Ye attribute lagaane se ham web page pr element ke content ko edit kr skte hain but refresh krne pr sb default
+        hojayega</p>
+
+    <h2>Which HTML element is used to display a scalar measurement within a range?</h2>
+    <p>&lt;meter&gt; tag</p>
+    <p>Ab ye meter element kia hai? asal main meter element gauge yaani eik tarh se loading represent krta hai, but edge
+        12 aur is se pehle ke versions pr support nhi krta</p>
+        <p>But is tag ko as a progress bar use nhi krna hai uske liye progress tag alag se hai HTML main balke, meter tag tb use karen jab kisi specific range mein value represent karni ho, jaise battery percentage, memory usage, ya exam score.</p>
+    <p>Kch is tarah:</p>
+
+    <label for="disk_c">Disk usage C:</label>
+    <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+
+    <label for="disk_d">Disk usage D:</label>
+    <meter id="disk_d" value="0.6">60%</meter>
+</body>
+
+</html>
