@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spikes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        main {
+            background-color: #B08A37;
+            height: 100vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        #wrapper {
+            width: 100%;
+            padding: 100px 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+            position: relative;
+            background-color: #504313;
+        }
+
+        #wrapper::before {
+            content: "";
+            mask-image: url(./spikes-svg-path.svg);
+            background-color: #B08A37;
+            width: 100%;
+            height: 50px;
+            position: absolute;
+            top: 0;
+            left: 0
+        }
+
+        #wrapper::after {
+            content: "";
+            width: 100%;
+            height: 50px;
+            mask-image: url(./spikes-svg-path.svg);
+            background-color: #B08A37;
+            rotate: 180deg;
+            position: absolute;
+            bottom: 0;
+            left: 0
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div id="wrapper">
+            <h1>Heading</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, in. Cumque laudantium veniam dolor
+                quibusdam velit blanditiis animi laborum atque eligendi, perferendis consequuntur officia architecto
+                esse sint sunt placeat odit?</p>
+        </div>
+
+    </main>
+</body>
+
+</html>

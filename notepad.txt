@@ -303,6 +303,9 @@ Homework:
 1. padding aur margin ka syntax prhna hai eik baar mdn se
 2. kia margin pr koi effect prta hai border box sizing lagaane se?
 
+Self homework:
+1. css reset kis tarh save kr skte hain vscode pr
+
 Class 18: Inline VS Block VS Inline Block Elements - THU
 inline elements = jo eik hi line main aate hain, inka size fit to the content hota hai yaani content ke hisaab se hi size leta hai aur width and height ka koi asar nhi prta in pr, margin bhi sirf left aur right see lete hain vertically nhi lete e.g. span, i, b
 block element = it will take by default width and height from extreme left to extreme right aur custom width and height bhi leta hai ye e.g. p, div, h1 - h6
@@ -574,16 +577,85 @@ Homework:
 3. animation-timeline kia hai css main kese kaam krta hai
 4. project dia hai pink layout wo krna hai
 
+Class 32: CSS Waves Designs
+different shapes = website main cards wagera sb square shape main hi hote hain jo sometimes boring hojaate hain so different shapes, gradient, waves deisgn kese bante hain aj wo seekhenge
+padding-block = top aur bottom se padding dene ke liye use hota hai
+padding-inline = left aur right se padding dene ke liye use hota hai
+rotate: 5deg = ye property transform ke bagair bhi kaam krti hai
+svg = by default responsive hoti hai, isko responsive krne ki zarurat nhi prti aur svg ke pixels phat te nhi hain
+mask-image = ye background-image ki tarah hi kaam krta hai lekin faida ye hai ke usi image main content ke ilaawa jo hai usko remove krdeta hai like agr koi shape hai to us shape ka whole ban jayega background remove hojayega
+https://yqnn.github.io/svg-path-editor/ = ye eik svg path editor hai jis se ham bht kch naya saa alag saa create kr skte hain using before, after, mask-background and more css crazy properties
+https://css-generators.com/wavy-shapes/ = for creating wavy shapes and many more in css
+https://www.shapedivider.app/ = web page ke top ya bottom pr different waves and shapes show krwaane ke liye bht achi website hai
 
-Class - TUE
-browser = jo ham use krte hain jese chrome, safari. Saare browsers ko sirf 3 cheezen smjh aati hain html, css, javascript. Agr koi aur language browser ko smjhaani hai to usko compile krke convert krna prta hai
+Some extra notes about z-index: 
+Agar ek element naye stacking context ke andar hai, toh uska z-index sirf usi context ke andar kaam karega.
+Agar tumhe usko pure page ke upar lana hai, toh uska parent ka z-index bhi set karna padega!
+1. z-index normally sirf stacking order change karta hai.
+2. Agar z-index + position (relative, absolute, fixed) ho, toh naya stacking context create hota hai.
+3. Ek stacking context ke andar waale elements sirf uske andar compete karte hain, pure page ke saath nahi!
+4. Agar element dikh nahi raha ya overlap sahi nahi ho raha, toh dekhna padega ke koi naya stacking context toh nahi ban gaya.
+
+Agar tumhe lag raha hai ke z-index kaam nahi kar raha, toh check karo:
+✔ Uska parent stacking context bana raha hai kya?
+✔ Agar bana raha hai, toh parent ka z-index bhi set karna padega!
+Z-Index tabhi kaam karega jab uska stacking context sahi se set ho!✅
+
+What is stacking context:
+Stacking Context ek alag duniya hoti hai, jisme z-index wale elements apas mein organize hote hain.
+Socho ek glass ka box hai, aur uske andar chhoti chhoti papers rakhe hain. Agar box ko upar neeche move karoge, toh uske andar ke papers ka order nahi badlega—sirf pura box move hoga!
+Webpage par bhi aisa hi hota hai, Jab ek element new stacking context banata hai, toh uske andar ke saare elements ek alag "layer" mein chale jate hain.
+Is layer ke andar jitne bhi z-index values hain, wo sirf isi context ke andar kaam karengi. Baahar ke elements is context ke andar waale elements ko directly affect nahi kar sakte!
+
+Naya stacking context kab banta hai?
+1. jab z-index diya ho (position bhi set ho)
+2. Agar opacity < 1 ho
+3. Agar transform, filter, ya perspective use karein
+
+Self homework: 
+1. z-index ke baare main thora prhna hai aur pseudo elements like before after ke sth z-index kese kaam krta hai
+
+Class: 33A - Tailwind CSS - FRI
+Tailwind vs bootstrap = jb koi property ham use krte hain to tailwind se just wo property aakr use hojaati hai but agr bootstrap use kr rhe hain ham to uske cdn se saara code bhi aata hai just eik property ke liye bootstrap saara code load hota hai jiski waja se load time brh jaata hai aur website slow hojaati hai
+Tailwind css = eik framework hai jiska use krke ham html main rehte hue css likh skte hain
+utility-first = means classes pehle banti hain aur us main styles bhi likhlo
+Framework = is main kch iske apne rules follow hote hain
+Library = is main itne strict rules follow nhi hote
+cdn = jb kisi file ko ham server pr upload krden jese css file aur ab uska jo link hai usko kehte hain CDN (content delivery network)
+
+Class: 33B - Tailwind CSS - SAT
+state in tailwind css = state mtlb wohi hover, active, focus ye sb css ki tarah hi kaam krte hain tailwind main kch is tarh ki classe hain jese: hover:bg-red-300, active:bg-blue-600
+responsiveness in tailwind = is main sbse pehle mob screen banaaya jaata hai phr laptop phr is se bara koi bhi shuru main design bnta hai first time wo mob ke liye hota hai uske baad bari screen ke liye hamain md, lg, xl wagera use krne prte hain
+tailwind css playground = iska use krke easily kch bhi build kr skte hain aur is main suggestion bhi aate hain kch bhi setup ki zarurat nhi prti
+
+Homework:
+1. tailwind breakpoints search krne hain prhne hain
+2. thora bht tailwind ko explore kro
+3. eik project eik simple website banao tailwind use krke       
+
+self homework:
+1. selection pseudo selector dekhna hai eik baar
+
+Class 34 - Starting JavaScript - TUE
+browser = jo ham use krte hain jese chrome, safari. Saare browsers ko sirf 3 cheezen smjh aati hain html, css, javascript. Agr koi aur language browser ko smjhaani hai to usko compile krna hoga convert krna hoga
 c++ = one of the fastest programming language hai 
-web assembly = is se compile kr skte hain ham kisi bhi language ke code ko browser ko smjhaane ke liye
-v8 engine = browser main eik chz hota hai jo c++ main likha gaya hai, ye chrome main tha jisko google ne opensource krdia jiske baad phr nodejs bana aur bhi bht saare benificial cheezen bani
+web assembly = is se compile kr skte hain ham kisi bhi language ke code ko browser ko smjhaane ke liye, so kisi bhi language main coding krke web assembly se compile kr skte hain
+- lekin puraane zamaanay main aesa nhi hota tha us time browser sirf html css js ko smjh paata tha
+v8 engine = browser main eik JavaScript and web assembly engine hai jo c++ main likha gaya hai, ye chrome main tha jisko google ne opensource krdia jiske baad phr nodejs bana aur bhi bht saare benificial cheezen bani isko use krke, nodejs ke baad reactjs bangaya, ham javascript main backend likh skte hain
+javascript agr sahi seekhlia to phr = web development, ios aur android app development, backend development, desktop development, animation wagera bht kch kr skte hain aur har jaga same hi lagta hai koi itna difference nazar nhi aata unlike other programming languages
+nodejs = javascript runtime (usi v8 engine pr c++ ka wrapper lagaakr nodejs banaadia jis pr javascript kaam krti hai)
+before running the code = code file parse ho kr syntax tree (yaani code likhne ka tareeqa) ban jaati hai phr JIT compiler compile krta hai bytcode main phr bytcode convert krta hai machine code main aur then code execute hojaata hai
+compiler = for example 2 different zabaan ke logon ko baat krni hai to beech main eik translator ka hona zaroori hota hai isi tarh code ko translate krta hai eik hi baar main machine code main
+interpreter = line by line translate krta hai machine code main
+JIT compiler = just-in-time compiler hai jo code ko convert krdeta hai bytecode main 
+code = bht tarah ke code hote hain jese bytecode, machine code; bytecode machine code ke aas paas hota hai lekin machine code nhi hota
+bytecode = jb ham code ko compile krte hai tb wo bytecode ban jaata hai jisko machine code nhi keh skte
+machine code = 01011101 is tarh ka code hota hai, machine code se ham apne code ko execute krte hain mtlb final code run hojaata hai iske baad
 
-programming language speed related article 
+Self homework:
+1. different programming languages speed related article 
 
-Class : Number System | Transistor | Assembler | HLL (youtube) - WED
+Class: Number System | Transistor | Assembler | HLL (youtube) - WED
 Logic building = leetcode ke problems solve krna nhi hai wo to problem solving hai, naa hi projects banaaa hai wo bhi development main aajata hai balke logic building ye hai ke kisi bhi kaam ko tumne bht baar krlia ho aur ab tumhen uska flow uski logic smjh aane lag jaye 
 Tally marks number system = bina numbers ke count krna kisi bhi chz ko is tarh ke stone jaib main rkhte jao jitne stones utni wo chz
 Egyption number system = 60 numbers thay yaani base60 tha but is se arithmetic operations krna bht zaada mushkil tha
@@ -596,11 +668,58 @@ Binary to decimal = ./binary-to-decimal.png
 Octal number = base8 hota hai yaani 0 se 7 tk numbers hote hain, decimal se octal aur octal se decimal main bhi convert krne ka wohi method hai jo binary ka hai bs base 2 ki jaga 8 aajayega baaqi sb same tareeqa hota hai
 Hexadecimal number = base16 yaani 16 numbers hongay 0 se 9 aur a se f where a= 10 ..... and f = 15, ye aapko ip addresses aur computer networks main milega. Ab iska reason ye hai ke agr 11 12 hi hota to smjh nhi aata ke ye 11 hai ya 1 aur 1 hai confusion hojaati conversions galat hojaatay isliye ye a se f krdia
 
+Class 35: Basic Printing and Data Types - THU
+console.log = se ham kch bhi print kr skte hain
+objects = aamne saamnay koi bhi chz rkhi hai aapke wo eik object hai, programming main jese user login kr raha hai to wo user eik obj hai aur javascript main to hr chz object hai, ye smjhna bht zaroori hai is se overall aasaani hojaati hai smjhne main jese console khud bhi eik obj hai
+process.stdout.write() = is se bhi ham kch print kr skte hain but sirf nodejs main chalta hai browser main nhi chalta bcuz baad main nodejs ke andr bht si cheezen add hui jese c++ ka wrapper bhi add hua jis se c++ waali kch terms run hojaati hain ye stdout c++ main hi use hota hai
+comments = jisko compiler ignore krdeta hai aur programmer apni notes ke liye use krta hai
+Datatypes = kitchen main jao to hr chz ka eik alag dabba hota hai kisi bhi chz ko kisi aur ke dabbay main nhi rkh sktay isi tarh is dabbay ko datatype keh skte hain jese string, number, boolean, bigint, undefined, null, object, symbol ye hain kch data types
+variable = var use nhi krna hai iski jaga let use krna hai bcuz var ke sth kch scope issues hain jo aagay prhengay, best practice to ye hai ke hr jaga const use kro aur phr jahan change krna ho kch wahan let krdo
+- error se darna nhi hai balke saare errors note krne hain smjhne hain yaad kr lene hain taake phr dekh ke pata lag jaye kiun aur konsa error aaya hai
 
+Homework:
+1. console ke baad ke jo methods hain wo prhne hain krke dekhne hain
 
-THU
+Class 36: Operators in JS - MON
+assignment operators = eik value ko kisi variable main yaani memory main store krte hain, 2 tarh ki memory hoti hai stack aur heap ye bhi prhengay aagay jaakr
+memory = programming main aksar jo ham memory ki baaat krte hain wo RAM ki baat horahi hoti hai hard disk nhi
+comparison operators = 2 values ko compare krke boolean value return krte hain
+operator precedence = pehle divide multiply aur phr add subtract lekin jb sirf add subtract ho to left to right chalta hai, baaqi is main confusion naa ho aur aasani ke liye brackets use kr skte hain jis se hr tarh ka kaam possible hai
+operator precedence and associativity = https://images.hive.blog/DQmZkdJ5YJGuQzyZvBW1gLRaKwJrKLiSNWkETb8AyBw4Z5A/image.png
 
-process.stdout.write() = is se bhi ham kch bhi print kr skte hain but sirf node main browser main nhi chalta ye bcuz baad main nodejs ke andr bht si cheezen add hui jese c++ ka wrapper bhi add hua jis se c++ waali kch terms run hojaati hai ye stdout c++ main hi use hota hai
-Data types = string, number, boolean, bigint, undefined, null, object, symbol
+Class 37: Primitive Data Types in JS - TUE
+datatypes = 2 tarah ki hoti hain Primitive and non-primitive datatype
+primitive = string, boolean, number, bigint, null, undefined, symbol
+non-primitive = objects yaani arrays bhi, functions bhi, classes bhi aur khud object bhi non-primitive datatype hai
+bigint = iski type bhi number hi hoti hai bs numbers ke aagay n lagaadete hain
+string interpolation = 2 strings ko eik sth krna concatenate krna pehle ye kaam + sign se hota tha ab back ticks ke andr $ sign se ye kaam easily hojaata hai aur $ sign ke andr brackets main javascript likh skte hain calculatiion, expressions wagera jiska result kisi value main aata ho
+undefined = mtlb aapne declare krdia hai lekin abhi defined nhi hai, isko ham intentionally bhi likh skte hain undefined
+null = mtlb ye hai hi nhi iska lastname nhi hai to wo null likhenge ham, null mltb kch bhi nhi, iski type object hoti hai, isko bhi ham intentionally likh skte hain null
+symbol = bhi eik datatype hai jo unique values ke liye use hota hai aur hr baal unique value store krta hai guaranteed
 
+Class 38: Non Primitive Datatypes in JS - WED
+object keys in string = object keys main agr space dena hai to unhen string main likhna parta hai aur phr square brackets se access hote hain wo
+primitive datatype = ki copy banaane ke baad agr copy ki value change karen to original same rehta hai change nhi hota jbke
+non-primitive datatype = ki copy banaane ke baad agr copy ki value change karen to original bhi change hojaata hai
+javascript array = ko ham double ended queue bol skte hain is main kch bhi store kr skte hain string, boolean, number, object, doosra array
+weird things in javascript = javascript ko number imagine krna ho convert krna ho to wo true ko 1 krdeta hai aur null ko 0 isi tarh false ko bhi 0, ye ham khud bhi check kr skte hain using Number(), string ki power sbse zaada hoti hai so ("1" + 1) => string main 11 ban jaata hai baaqi -, *, / main answer number main hi aata hai aur calculation hojaati hai, 1 + undefined krke aata hai NaN lekin iski type dekhen to number hota hai. Isiliye in sb waja se typescript ko aana para typescript aagai jo compile time main hi error ka bataati hai like other programming languages
+- life main jitne bhi bare coder banjao but ye yaad rkhna ke compile time error zaada acha hota hai runtime error se 
+
+Class 39: Conditions in JS - FRI
+{} = iske andr jo bhi code hota hai usko kehte hain block of code
+edge cases = mltb hr possible input aur output ke baare main sochna aur ye bht zaroori hai programming main jiska ye strong hota hai usko bht faida hota hai
+
+Homework:
+1. ye kch 20 prolems solve krni hain if-else ki  = https://codeforwin.org/c-programming/if-else-programming-practice
+
+Class 40: Loops in js - SAT
+loop = kehte hain kisi kaam ko baar baar krna, ab programming ke andr loop main 4 cheezen hoti hain; initialization (one time only), condition, body of loop, increment or decrement
+- loops ko ache se smjhne ke liye dry run krna bht zaroori hai kch is tarah:
+num   num <= 5   output
+1       true        1
+2       true        2
+3       true        3  
+4       true        4
+5       true        5
+6       false   loop ends
 

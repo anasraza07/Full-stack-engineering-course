@@ -30,3 +30,11 @@ class 30 done
 class 31A done
 class 31B done
 project 03 completed without responsiveness
+class 33A done
+class 33B done
+class 34 done
+class 35 done
+class 36 done
+class 37 done
+class 38 done
+class 39 done

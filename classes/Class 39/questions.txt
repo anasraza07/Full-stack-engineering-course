@@ -1,0 +1,6 @@
+check if a number is greater than another number
+check if a string is equal to another string
+check if a variable is number or not
+check a boolean value is true or false
+check if array is empty or not
+check the greater between three numbers

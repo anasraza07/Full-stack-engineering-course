@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Waves</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        main {
+            background-color: #3636B1;
+            height: 100vh;
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+
+        #wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            background-color: #14134F;
+            padding: 68px;
+
+            /* wavy shape */
+            --mask:
+                radial-gradient(18.66px at 50% 25.6px, #000 99%, #0000 101%) calc(50% - 32px) 0/64px 51% repeat-x,
+                radial-gradient(18.66px at 50% -9.6px, #0000 99%, #000 101%) 50% 16px/64px calc(51% - 16px) repeat-x,
+                radial-gradient(18.66px at 50% calc(100% - 25.6px), #000 99%, #0000 101%) calc(50% - 32px) 100%/64px 51% repeat-x,
+                radial-gradient(18.66px at 50% calc(100% + 9.6px), #0000 99%, #000 101%) 50% calc(100% - 16px)/64px calc(51% - 16px) repeat-x;
+            -webkit-mask: var(--mask);
+            mask: var(--mask);
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div id="wrapper">
+            <h1>Heading</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos facere quas, rem ea ullam deserunt
+                labore sint veniam? Voluptates repudiandae iusto animi explicabo, quam possimus voluptatem excepturi
+                iste vel ipsam ratione, expedita fugiat repellendus impedit.</p>
+        </div>
+    </main>
+</body>
+
+</html>
