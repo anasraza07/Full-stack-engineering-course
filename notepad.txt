@@ -712,8 +712,8 @@ edge cases = mltb hr possible input aur output ke baare main sochna aur ye bht z
 Homework:
 1. ye kch 20 prolems solve krni hain if-else ki  = https://codeforwin.org/c-programming/if-else-programming-practice
 
-Class 40: Loops in js - SAT
-loop = kehte hain kisi kaam ko baar baar krna, ab programming ke andr loop main 4 cheezen hoti hain; initialization (one time only), condition, body of loop, increment or decrement
+Class 40: Loops in js - MON
+loop = kehte hain kisi kaam ko baar baar krna, ab programming ke andr loop main 4 cheezen hoti hain; initialization (one time only), phr condition, uske baad body of loop, aur phr increment or decrement run hota hai
 - loops ko ache se smjhne ke liye dry run krna bht zaroori hai kch is tarah:
 num   num <= 5   output
 1       true        1
@@ -722,4 +722,50 @@ num   num <= 5   output
 4       true        4
 5       true        5
 6       false   loop ends
+do while loop = main condition end main aati hai pehle eik baar loop chalega hi chalega agr condition galat ho tb bhi
+
+Homework:
+1. Write a program to print all odd number between 1 to 100.
+
+Class 41: While and Do while loop - WED
+- loop eik dam base hai javascript ka, maanlo tumne half javascript seekhli agr loops sahi smjh aagaye
+
+Homework:
+1. loops ki problems solve krni hain = https://codeforwin.org/c-programming/for-do-while-loop-programming-exercises
+
+Class 42: Array Basics - THU
+javascript main hr chz eik object hoti hai jese functions, arrays, string, number, Date, object, classes ye sb object hain
+Data structure = data ko arrange krne ka eik sahi tareeqa
+array = eik collection of data hai jis main ham similar type of data store krte hain lekin javascript ke array main kch bhi store kr skte hain, wo array kam hai double ended queue zaada hai
+continuos block of memory = follow krta hai array yaani memory location line by line hoti hai 1st value ki for e.g 102 hai memory location point to uske baad hogi 103, 104 isi tarh end value tk, jbke kch data structures aese bhi hain jo continuos memory follow nhi krte jese linked list ya graph ke data structures
+bytes number take in js = 32-bit computer main 2 bytes aur 64-bit waale computer main 4 bytes leta hai eik number
+- memory ke apne addresses hote hain like for example eik memory address hai jiska naam 100 hai, us se hamne array ko start krlia, ab agr js main eik number 4 bytes leta hai to array main 1st value ke memory address hongay 100, 101, 102, 103 aur phr next memory address 104 hoga next value ka
+byte = chota saa eik memory point hota hai
+
+Homework:
+1. array values ko teeno loops se print krna aur reverse bhi print krna hai
+
+Class 43: Array methods in JS - FRI
+at() method = ES2022 main introduce hua, javascript ke different version hote hain like ES2016, ES2022 etc, is method main ham index pass krte hain aur ye value laa kr deta hai, ab ham is main negative index bhi pass krte hain jo sirf square brackets se possible nhi thay, isi problem ko solve krne ke liye at() method introduce hua
+join() method = array values ko eik comma seperated string main convert krdeta hai by default, baaqi ham is ko agr seperator paas krden to usi main seperate krta hai array values ko
+pop() & push() method = ye dono remove aur add krte hain values ko array ke end main, pop() remove krke wohi item return krta hai jbke push() item add krne ke baad array ki length return krta hai
+shift() & unshift() = same work krte hain pop and push ki tarh bs ye array ke start main remove aur add krte hain yehi difference hai
+double ended queue = isi waja se JavaScript array ko double ended queue bhi kaha jaata hai bcuz ham javascript array ke start aur end dono se values add aur remove kr skte hain
+- ye pata hona zaroori hai ke konsa method original array ko change krta hai aur konsa method new array return krta hai, original array main hi changing krne se bachna chahiye jb tk requirement naa ho
+concat() = array main doosri arrays ko merge krke eik new array return krta hai, the concat() method can take any number of array arguments and it can also take strings as arguments.
+- In programming languages, concatenation means joining strings end-to-end.
+spread operator = yehi concatenation waala kaam krta hai spread means phelgaya yaani ham kisi bhi array se pehle 3 dots lagaaden to wo phel jayega aur ye [...arr, ...arrTwo] wohi same tarh kaam karega jese arr.concat(arrTwo) krta hai
+splice() method = array main item add krta hai aur agr deleteCount 0 hai to empty array wrna array of deleted items return krta hai, kisi bhi position pr bht saare items bhi eik sth add kr skta hai isi liye kch paramters leta hai: first parameter (index) define krta hai kis index se start krna hai, second parameter (deleteCount) define krta hai kitne elements remove krne hain, aur baaqi saare parameters define krte hain new items jo add krne hain 
+holes in array = delete arr[0] is tarh item delete krne se us item ki jaga unfefined reh jaata hai isko kehte hain hole yaani array main suraakh, item remove nhi hua bs undefined se change hogaya isliye ham ye follow nhi krte balke splice aur different methods se items remove krte hain
+slice() method = array main se eik piece ko slice krke new array main rkh deta hai aur new array return krta hai, 2 parameters leta hai: first parameter (3) index define krta hai kahan se slicing start krni hai aur second paramters (5) define krta hai kahan tk krni hai but second parameter index included nhi balke excluded hota hai, agr second parameter nhi dia to end tk slice krdega
+toString() method = poori array ko comma seperated string main convert krdeta hai, is main aur .join() main yehi farq hai ke .join() method main ham seperator bhi define kr skte hain jbke .toString() main aesa kch nhi kr skte 
+
+Homework:
+1. w3school se array methods prhne hain bht zaada important hai
+
+Class 44: Functions Part 1 - MON
+best practice = ye hai ke 25 lines of code hon to isko eik function main wrap krdo agr 25 lines se zaadaa hon to doosra function banaado, hr eik function max 25 line of code ka hona chahiye
+function call = function banaane ke baad ye apni marzi se nhi chalta usko jahan jahan chahiye wahan call krna prta hai like apnaFunc();
+return = keyword lagaane se hamain function call ki jaga wo value milti hai jo hamne return ki hoti hai
+
 
